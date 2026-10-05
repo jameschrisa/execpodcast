@@ -9,7 +9,7 @@ export const nav = [
 ] as const;
 
 export const hero = {
-  valueProp: "Three operators talk tech, business and brand from the seats they've held. Live on YouTube, clipped for your feed.",
+  valueProp: "Three operators talk AI, business and brand from the seats they've held. Live on YouTube, clipped for your feed.",
 };
 
 export const ticker = [
