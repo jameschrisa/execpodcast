@@ -43,7 +43,7 @@ export function Watch() {
       <h2 className="font-display max-w-[16ch] text-[clamp(48px,6.4vw,96px)]">Watch live or catch the clips</h2>
       <p className="mt-5 max-w-[62ch] text-[18px] leading-relaxed text-ink-soft">
         The full episode streams on YouTube Live, and you can ask in the chat. We cut the best exchanges into clips for
-        Shorts, Instagram and TikTok.
+        Shorts, Instagram, TikTok and LinkedIn.
       </p>
 
       <div className="mt-10 grid gap-4 md:grid-cols-12 md:gap-5">
@@ -120,6 +120,15 @@ export function Watch() {
           <div className="relative h-[168px] w-[124px] overflow-hidden rounded-xl md:h-[196px] md:w-[146px]">
             <Image src={hostById.bryce.photos.cam} alt="Bryce Gilleland on a video call" fill sizes="150px" className="object-cover object-[50%_35%]" />
           </div>
+        </article>
+
+        {/* LinkedIn showcase page */}
+        <article className="flex flex-col gap-5 rounded-2xl border border-line bg-raised p-6 md:col-span-12 md:flex-row md:items-end md:justify-between md:p-7">
+          <div>
+            <CellHead platform="linkedin" handle={show.channels.linkedin.handle} />
+            <p className="mt-3 max-w-[62ch] text-[15px] leading-relaxed text-ink-soft">{platforms.linkedin.reason}</p>
+          </div>
+          <FollowLink platform="linkedin" className="shrink-0 self-start md:self-auto" />
         </article>
       </div>
     </section>

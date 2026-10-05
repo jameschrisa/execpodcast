@@ -1,7 +1,7 @@
 // Single source of truth for show-level facts. Edit here, not in components.
 //
 // TODO(before launch): confirm the premiere date/time, the YouTube Live event
-// URL once the stream is scheduled, the question cutoff and the four channel
+// URL once the stream is scheduled, the question cutoff and the channel
 // handles. The countdown, calendar files, JSON-LD and footer all read from here.
 
 export const show = {
@@ -41,6 +41,10 @@ export const show = {
       handle: "@executiveupskill",
       url: "https://www.tiktok.com/@executiveupskill",
     },
+    linkedin: {
+      handle: "Executive Upskill",
+      url: "https://www.linkedin.com/showcase/executive-upskill/",
+    },
   },
 
   // Affiliated free sessions. Outbound links carry these UTMs.
@@ -52,7 +56,7 @@ export const show = {
   },
 } as const;
 
-export type PlatformId = "youtube" | "shorts" | "instagram" | "tiktok";
+export type PlatformId = "youtube" | "shorts" | "instagram" | "tiktok" | "linkedin";
 
 export function questionCutoff() {
   return new Date(Date.parse(show.premiereAt) - show.questionCutoffHours * 3600_000).toISOString();

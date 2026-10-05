@@ -130,7 +130,7 @@ export function CompactNav() {
               ))}
             </nav>
             <div className="mt-5 flex items-center justify-between border-t border-line pt-4">
-              <div className="flex gap-4 text-[13px] font-semibold">
+              <div className="flex flex-wrap gap-x-4 gap-y-2 text-[13px] font-semibold">
                 <a href={show.channels.youtube.url} target="_blank" rel="noopener noreferrer" onClick={() => track("platform_follow_clicked", { platform: "youtube", placement: "mobile_menu" })}>
                   YouTube
                 </a>
@@ -139,6 +139,9 @@ export function CompactNav() {
                 </a>
                 <a href={show.channels.tiktok.url} target="_blank" rel="noopener noreferrer" onClick={() => track("platform_follow_clicked", { platform: "tiktok", placement: "mobile_menu" })}>
                   TikTok
+                </a>
+                <a href={show.channels.linkedin.url} target="_blank" rel="noopener noreferrer" onClick={() => track("platform_follow_clicked", { platform: "linkedin", placement: "mobile_menu" })}>
+                  LinkedIn
                 </a>
               </div>
               <ThemeToggle />

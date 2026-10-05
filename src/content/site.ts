@@ -49,6 +49,11 @@ export const platforms: Record<
     reason: "Fast cuts of the moments the hosts disagree, ready for you to stitch.",
     cta: "Follow on TikTok",
   },
+  linkedin: {
+    name: "LinkedIn",
+    reason: "Episode clips and the hosts' notes on each topic, posted where your colleagues already read.",
+    cta: "Follow on LinkedIn",
+  },
 };
 
 // "Pairs with" links each affiliated session to the episode it follows from.
@@ -92,6 +97,6 @@ export const faq = [
   },
   {
     q: "Is it free, and where can I watch?",
-    a: "Yes, it's free. Watch full episodes live or on replay on YouTube, and find short clips on YouTube Shorts, Instagram and TikTok. The affiliated F3 Insights sessions are free too, and you register for them on the F3 Insights site.",
+    a: "Yes, it's free. Watch full episodes live or on replay on YouTube, and find short clips on YouTube Shorts, Instagram, TikTok and LinkedIn. The affiliated F3 Insights sessions are free too, and you register for them on the F3 Insights site.",
   },
 ];

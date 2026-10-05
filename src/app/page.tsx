@@ -34,7 +34,7 @@ export default function Home() {
       description:
         "A live video podcast where a brand operator, a finance executive and a venture investor argue AI, money, brand and pop culture.",
       webFeed: show.channels.youtube.url,
-      sameAs: [show.channels.youtube.url, show.channels.instagram.url, show.channels.tiktok.url],
+      sameAs: [show.channels.youtube.url, show.channels.instagram.url, show.channels.tiktok.url, show.channels.linkedin.url],
       author: hosts.map((h) => ({ "@type": "Person", name: h.name, jobTitle: h.role, sameAs: h.linkedin })),
     },
     {

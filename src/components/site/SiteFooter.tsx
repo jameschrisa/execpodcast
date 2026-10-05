@@ -15,6 +15,7 @@ const platforms = [
   { id: "youtube" as const, label: "YouTube", href: show.channels.youtube.url },
   { id: "instagram" as const, label: "Instagram", href: show.channels.instagram.url },
   { id: "tiktok" as const, label: "TikTok", href: show.channels.tiktok.url },
+  { id: "linkedin" as const, label: "LinkedIn", href: show.channels.linkedin.url },
 ];
 
 const heading = "text-[13px] font-bold uppercase tracking-[0.08em] text-muted";

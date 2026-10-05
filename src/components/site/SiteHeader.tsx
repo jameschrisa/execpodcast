@@ -13,6 +13,7 @@ const socials = [
   { label: "YouTube", href: show.channels.youtube.url, platform: "youtube" as const },
   { label: "Instagram", href: show.channels.instagram.url, platform: "instagram" as const },
   { label: "TikTok", href: show.channels.tiktok.url, platform: "tiktok" as const },
+  { label: "LinkedIn", href: show.channels.linkedin.url, platform: "linkedin" as const },
 ];
 
 // Editorial masthead, desktop only. Phones get the sticky CompactNav instead.
