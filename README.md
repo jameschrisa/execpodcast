@@ -1,6 +1,6 @@
 # Executive Upskill
 
-Launch site for **Executive Upskill**, a live video podcast with James Christopher (host and moderator, brand lens), Greg Fisher (money lens) and Bryce Gilleland (venture lens). Premieres on YouTube Live, with clips on YouTube Shorts, Instagram and TikTok.
+Launch site for **Executive Upskill**, a live video podcast with James Christopher (host and moderator, brand lens), Greg Fisher (AI and finance lens) and Bryce Gilleland (venture lens). Premieres on YouTube Live, with clips on YouTube Shorts, Instagram and TikTok.
 
 Next.js 16 (App Router) + Tailwind CSS 4 + Motion + PostHog.
 

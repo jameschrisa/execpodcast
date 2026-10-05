@@ -194,7 +194,6 @@ Waiting on someone:
   2. Add crop boxes to `CROPS` in `scripts/real-photos.py` and run it.
   3. Switch `hosts.ts` to `photos("greg", "-real")`.
   4. Re-run `scripts/call-composite.py`.
-- **README line 3** still calls Greg the "money lens". Change it to "AI and finance lens".
 
 ## Launch checklist (also in README.md)
 
