@@ -143,7 +143,7 @@ Every key is in `.env.example`.
 |---|---|---|---|
 | `NEXT_PUBLIC_POSTHOG_KEY` | live project key (`phc_...`) | a separate test project key, or blank | Keeps preview clicks out of launch numbers |
 | `NEXT_PUBLIC_POSTHOG_REGION` | `us` or `eu` | same | `next.config.ts` also reads it at build time for the proxy |
-| `NEXT_PUBLIC_SITE_URL` | `https://executiveupskill.com` | leave blank | Used for canonical links, sitemap, share images and structured data |
+| `NEXT_PUBLIC_SITE_URL` | `https://executiveupskill.live` | leave blank | Used for canonical links, sitemap, share images and structured data |
 | `NEXT_PUBLIC_PREMIERE_AT` | `2026-10-28T11:00:00-07:00` | same | Drives every countdown and calendar file |
 | `NEXT_PUBLIC_YT_LIVE_URL` | the scheduled YouTube Live URL | same | Until it's set, buttons fall back to "Subscribe on YouTube" |
 | `LEADS_WEBHOOK_URL` | optional | optional, use a test hook | Server only |
@@ -155,7 +155,7 @@ Two things catch people out:
 
 ### 3. Domain
 
-- Confirm `executiveupskill.com` is registered. The site assumes that domain for canonical links, the sitemap, share images and structured data.
+- Confirm `executiveupskill.live` is registered. The site assumes that domain for canonical links, the sitemap, share images and structured data.
 - Add it under Domains, along with a `www` redirect.
 
 ### 4. Prep work not done yet

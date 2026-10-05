@@ -6,7 +6,7 @@
 
 export const show = {
   name: "Executive Upskill",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://executiveupskill.com",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://executiveupskill.live",
   campaignLine: "One question. Three lenses.",
 
   // Wednesday after the Thursday F3 sessions, before Election Day, inside
