@@ -198,7 +198,7 @@ Waiting on someone:
 ## Launch checklist (also in README.md)
 
 - [ ] Confirm the premiere date and time, schedule the YouTube Live event, then set `NEXT_PUBLIC_YT_LIVE_URL`.
-- [ ] Confirm the YouTube, Instagram and TikTok handles in `src/content/show.ts`. All four are placeholders: `@ExecutiveUpskill` and `@executiveupskill`.
+- [ ] Confirm the YouTube and Instagram handles in `src/content/show.ts`. They are still placeholders (`@ExecutiveUpskill` and `@executiveupskill`). TikTok (`@execupskill`) and LinkedIn are confirmed.
 - [ ] Each host approves his bio, photos, card question and four lens-test takes.
 - [ ] Confirm "We don't share your email" matches your email tool's practice.
 - [ ] Set `NEXT_PUBLIC_SITE_URL` to the real domain.

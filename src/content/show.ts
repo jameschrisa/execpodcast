@@ -38,8 +38,8 @@ export const show = {
       url: "https://www.instagram.com/executiveupskill",
     },
     tiktok: {
-      handle: "@executiveupskill",
-      url: "https://www.tiktok.com/@executiveupskill",
+      handle: "@execupskill",
+      url: "https://www.tiktok.com/@execupskill",
     },
     linkedin: {
       handle: "Executive Upskill",
