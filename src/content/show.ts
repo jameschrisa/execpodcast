@@ -34,8 +34,8 @@ export const show = {
       url: "https://www.youtube.com/@ExecutiveUpskill/shorts",
     },
     instagram: {
-      handle: "@executiveupskill",
-      url: "https://www.instagram.com/executiveupskill",
+      handle: "@exec.upskill",
+      url: "https://www.instagram.com/exec.upskill",
     },
     tiktok: {
       handle: "@execupskill",
