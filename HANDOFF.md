@@ -1,6 +1,6 @@
 # Handoff: Executive Upskill site
 
-Updated 2026-10-04. Start here, then read `AGENTS.md`, `README.md` and `docs/TRACKING.md` before you change code.
+Updated 2026-10-16. Start here, then read `AGENTS.md`, `README.md` and `docs/TRACKING.md` before you change code.
 
 ## The project
 
@@ -10,7 +10,7 @@ Launch site for **Executive Upskill**, a live video podcast:
 - Greg Fisher, co-host, AI and finance lens
 - Bryce Gilleland, co-host, venture lens
 
-The premiere streams on YouTube Live on Wednesday, October 28, 2026 at 11:00 PT. Clips go to YouTube Shorts, Instagram and TikTok.
+The premiere streams on YouTube Live on Wednesday, October 28, 2026 at 11:00 PT. Clips go to YouTube Shorts, Instagram, TikTok and LinkedIn.
 
 The site's job:
 
@@ -21,8 +21,10 @@ The site's job:
 |---|---|
 | Repo | github.com/jameschrisa/execpodcast (public), branch `main` |
 | Stack | Next.js 16.3.8 App Router (Turbopack), React 19.2, Tailwind CSS 4, Motion, Phosphor icons, PostHog (`posthog-js` + `posthog-node`) |
-| Status | Built and verified locally on a production build. Not deployed yet. |
-| Next job | Deploy on Vercel (section below) |
+| Live site | https://executiveupskill.live (`www` redirects to it) |
+| Hosting | Vercel project `execpodcast` in the `jchrisas-projects` team. Every push to `main` deploys to production. |
+| Status | Deployed and live. Forms need a PostHog key before launch (see "Open work"). |
+| Next job | "Open work" below, then the social posts in "Pending: F3 Insights toolbox posts" |
 
 ## Set up on a new computer
 
@@ -127,57 +129,128 @@ Other moving parts:
 - **Artwork:** linocut-style prints traced to SVG (`public/art/`), shown as CSS masks so they recolor with the theme. The adult look replaced an earlier version that read as too kid-like.
 - **Episode 10** is "What Survived the Blockchain Hype".
 
-## Next: deploy on Vercel
+## Deployment (done 2026-10-04)
 
-### 1. Import the project
+### Vercel project
 
-1. In Vercel, go to Add New > Project and import `jameschrisa/execpodcast`.
-2. The Next.js preset is detected on its own. Keep the default build command and output.
-3. In Project Settings, set the Node.js version to 22.x or 24.x.
+- Project `execpodcast`, team `jchrisas-projects` (vercel.com/jchrisas-projects/execpodcast).
+- Connected to `jameschrisa/execpodcast`. A push to `main` deploys to production. Other branches get preview URLs.
+- Framework preset Next.js, Node.js 24.x, default build command and output.
+- Deployment protection is Vercel Authentication on `all_except_custom_domains`. The `*.vercel.app` URLs ask for a Vercel login. `executiveupskill.live` is public.
+- To fetch a protected `.vercel.app` URL from the terminal, use `vercel curl <path> --deployment <url> --scope jchrisas-projects`.
+- This folder is linked (`.vercel/`, gitignored). The Vercel CLI is logged in as `jameschrisa`.
 
-### 2. Environment variables
+### Domain
+
+- `executiveupskill.live` is registered at Namecheap. DNS stays at Namecheap:
+  - `A @ 76.76.21.21`
+  - `CNAME www cname.vercel-dns.com`
+- Both domains are attached to the project. `www` 308-redirects to the apex. SSL is issued by Vercel.
+
+### Environment variables
 
 Every key is in `.env.example`.
 
-| Variable | Production | Preview | Notes |
+| Variable | Production | Preview | Status |
 |---|---|---|---|
-| `NEXT_PUBLIC_POSTHOG_KEY` | live project key (`phc_...`) | a separate test project key, or blank | Keeps preview clicks out of launch numbers |
-| `NEXT_PUBLIC_POSTHOG_REGION` | `us` or `eu` | same | `next.config.ts` also reads it at build time for the proxy |
-| `NEXT_PUBLIC_SITE_URL` | `https://executiveupskill.live` | leave blank | Used for canonical links, sitemap, share images and structured data |
-| `NEXT_PUBLIC_PREMIERE_AT` | `2026-10-28T11:00:00-07:00` | same | Drives every countdown and calendar file |
-| `NEXT_PUBLIC_YT_LIVE_URL` | the scheduled YouTube Live URL | same | Until it's set, buttons fall back to "Subscribe on YouTube" |
-| `LEADS_WEBHOOK_URL` | optional | optional, use a test hook | Server only |
+| `NEXT_PUBLIC_POSTHOG_KEY` | live project key (`phc_...`) | a separate test project key, or blank | **Not set.** Needed before launch |
+| `NEXT_PUBLIC_POSTHOG_REGION` | `us` | `us` | Set |
+| `NEXT_PUBLIC_SITE_URL` | `https://executiveupskill.live` | blank | Set |
+| `NEXT_PUBLIC_PREMIERE_AT` | `2026-10-28T11:00:00-07:00` | same | Set |
+| `NEXT_PUBLIC_YT_LIVE_URL` | the scheduled YouTube Live URL | same | Not set. Buttons fall back to "Subscribe on YouTube" |
+| `LEADS_WEBHOOK_URL` | optional | optional, use a test hook | Not set |
 
-Two things catch people out:
+Things that catch people out:
 
-- Next.js bakes `NEXT_PUBLIC_*` values in at build time. After you change one, redeploy.
-- Every Vercel deployment runs with `NODE_ENV=production`, previews included. `/api/participate` returns a 503 (`not_configured`) when neither the PostHog key nor the webhook is set. Set at least one for Preview, or the forms fail on preview URLs.
+- Next.js bakes `NEXT_PUBLIC_*` values in at build time. After you change one, redeploy (`vercel deploy --prod --scope jchrisas-projects`, or push to `main`).
+- `/api/participate` returns a 503 (`not_configured`) when neither the PostHog key nor the webhook is set. **The live forms fail until one of them is set.** Set at least one for Preview too.
+- `vercel env add NAME preview` loops on a branch prompt when run non-interactively, even with `--value` and `--yes`. Add Preview variables in the dashboard, or with the REST API (`POST /v10/projects/<id>/env`).
+- The claude.ai Vercel connector can read this project but got 403 on writes. Use the CLI or REST API for changes.
 
-### 3. Domain
+### Code changes made for deployment
 
-- Confirm `executiveupskill.live` is registered. The site assumes that domain for canonical links, the sitemap, share images and structured data.
-- Add it under Domains, along with a `www` redirect.
+- Every domain reference now points to `executiveupskill.live`, not `.com` (`src/content/show.ts`, `.env.example`).
+- `src/app/robots.ts` disallows all crawling when `VERCEL_ENV` is set and isn't `production`, so previews stay out of search.
+- `package.json` has `"engines": { "node": ">=20.9" }`.
 
-### 4. Prep work not done yet
+### Notes kept from the deploy plan
 
-- **Search engines:** `src/app/robots.ts` allows crawling everywhere. Vercel normally sends `X-Robots-Tag: noindex` on preview URLs; check with `curl -I` on the first preview. If it doesn't, make `robots.ts` disallow everything when `VERCEL_ENV !== "production"`.
-- **Node version:** consider adding `"engines": { "node": ">=20.9" }` to `package.json`.
-- **Rate limiting:** the form limit is in memory and per server instance (`src/app/api/participate/route.ts`). That's fine for launch. If spam shows up, move it to Upstash Redis from the Vercel Marketplace.
-- **Share images on Vercel:**
-  - The share images and icons are built once at build time. They read `src/assets/Anton-Regular.ttf` and `public/photos/call-gallery.jpg` from disk, which works on Vercel.
-  - If anyone makes them render on each request, add those two files to `outputFileTracingIncludes` in `next.config.ts`.
+- **Rate limiting:** the form limit is in memory and per server instance (`src/app/api/participate/route.ts`). Fine for launch. If spam shows up, move it to Upstash Redis from the Vercel Marketplace.
+- **Share images:** built once at build time from `src/assets/Anton-Regular.ttf` and `public/photos/call-gallery.jpg`. If anyone makes them render per request, add those files to `outputFileTracingIncludes` in `next.config.ts`.
 - **Refresh:** the home page rebuilds every 6 hours (`revalidate = 21600`) so the events calendar stays current. No cron job needed.
 
-### 5. Smoke test after the first deploy
+### Smoke test
 
-- The page loads in light mode, and the countdown shows the right date in your time zone.
-- The theme toggle works and remembers your choice.
+Passed on 2026-10-16 against `executiveupskill.live`: home, `/privacy`, `/robots.txt`, `/sitemap.xml`, `/opengraph-image` and the `www` redirect. `/yt` redirects with UTMs.
+
+Still to check once the PostHog key is set:
+
 - The alerts form succeeds, and `lead_captured` appears in PostHog. If the webhook is set, it receives the submission too.
-- PostHog Activity shows a pageview from the deployed URL. That confirms the `/ingest` proxy works.
-- `/yt`, `/ig` and `/ask` redirect, with UTMs on the destination.
-- Share-card check: paste the URL into LinkedIn Post Inspector and see the share card.
-- `/privacy`, `/robots.txt` and `/sitemap.xml` load.
-- On a phone, the email field and countdown fit without sideways scrolling.
+- PostHog Activity shows a pageview from `executiveupskill.live`. That confirms the `/ingest` proxy works.
+- The theme toggle works and remembers your choice; the countdown shows the right date in your time zone.
+- Share-card check: paste the URL into LinkedIn Post Inspector.
+- On a phone, the email field, countdown and the mobile menu's social links fit without sideways scrolling.
+
+## Changes since the first deploy
+
+- **Hero caption** (`hero.valueProp` in `src/content/site.ts`): "Three operators talk AI, business and brand from the seats they've held. Live on YouTube, clipped for your feed."
+- **LinkedIn added as a channel** (`linkedin` in `show.channels`, `PlatformId`, `PlatformIcon`, `platforms` in `site.ts`):
+  - Showcase page: https://www.linkedin.com/showcase/executive-upskill/
+  - Shows in the header, footer, mobile menu, a full-width card in the Watch section, the FAQ and the JSON-LD `sameAs` list.
+  - Clicks track as `platform_follow_clicked` with `platform: "linkedin"`.
+- **Social handles confirmed** in `src/content/show.ts`:
+  - Instagram: `@exec.upskill` (https://www.instagram.com/exec.upskill)
+  - TikTok: `@execupskill` (https://www.tiktok.com/@execupskill)
+  - YouTube: still the placeholder `@ExecutiveUpskill`.
+- When adding a channel URL, drop share-tracking query strings (`?_r=`, `?_t=`, `?stkn=`, `utm_source=qr`).
+
+## Pending: F3 Insights toolbox posts
+
+James asked to post three F3 Insights creatives from the **Executive Upskill** accounts (LinkedIn page, Instagram, TikTok). There is no Executive Upskill account on X, so X is skipped.
+
+- **Images:** on James's Desktop as `f3i-github-post-01.png` (square, light, "18 departments"), `f3i-github-post-02.png` (16:9, "Your Whole Back Office, as AI Agents") and `f3i-github-post-03.png` (square, dark, "198 / 152 / 1,448").
+- **Link:** https://github.com/F3-Insights/automation-toolbox (the org's only public repo; its description confirms 198 agents and 152 skills).
+- **Status:** not posted. Claude in Chrome was not connected (no browsers found). Next session: connect the extension in a Chrome that is logged in to all three accounts, then post one platform at a time. Fill each post and stop before the publish button so James approves it.
+- **Brand note:** this puts F3 Insights content on Executive Upskill channels, which the site otherwise keeps to the events section. James chose this. Captions speak about F3 Insights in the third person.
+
+| Platform | Images, in order |
+|---|---|
+| LinkedIn page | 03, 01, 02 as one multi-image post |
+| Instagram | carousel 03, 01 (a carousel crops every slide to the first image's shape, so 02 would lose its edges) |
+| TikTok | photo carousel 03, 01 |
+
+Captions:
+
+**LinkedIn**
+> F3 Insights, the team behind our live sessions, is releasing its AI toolbox.
+>
+> 198 agents and 152 skills for Claude Code, across 18 business departments: accounting, finance, reporting, sales, marketing, compliance, strategy, software, projects and the chief of staff.
+>
+> They close the books, build forecasts, write executive reports, run engagements and ship software. 1,448 tests check the work.
+>
+> It's free and source-available. Take what fits your team and change the rest.
+>
+> https://github.com/F3-Insights/automation-toolbox
+
+**Instagram**
+> F3 Insights is releasing its AI toolbox: 198 agents and 152 skills for Claude Code, across 18 business departments, from accounting to the chief of staff.
+>
+> Free and source-available on GitHub: F3-Insights/automation-toolbox
+>
+> #ClaudeCode #AIAgents #FinanceOps #BusinessAutomation #AITools
+
+**TikTok**
+> A whole back office, as AI agents. F3 Insights just released 198 agents and 152 skills for Claude Code. Free on GitHub: F3-Insights/automation-toolbox #claudecode #aiagents #accounting #automation #smallbusiness
+
+The 1,448 tests and 18 departments come from the creatives and were not checked against the repo.
+
+## Open work
+
+1. **Set `NEXT_PUBLIC_POSTHOG_KEY`** (Production, plus a test key or `LEADS_WEBHOOK_URL` for Preview), then redeploy. Until then the live forms return 503.
+2. **Schedule the YouTube Live event**, set `NEXT_PUBLIC_YT_LIVE_URL`, redeploy.
+3. **Confirm the YouTube handle** and update `show.channels.youtube` and `show.channels.shorts`.
+4. **Meta description** in `src/app/layout.tsx` still says "argue AI, money and brand". Asked James whether to match the new hero caption ("talk AI, business and brand"); no answer yet.
+5. **Post the F3 Insights toolbox creatives** (section above).
 
 ## Open questions for James
 
@@ -201,12 +274,12 @@ Waiting on someone:
 - [ ] Confirm the YouTube handle in `src/content/show.ts`. It is still a placeholder (`@ExecutiveUpskill`). Instagram (`@exec.upskill`), TikTok (`@execupskill`) and LinkedIn are confirmed.
 - [ ] Each host approves his bio, photos, card question and four lens-test takes.
 - [ ] Confirm "We don't share your email" matches your email tool's practice.
-- [ ] Set `NEXT_PUBLIC_SITE_URL` to the real domain.
+- [x] Set `NEXT_PUBLIC_SITE_URL` to the real domain (`https://executiveupskill.live`).
 - [ ] Add the PostHog key and build the dashboard in `docs/TRACKING.md`.
-- [ ] Put the short paths in each platform bio.
+- [ ] Put the short paths in each platform bio (`executiveupskill.live/ig`, `/tt`, `/li`, `/yt`).
 
 ## Kickoff prompt for the next session
 
 Paste this into Claude Code from the cloned folder:
 
-> Read HANDOFF.md, AGENTS.md, README.md and docs/TRACKING.md. Then prep this site for deployment on Vercel. Make the code changes listed under "Prep work not done yet", run type checks, lint and a production build, and walk me through what to set in the Vercel dashboard, including each environment variable for Production and Preview.
+> Read HANDOFF.md, AGENTS.md, README.md and docs/TRACKING.md. The site is live on Vercel at executiveupskill.live. Work through "Open work" in HANDOFF.md, starting with whatever I give you (PostHog key, YouTube Live URL or handle). If Claude in Chrome is connected, help me post the F3 Insights toolbox creatives from "Pending: F3 Insights toolbox posts", stopping before each publish button.
