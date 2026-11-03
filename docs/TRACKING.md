@@ -78,7 +78,7 @@ Autocapture, pageviews, page leaves, web vitals, heatmaps, dead clicks and excep
 
 | Event | When | Key properties |
 |---|---|---|
-| `cta_clicked` | Any "Get premiere alerts", "Send a question", "Full season" or "Meet the hosts" button | `cta`, `placement` |
+| `cta_clicked` | Any "Get premiere alerts", "Send a question", "Full season" or "Meet the hosts" button, plus "See session page" on a full session (`cta` is `session_page_full`) | `cta`, `placement` |
 | `nav_clicked` | Header, sticky bar, mobile menu or footer link | `target`, `placement` |
 | `platform_follow_clicked` | Any YouTube, Shorts, Instagram or TikTok link | `platform`, `placement` |
 | `host_viewed` | Host card, tab or "Meet {host}" link | `host`, `method` |
@@ -87,9 +87,14 @@ Autocapture, pageviews, page leaves, web vitals, heatmaps, dead clicks and excep
 | `episode_interest_clicked` | A planned episode row in a lens panel | `episode`, `lens` |
 | `lens_preference_selected` | "Which lens do you want more of?" after signup | `lens` (also set as person property `preferred_lens`) |
 | `premiere_added_to_calendar` | "Add to calendar" for the premiere | `placement` |
-| `sessions_filter_changed`, `sessions_day_selected`, `sessions_month_changed` | Events calendar use | `category`, `date`, `month` |
-| `session_register_clicked` | "Register free" on an F3 Insights session | `session`, `session_date`, `category`, `placement` |
-| `session_added_to_calendar` | "Add to calendar" on a session | `session`, `session_date` |
+| `sessions_filter_changed`, `sessions_day_selected`, `sessions_month_changed` | Events calendar use (homepage and `/sessions`). `category` is `all`, `finance`, `productivity`, `leadership`, `creative` or `community`. Sessions come from the F3 Insights JSON API, with the events page markup and a bundled snapshot as fallbacks. `direction` on month changes is `prev`, `next` or `today` | `category`, `date`, `count`, `month`, `direction` |
+| `sessions_view_changed` | Month/List toggle on `/sessions` | `view` |
+| `sessions_search` | Title search on `/sessions`, sent 600 ms after the last keystroke. `query` is empty when the text is over 40 characters | `query`, `query_length`, `results` |
+| `sessions_past_toggled` | "Show past sessions" on `/sessions` | `shown` |
+| `session_opened` | A session's details dialog opens on `/sessions` | `session`, `session_date`, `category`, `view` (`month`, `list` or `day`) |
+| `sessions_subscribe_clicked` | "Subscribe" (webcal) or "Add to Google Calendar" on `/sessions` | `method` (`webcal` or `google`) |
+| `session_register_clicked` | "Register free" on an F3 Insights session. `/sessions` placements: `sessions_page_dialog`, `sessions_page_list`; the link's `utm_content` starts with the same placement | `session`, `session_date`, `category`, `placement` |
+| `session_added_to_calendar` | "Add to calendar" on a session | `session`, `session_date`, `placement` |
 | `join_tab_changed` | Switching between alerts, question and pitch | `tab`, `method` |
 | `form_started` | First focus in a form | `form` |
 | `form_submitted` | Successful submit | `form`, `role`, `host`, `episode_interest` |

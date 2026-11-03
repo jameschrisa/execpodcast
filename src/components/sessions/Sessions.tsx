@@ -30,6 +30,14 @@ export async function Sessions() {
         <p className="mr-auto text-[17px] font-semibold">The show premieres {shortDate(show.premiereAt)}.</p>
         <AlertsButton placement="sessions_footer" />
         <TrackedLink
+          href="/sessions"
+          event="cta_clicked"
+          props={{ cta: "full_calendar", placement: "sessions_footer" }}
+          className={cx(button.text, "text-[14px]")}
+        >
+          Full calendar
+        </TrackedLink>
+        <TrackedLink
           href={allUrl}
           external
           event="session_register_clicked"

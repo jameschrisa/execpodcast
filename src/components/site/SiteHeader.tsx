@@ -1,7 +1,8 @@
+import Link from "next/link";
 import { TrackedLink } from "@/components/analytics/TrackedLink";
 import { Art, artRatios } from "@/components/ui/Art";
 import { Logo } from "@/components/ui/Logo";
-import { nav } from "@/content/site";
+import { nav, navHref } from "@/content/site";
 import { show } from "@/content/show";
 import { container, cx } from "@/lib/ui";
 import { AlertsButton } from "./AlertsButton";
@@ -17,29 +18,29 @@ const socials = [
 ];
 
 // Editorial masthead, desktop only. Phones get the sticky CompactNav instead.
-export function SiteHeader() {
+export function SiteHeader({ home = false }: { home?: boolean }) {
   return (
     <header id="masthead" className={cx(container, "hidden pt-6 md:block")}>
       <div className="grid grid-cols-[1.3fr_1fr_1fr_auto_1fr_auto] items-start gap-6 lg:gap-10">
-        <a href="#top" aria-label="Executive Upskill, back to top" className="w-fit">
+        <Link href="/#top" aria-label="Executive Upskill, back to top" className="w-fit">
           <Logo size={76} />
-        </a>
+        </Link>
 
         <nav aria-label="Primary" className="contents">
           <div className="space-y-0.5">
             {nav.slice(0, 3).map((item) => (
-              <TrackedLink key={item.href} href={item.href} className={linkClass} event="nav_clicked" props={{ target: item.href, placement: "header" }}>
+              <TrackedLink key={item.href} href={navHref(item.href, home)} className={linkClass} event="nav_clicked" props={{ target: item.href, placement: "header" }}>
                 {item.label}
               </TrackedLink>
             ))}
           </div>
           <div className="space-y-0.5">
             {nav.slice(3).map((item) => (
-              <TrackedLink key={item.href} href={item.href} className={linkClass} event="nav_clicked" props={{ target: item.href, placement: "header" }}>
+              <TrackedLink key={item.href} href={navHref(item.href, home)} className={linkClass} event="nav_clicked" props={{ target: item.href, placement: "header" }}>
                 {item.label}
               </TrackedLink>
             ))}
-            <TrackedLink href="#faq" className={linkClass} event="nav_clicked" props={{ target: "#faq", placement: "header" }}>
+            <TrackedLink href="/#faq" className={linkClass} event="nav_clicked" props={{ target: "#faq", placement: "header" }}>
               FAQ
             </TrackedLink>
           </div>

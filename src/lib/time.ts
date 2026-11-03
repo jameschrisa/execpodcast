@@ -8,6 +8,7 @@ const dayKeyFmt = fmt({ year: "numeric", month: "2-digit", day: "2-digit" });
 const timeFmt = fmt({ hour: "numeric", minute: "2-digit" });
 const longDateFmt = fmt({ weekday: "long", month: "long", day: "numeric" });
 const shortDateFmt = fmt({ weekday: "short", month: "short", day: "numeric" });
+const fullDateFmt = fmt({ weekday: "long", month: "long", day: "numeric", year: "numeric" });
 const monthFmt = fmt({ month: "long", year: "numeric" });
 const partsFmt = fmt({ weekday: "short", month: "short", day: "numeric" });
 
@@ -29,6 +30,8 @@ export function timeOf(iso: string) {
 }
 
 export const longDate = (iso: string) => longDateFmt.format(new Date(iso));
+export const fullDate = (iso: string) => fullDateFmt.format(new Date(iso));
+export const shortTime = (iso: string) => timeFmt.format(new Date(iso));
 export const shortDate = (iso: string) => shortDateFmt.format(new Date(iso));
 export const monthLabel = (iso: string | Date) => monthFmt.format(new Date(iso));
 

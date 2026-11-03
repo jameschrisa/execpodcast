@@ -1,12 +1,13 @@
 import { PostHog } from "posthog-node";
+import { contactMessageMax, contactTopics } from "@/content/contact";
 
-// Receives the three participation forms (premiere alerts, questions for the
-// live show, guest pitches). Each submission is:
+// Receives the participation forms (premiere alerts, questions for the live
+// show, guest pitches, general contact messages). Each submission is:
 //   1. captured server-side in PostHog as `lead_captured` on the person (email)
 //   2. forwarded as JSON to LEADS_WEBHOOK_URL when set (Zapier, Make, Slack,
 //      HubSpot workflow, Google Apps Script, etc.)
 
-type Kind = "alerts" | "question" | "pitch";
+type Kind = "alerts" | "question" | "pitch" | "contact";
 
 type Payload = {
   kind: Kind;
@@ -14,6 +15,8 @@ type Payload = {
   name?: string;
   role?: string;
   question?: string;
+  topic?: string;
+  message?: string;
   host?: string;
   anonymous?: boolean;
   relation?: string;
@@ -39,6 +42,8 @@ const LIMITS: Partial<Record<keyof Payload, number>> = {
   why: 1000,
   episodeInterest: 160,
   relation: 20,
+  topic: 30,
+  message: contactMessageMax,
 };
 
 // Simple per-instance throttle. Good enough to blunt a script hammering the
@@ -60,7 +65,7 @@ function validate(body: unknown): { data?: Payload; error?: string } {
   if (!body || typeof body !== "object") return { error: "invalid_body" };
   const b = body as Record<string, unknown>;
   const kind = b.kind;
-  if (kind !== "alerts" && kind !== "question" && kind !== "pitch") return { error: "invalid_kind" };
+  if (kind !== "alerts" && kind !== "question" && kind !== "pitch" && kind !== "contact") return { error: "invalid_kind" };
   const email = str(b.email, 254);
   if (!email || !EMAIL.test(email)) return { error: "invalid_email" };
 
@@ -76,6 +81,11 @@ function validate(body: unknown): { data?: Payload; error?: string } {
 
   if (kind === "question" && !data.question) return { error: "missing_question" };
   if (kind === "pitch" && (!data.guestName || !data.why)) return { error: "missing_pitch" };
+  if (kind === "contact") {
+    if (!data.name) return { error: "missing_name" };
+    if (!data.topic || !contactTopics.some((t) => t.id === data.topic)) return { error: "invalid_topic" };
+    if (!data.message) return { error: "missing_message" };
+  }
   return { data };
 }
 

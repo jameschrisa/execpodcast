@@ -67,7 +67,7 @@ export function HeroSignup() {
             track("form_started", { form: "alerts" });
           }}
           className={cx(
-            "h-12 w-full min-w-0 shrink-0 rounded-full border sm:w-auto sm:flex-1 bg-raised px-5 text-[15px] text-ink placeholder:text-muted/80 transition-colors focus:border-ink focus:outline-none",
+            "h-12 w-full min-w-0 shrink-0 rounded-full border sm:w-auto sm:flex-1 bg-raised px-5 text-[15px] text-ink placeholder:text-muted/80 transition-colors focus:border-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent",
             error ? "border-accent-ink" : "border-line",
           )}
         />

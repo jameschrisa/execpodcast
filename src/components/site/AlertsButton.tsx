@@ -37,8 +37,10 @@ export function AlertsButton({
   const label = clock?.state === "after" ? "Get episode alerts" : "Get premiere alerts";
 
   return (
+    // Plain anchor on purpose: the join form listens for the native hashchange event.
+    // eslint-disable-next-line @next/next/no-html-link-for-pages
     <a
-      href="#participate"
+      href="/#participate"
       className={cx(button[variant], className)}
       onClick={(e) => {
         track("cta_clicked", { cta: "premiere_alerts", placement });

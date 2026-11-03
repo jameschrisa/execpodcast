@@ -1,13 +1,16 @@
-import type { Metadata } from "next";
+import type { Metadata, ResolvingMetadata } from "next";
 import Link from "next/link";
 import { Logo } from "@/components/ui/Logo";
+import { pageMetadata } from "@/lib/metadata";
 import { container, cx } from "@/lib/ui";
 
-export const metadata: Metadata = {
-  title: "Privacy",
-  description: "What Executive Upskill collects on this site and why.",
-  alternates: { canonical: "/privacy" },
-};
+export function generateMetadata(_props: unknown, parent: ResolvingMetadata): Promise<Metadata> {
+  return pageMetadata(parent, {
+    path: "/privacy",
+    title: "Privacy",
+    description: "What Executive Upskill collects on this site and why.",
+  });
+}
 
 const sections = [
   {
@@ -26,7 +29,7 @@ const sections = [
   {
     h: "What you send us",
     p: [
-      "When you sign up for premiere alerts, send a question or pitch a guest, we keep what you enter in the form and link it to your visit so we can reply and see which channels bring listeners. We use your email for show updates and replies. We don't sell or share it.",
+      "When you sign up for premiere alerts, send a question, pitch a guest or use the contact form, we keep what you enter in the form and link it to your visit so we can reply and see which channels bring listeners. We use your email for show updates and replies. We don't sell or share it.",
       "Each email has a one-click unsubscribe. To have your data deleted, reply to any of our emails and ask.",
     ],
   },

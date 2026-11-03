@@ -5,7 +5,7 @@ import { LiveButton } from "@/components/premiere/PremiereActions";
 import { Logo } from "@/components/ui/Logo";
 import { PlatformIcon } from "@/components/ui/PlatformIcon";
 import { hosts } from "@/content/hosts";
-import { nav } from "@/content/site";
+import { nav, navHref } from "@/content/site";
 import { show } from "@/content/show";
 import { container, cx } from "@/lib/ui";
 import { AlertsButton } from "./AlertsButton";
@@ -21,7 +21,7 @@ const platforms = [
 const heading = "text-[13px] font-bold uppercase tracking-[0.08em] text-muted";
 const link = "text-[15px] font-medium text-ink transition-colors hover:text-accent-ink";
 
-export function SiteFooter() {
+export function SiteFooter({ home = false }: { home?: boolean }) {
   return (
     <footer className="mt-24 border-t border-line md:mt-32">
       <div className={cx(container, "py-14 md:py-20")}>
@@ -41,10 +41,15 @@ export function SiteFooter() {
             <div className="grid content-start gap-3">
               <p className={heading}>Show</p>
               {nav.map((item) => (
-                <TrackedLink key={item.href} href={item.href} event="nav_clicked" props={{ target: item.href, placement: "footer" }} className={link}>
+                <TrackedLink key={item.href} href={navHref(item.href, home)} event="nav_clicked" props={{ target: item.href, placement: "footer" }} className={link}>
                   {item.label}
                 </TrackedLink>
               ))}
+              {home && (
+                <TrackedLink href="/sessions" event="nav_clicked" props={{ target: "/sessions", placement: "footer" }} className={link}>
+                  Full calendar
+                </TrackedLink>
+              )}
             </div>
             <div className="grid content-start gap-3">
               <p className={heading}>Watch</p>

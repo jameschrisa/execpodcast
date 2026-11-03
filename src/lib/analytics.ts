@@ -3,7 +3,7 @@ import type { HostId, LensId } from "@/content/hosts";
 import type { PlatformId } from "@/content/show";
 import { attributionPersonProps } from "@/lib/attribution";
 
-export type FormKind = "alerts" | "question" | "pitch";
+export type FormKind = "alerts" | "question" | "pitch" | "contact";
 
 // Every custom event the site sends. docs/TRACKING.md documents each one.
 export type EventMap = {
@@ -16,9 +16,14 @@ export type EventMap = {
   episode_interest_clicked: { episode: string; lens: LensId };
   sessions_filter_changed: { category: string };
   sessions_day_selected: { date: string; count: number };
-  sessions_month_changed: { month: string; direction: "prev" | "next" };
+  sessions_month_changed: { month: string; direction: "prev" | "next" | "today" };
+  sessions_view_changed: { view: "month" | "list" };
+  sessions_search: { query: string; query_length: number; results: number };
+  sessions_past_toggled: { shown: boolean };
+  session_opened: { session: string; session_date: string; category: string; view: "month" | "list" | "day" };
+  sessions_subscribe_clicked: { method: "webcal" | "google" };
   session_register_clicked: { session: string; session_date: string; category: string; placement: string };
-  session_added_to_calendar: { session: string; session_date: string };
+  session_added_to_calendar: { session: string; session_date: string; placement?: string };
   premiere_added_to_calendar: { placement: string };
   join_tab_changed: { tab: FormKind; method: "click" | "link" };
   form_started: { form: FormKind };

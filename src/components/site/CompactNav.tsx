@@ -1,10 +1,11 @@
 "use client";
 
+import Link from "next/link";
 import { ListIcon, XIcon } from "@phosphor-icons/react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { useEffect, useState } from "react";
 import { Logo } from "@/components/ui/Logo";
-import { nav } from "@/content/site";
+import { nav, navHref } from "@/content/site";
 import { show } from "@/content/show";
 import { track } from "@/lib/analytics";
 import { pad, usePremiere } from "@/lib/premiere";
@@ -39,7 +40,7 @@ function LiveChip() {
 
 // Sticky bar. Always on for phones; on desktop it slides in once the masthead
 // scrolls away (state change, so it earns the motion).
-export function CompactNav() {
+export function CompactNav({ home = false }: { home?: boolean }) {
   const [shown, setShown] = useState(false);
   const [open, setOpen] = useState(false);
   const reduce = useReducedMotion();
@@ -69,15 +70,15 @@ export function CompactNav() {
       )}
     >
       <div className="mx-auto flex h-16 max-w-[1352px] items-center gap-3 border-b border-line bg-paper/90 px-4 backdrop-blur-md md:rounded-2xl md:border md:pl-2 md:pr-2 md:shadow-[var(--shadow)]">
-        <a href="#top" aria-label="Executive Upskill, back to top" onClick={() => setOpen(false)}>
+        <Link href="/#top" aria-label="Executive Upskill, back to top" onClick={() => setOpen(false)}>
           <Logo size={48} />
-        </a>
+        </Link>
 
         <nav aria-label="Sections" className="ml-6 hidden items-center gap-5 lg:flex">
           {nav.map((item) => (
             <a
               key={item.href}
-              href={item.href}
+              href={navHref(item.href, home)}
               className="text-[13px] font-semibold text-ink-soft transition-colors hover:text-accent-ink"
               onClick={() => track("nav_clicked", { target: item.href, placement: "compact" })}
             >
@@ -118,7 +119,7 @@ export function CompactNav() {
               {nav.map((item) => (
                 <a
                   key={item.href}
-                  href={item.href}
+                  href={navHref(item.href, home)}
                   className="font-display text-[34px] text-ink"
                   onClick={() => {
                     track("nav_clicked", { target: item.href, placement: "mobile" });

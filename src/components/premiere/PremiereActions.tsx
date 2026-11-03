@@ -37,6 +37,9 @@ export function addPremiereToCalendar(placement: string) {
   downloadIcs(
     {
       uid: "eu-s1-e01-premiere",
+      // 1: the premiere moved from Oct 28 to Nov 18, 2026. Calendars that saved
+      // the first copy replace it when this one is imported.
+      sequence: 1,
       title: `Executive Upskill premiere: ${show.premiereEpisode}`,
       description: "Live on YouTube. Bring a question for the chat.",
       start: show.premiereAt,

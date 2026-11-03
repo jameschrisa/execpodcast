@@ -60,8 +60,8 @@ export default function Home() {
   return (
     <div className="relative">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
-      <CompactNav />
-      <SiteHeader />
+      <CompactNav home />
+      <SiteHeader home />
       <main>
         <Hero />
         <Ticker />
@@ -74,7 +74,7 @@ export default function Home() {
         <Join cutoffLabel={cutoffLabel} />
         <Faq premiere={premiereLong} cutoff={cutoffLabel} />
       </main>
-      <SiteFooter />
+      <SiteFooter home />
       <PageInstrumentation />
     </div>
   );

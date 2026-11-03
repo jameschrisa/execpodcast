@@ -1,282 +1,1025 @@
 [
- {
-  "name": "Coffee and AI Coding",
-  "description": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-  "startDate": "2026-05-01T08:30:00-07:00",
-  "endDate": "2026-05-01T10:00:00-07:00",
-  "url": "https://f3insights.com/events/coffee-and-ai-coding-2026-05-01"
- },
- {
-  "name": "Fundamentals of AI for Finance",
-  "description": "An introduction to AI for finance professionals.",
-  "startDate": "2026-05-15T16:00:00-07:00",
-  "endDate": "2026-05-15T16:45:00-07:00",
-  "url": "https://f3insights.com/events/fundamentals-of-ai-for-finance"
- },
- {
-  "name": "Prompt Engineering Basics",
-  "description": "Learn how to get better results from AI by asking better questions.",
-  "startDate": "2026-05-29T14:00:00-07:00",
-  "endDate": "2026-05-29T14:45:00-07:00",
-  "url": "https://f3insights.com/events/prompt-engineering-basics"
- },
- {
-  "name": "AI for Sales Enablement",
-  "description": "Using AI to accelerate your sales process.",
-  "startDate": "2026-06-12T15:00:00-07:00",
-  "endDate": "2026-06-12T15:45:00-07:00",
-  "url": "https://f3insights.com/events/ai-for-sales-enablement"
- },
- {
-  "name": "Building a Company AI Policy",
-  "description": "Governance and policy frameworks for responsible AI use.",
-  "startDate": "2026-06-26T13:00:00-07:00",
-  "endDate": "2026-06-26T13:45:00-07:00",
-  "url": "https://f3insights.com/events/building-a-company-ai-policy"
- },
- {
-  "name": "Coffee and AI Coding",
-  "description": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-  "startDate": "2026-07-10T08:30:00-07:00",
-  "endDate": "2026-07-10T10:00:00-07:00",
-  "url": "https://f3insights.com/events/coffee-and-ai-coding-2026-07-10"
- },
- {
-  "name": "Financial Analysis with AI",
-  "description": "Using AI to deepen financial analysis and insight.",
-  "startDate": "2026-07-23T16:00:00-07:00",
-  "endDate": "2026-07-23T16:45:00-07:00",
-  "url": "https://f3insights.com/events/financial-analysis-with-ai"
- },
- {
-  "name": "AI Workflow Automation",
-  "description": "Building automated workflows powered by AI.",
-  "startDate": "2026-08-06T14:00:00-07:00",
-  "endDate": "2026-08-06T17:00:00-07:00",
-  "url": "https://f3insights.com/events/ai-workflow-automation"
- },
- {
-  "name": "Building the AI-Ready Organization",
-  "description": "Strategic overview: making your organization ready for AI.",
-  "startDate": "2026-08-20T10:00:00-07:00",
-  "endDate": "2026-08-20T10:45:00-07:00",
-  "url": "https://f3insights.com/events/building-the-ai-ready-organization"
- },
- {
-  "name": "Coffee and AI Coding",
-  "description": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-  "startDate": "2026-09-19T08:30:00-07:00",
-  "endDate": "2026-09-19T10:00:00-07:00",
-  "url": "https://f3insights.com/events/coffee-and-ai-coding-2026-09-19"
- },
- {
-  "name": "Coffee and AI Coding",
-  "description": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-  "startDate": "2026-09-26T08:30:00-07:00",
-  "endDate": "2026-09-26T10:00:00-07:00",
-  "url": "https://f3insights.com/events/coffee-and-ai-coding-2026-09-26"
- },
- {
-  "name": "Coffee and AI Coding",
-  "description": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-  "startDate": "2026-10-03T08:30:00-07:00",
-  "endDate": "2026-10-03T10:00:00-07:00",
-  "url": "https://f3insights.com/events/coffee-and-ai-coding-2026-10-03"
- },
- {
-  "name": "Getting Set Up with AI Tools",
-  "description": "Stop starting from zero every time you open a new AI tool.",
-  "startDate": "2026-10-08T16:30:00-07:00",
-  "endDate": "2026-10-08T17:00:00-07:00",
-  "url": "https://f3insights.com/events/getting-set-up-with-ai-tools"
- },
- {
-  "name": "Coffee and AI Coding",
-  "description": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-  "startDate": "2026-10-10T08:30:00-07:00",
-  "endDate": "2026-10-10T10:00:00-07:00",
-  "url": "https://f3insights.com/events/coffee-and-ai-coding-2026-10-10"
- },
- {
-  "name": "Coffee and AI Coding",
-  "description": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-  "startDate": "2026-10-17T08:30:00-07:00",
-  "endDate": "2026-10-17T10:00:00-07:00",
-  "url": "https://f3insights.com/events/coffee-and-ai-coding-2026-10-17"
- },
- {
-  "name": "AI and Excel for Forecasting",
-  "description": "Rebuild your forecast in minutes, not a full afternoon.",
-  "startDate": "2026-10-22T16:30:00-07:00",
-  "endDate": "2026-10-22T17:00:00-07:00",
-  "url": "https://f3insights.com/events/ai-and-excel-for-forecasting"
- },
- {
-  "name": "Coffee and AI Coding",
-  "description": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-  "startDate": "2026-10-24T08:30:00-07:00",
-  "endDate": "2026-10-24T10:00:00-07:00",
-  "url": "https://f3insights.com/events/coffee-and-ai-coding-2026-10-24"
- },
- {
-  "name": "Coffee and AI Coding",
-  "description": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-  "startDate": "2026-10-31T08:30:00-07:00",
-  "endDate": "2026-10-31T10:00:00-07:00",
-  "url": "https://f3insights.com/events/coffee-and-ai-coding-2026-10-31"
- },
- {
-  "name": "Managing AI Context and Memory",
-  "description": "Your AI has a memory problem, here's how to fix it.",
-  "startDate": "2026-11-05T16:30:00-08:00",
-  "endDate": "2026-11-05T17:00:00-08:00",
-  "url": "https://f3insights.com/events/managing-ai-context-and-memory"
- },
- {
-  "name": "Coffee and AI Coding",
-  "description": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-  "startDate": "2026-11-07T08:30:00-08:00",
-  "endDate": "2026-11-07T10:00:00-08:00",
-  "url": "https://f3insights.com/events/coffee-and-ai-coding-2026-11-07"
- },
- {
-  "name": "Coffee and AI Coding",
-  "description": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-  "startDate": "2026-11-14T08:30:00-08:00",
-  "endDate": "2026-11-14T10:00:00-08:00",
-  "url": "https://f3insights.com/events/coffee-and-ai-coding-2026-11-14"
- },
- {
-  "name": "Variance Analysis Automation",
-  "description": "Catch the number that moved before your CFO asks about it.",
-  "startDate": "2026-11-19T16:30:00-08:00",
-  "endDate": "2026-11-19T17:00:00-08:00",
-  "url": "https://f3insights.com/events/variance-analysis-automation"
- },
- {
-  "name": "Coffee and AI Coding",
-  "description": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-  "startDate": "2026-11-21T08:30:00-08:00",
-  "endDate": "2026-11-21T10:00:00-08:00",
-  "url": "https://f3insights.com/events/coffee-and-ai-coding-2026-11-21"
- },
- {
-  "name": "Coffee and AI Coding",
-  "description": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-  "startDate": "2026-11-28T08:30:00-08:00",
-  "endDate": "2026-11-28T10:00:00-08:00",
-  "url": "https://f3insights.com/events/coffee-and-ai-coding-2026-11-28"
- },
- {
-  "name": "Automated Meeting Notes",
-  "description": "Walk out of your next meeting with the notes already done.",
-  "startDate": "2026-12-03T16:30:00-08:00",
-  "endDate": "2026-12-03T17:00:00-08:00",
-  "url": "https://f3insights.com/events/automated-meeting-notes"
- },
- {
-  "name": "Coffee and AI Coding",
-  "description": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-  "startDate": "2026-12-05T08:30:00-08:00",
-  "endDate": "2026-12-05T10:00:00-08:00",
-  "url": "https://f3insights.com/events/coffee-and-ai-coding-2026-12-05"
- },
- {
-  "name": "Coffee and AI Coding",
-  "description": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-  "startDate": "2026-12-12T08:30:00-08:00",
-  "endDate": "2026-12-12T10:00:00-08:00",
-  "url": "https://f3insights.com/events/coffee-and-ai-coding-2026-12-12"
- },
- {
-  "name": "Sharing AI Skills Across Your Team",
-  "description": "One person figures it out, everyone else doesn't have to.",
-  "startDate": "2026-12-17T15:00:00-08:00",
-  "endDate": "2026-12-17T15:30:00-08:00",
-  "url": "https://f3insights.com/events/sharing-ai-skills-across-your-team"
- },
- {
-  "name": "Coffee and AI Coding",
-  "description": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-  "startDate": "2026-12-19T08:30:00-08:00",
-  "endDate": "2026-12-19T10:00:00-08:00",
-  "url": "https://f3insights.com/events/coffee-and-ai-coding-2026-12-19"
- },
- {
-  "name": "Coffee and AI Coding",
-  "description": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-  "startDate": "2026-12-26T08:30:00-08:00",
-  "endDate": "2026-12-26T10:00:00-08:00",
-  "url": "https://f3insights.com/events/coffee-and-ai-coding-2026-12-26"
- },
- {
-  "name": "Month-End Close Automation",
-  "description": "Cut the busywork out of your month-end close.",
-  "startDate": "2027-01-07T15:00:00-08:00",
-  "endDate": "2027-01-07T15:30:00-08:00",
-  "url": "https://f3insights.com/events/month-end-close-automation"
- },
- {
-  "name": "Task and Project Visibility",
-  "description": "Stop losing track of what's actually in progress.",
-  "startDate": "2027-01-21T15:00:00-08:00",
-  "endDate": "2027-01-21T15:30:00-08:00",
-  "url": "https://f3insights.com/events/task-and-project-visibility"
- },
- {
-  "name": "Using AI Well in an SMB",
-  "description": "What actually separates AI that works from AI that wastes your time.",
-  "startDate": "2027-02-04T15:00:00-08:00",
-  "endDate": "2027-02-04T15:30:00-08:00",
-  "url": "https://f3insights.com/events/using-ai-well-in-an-smb"
- },
- {
-  "name": "AI for Executive Reporting",
-  "description": "Spend less time formatting board reports, more time on what's in them.",
-  "startDate": "2027-02-18T15:00:00-08:00",
-  "endDate": "2027-02-18T15:30:00-08:00",
-  "url": "https://f3insights.com/events/ai-for-executive-reporting"
- },
- {
-  "name": "AI Security and Governance",
-  "description": "Using AI without handing over the keys to your company.",
-  "startDate": "2027-03-18T15:00:00-07:00",
-  "endDate": "2027-03-18T15:30:00-07:00",
-  "url": "https://f3insights.com/events/ai-security-and-governance"
- },
- {
-  "name": "Getting Your Data Ready for AI",
-  "description": "The real reason your AI project stalls before it starts.",
-  "startDate": "2027-04-01T15:00:00-07:00",
-  "endDate": "2027-04-01T15:30:00-07:00",
-  "url": "https://f3insights.com/events/getting-your-data-ready-for-ai"
- },
- {
-  "name": "Connecting AI to Your Software",
-  "description": "Get AI talking to the tools you already use, not replacing them.",
-  "startDate": "2027-04-15T15:00:00-07:00",
-  "endDate": "2027-04-15T15:30:00-07:00",
-  "url": "https://f3insights.com/events/connecting-ai-to-your-software"
- },
- {
-  "name": "Traceability in AI-Assisted F&A",
-  "description": "Know exactly what your AI did and why, when it matters.",
-  "startDate": "2027-04-29T15:00:00-07:00",
-  "endDate": "2027-04-29T15:30:00-07:00",
-  "url": "https://f3insights.com/events/traceability-in-ai-assisted-f-and-a"
- },
- {
-  "name": "AI and Numerical Data",
-  "description": "Numbers are where most AI tools quietly get it wrong.",
-  "startDate": "2027-05-13T15:00:00-07:00",
-  "endDate": "2027-05-13T15:30:00-07:00",
-  "url": "https://f3insights.com/events/ai-and-numerical-data"
- },
- {
-  "name": "Using CLAUDE.md and AGENTS.md Files",
-  "description": "Stop re-explaining your business to AI every single time.",
-  "startDate": "2027-05-27T15:00:00-07:00",
-  "endDate": "2027-05-27T15:30:00-07:00",
-  "url": "https://f3insights.com/events/using-claude-md-and-agents-md-files"
- }
+  {
+    "agenda": [
+      "1. Open floor: whoever wants to share pulls up their screen",
+      "2. Group discussion on whatever AI tools or techniques people are using that week",
+      "3. Time to ask questions or troubleshoot something you're stuck on"
+    ],
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
+    "end": "2026-05-01T10:00:00-07:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "slug": "coffee-and-ai-coding-2026-05-01",
+    "start": "2026-05-01T08:30:00-07:00",
+    "status": "open",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "timezone": "PT",
+    "title": "Coffee and AI Coding",
+    "topics": [
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Overview of AI capabilities and limitations",
+      "2. AI use cases in finance",
+      "3. Getting started with AI tools"
+    ],
+    "description": "Understanding AI fundamentals and how they apply to finance and accounting workflows.",
+    "end": "2026-05-15T16:45:00-07:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "prerequisites": "Basic accounting knowledge",
+    "slug": "fundamentals-of-ai-for-finance",
+    "start": "2026-05-15T16:00:00-07:00",
+    "status": "open",
+    "summary": "An introduction to AI for finance professionals.",
+    "takeaways": [
+      "Understand what AI can and cannot do",
+      "Know where AI adds value in finance",
+      "Have a clear next step"
+    ],
+    "timezone": "PT",
+    "title": "Fundamentals of AI for Finance",
+    "topics": [
+      "intro-basics",
+      "finance-accounting"
+    ]
+  },
+  {
+    "agenda": [
+      "1. What makes a good prompt",
+      "2. Common prompt mistakes",
+      "3. Techniques for better results"
+    ],
+    "description": "The difference between good and bad prompts, and practical techniques to improve your AI outputs.",
+    "end": "2026-05-29T14:45:00-07:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "prerequisites": "Experience using at least one AI tool",
+    "slug": "prompt-engineering-basics",
+    "start": "2026-05-29T14:00:00-07:00",
+    "status": "open",
+    "summary": "Learn how to get better results from AI by asking better questions.",
+    "takeaways": [
+      "Get better AI outputs immediately",
+      "Understand the principles behind good prompting",
+      "Have a framework for iterating"
+    ],
+    "timezone": "PT",
+    "title": "Prompt Engineering Basics",
+    "topics": [
+      "intro-basics"
+    ]
+  },
+  {
+    "agenda": [
+      "1. AI tools for prospecting",
+      "2. Automating proposal generation",
+      "3. Shortening sales cycles"
+    ],
+    "description": "AI tools for prospecting, proposal generation, and deal acceleration.",
+    "end": "2026-06-12T15:45:00-07:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "prerequisites": "Working in sales or revenue operations",
+    "slug": "ai-for-sales-enablement",
+    "start": "2026-06-12T15:00:00-07:00",
+    "status": "open",
+    "summary": "Using AI to accelerate your sales process.",
+    "takeaways": [
+      "A toolkit for your sales process",
+      "Concrete ideas for your next deal",
+      "How to measure impact"
+    ],
+    "timezone": "PT",
+    "title": "AI for Sales Enablement",
+    "topics": [
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Core policy elements",
+      "2. Balancing innovation and control",
+      "3. Rolling out company-wide"
+    ],
+    "description": "Creating policies that enable AI innovation while managing risk and compliance.",
+    "end": "2026-06-26T13:45:00-07:00",
+    "format": "Seminar",
+    "practice": "corp-ai",
+    "prerequisites": "Leadership responsibility for AI governance",
+    "slug": "building-a-company-ai-policy",
+    "start": "2026-06-26T13:00:00-07:00",
+    "status": "open",
+    "summary": "Governance and policy frameworks for responsible AI use.",
+    "takeaways": [
+      "A draft policy template",
+      "Clear governance structure",
+      "Implementation roadmap"
+    ],
+    "timezone": "PT",
+    "title": "Building a Company AI Policy",
+    "topics": [
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Open floor: whoever wants to share pulls up their screen",
+      "2. Group discussion on whatever AI tools or techniques people are using that week",
+      "3. Time to ask questions or troubleshoot something you're stuck on"
+    ],
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
+    "end": "2026-07-10T10:00:00-07:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "slug": "coffee-and-ai-coding-2026-07-10",
+    "start": "2026-07-10T08:30:00-07:00",
+    "status": "open",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "timezone": "PT",
+    "title": "Coffee and AI Coding",
+    "topics": [
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "1. AI tools for financial analysis",
+      "2. Building scenarios faster",
+      "3. Uncovering insights"
+    ],
+    "description": "Beyond the spreadsheet: AI tools for deeper financial analysis, scenario modeling, and insight generation.",
+    "end": "2026-07-23T16:45:00-07:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "prerequisites": "Strong Excel skills and financial analysis background",
+    "slug": "financial-analysis-with-ai",
+    "start": "2026-07-23T16:00:00-07:00",
+    "status": "open",
+    "summary": "Using AI to deepen financial analysis and insight.",
+    "takeaways": [
+      "A new approach to financial analysis",
+      "Time savings on modeling",
+      "More confident decisions"
+    ],
+    "timezone": "PT",
+    "title": "Financial Analysis with AI",
+    "topics": [
+      "finance-accounting",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Workflow mapping and automation opportunities",
+      "2. Choosing the right tools",
+      "3. Building and testing your first workflow"
+    ],
+    "description": "Hands-on workshop: connecting AI to your existing workflows and systems.",
+    "end": "2026-08-06T17:00:00-07:00",
+    "format": "Intensive",
+    "practice": "corp-ai",
+    "prerequisites": "Willingness to experiment and problem-solve",
+    "slug": "ai-workflow-automation",
+    "start": "2026-08-06T14:00:00-07:00",
+    "status": "open",
+    "summary": "Building automated workflows powered by AI.",
+    "takeaways": [
+      "Your first working AI automation",
+      "Framework for future automations",
+      "ROI measurement approach"
+    ],
+    "timezone": "PT",
+    "title": "AI Workflow Automation",
+    "topics": [
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Skills and training requirements",
+      "2. Organizational structure changes",
+      "3. Culture and adoption strategy"
+    ],
+    "description": "The organizational changes, skills, and culture needed to successfully adopt AI across your company.",
+    "end": "2026-08-20T10:45:00-07:00",
+    "format": "Briefing",
+    "practice": "corp-ai",
+    "prerequisites": "Leadership perspective on AI transformation",
+    "slug": "building-the-ai-ready-organization",
+    "start": "2026-08-20T10:00:00-07:00",
+    "status": "open",
+    "summary": "Strategic overview: making your organization ready for AI.",
+    "takeaways": [
+      "A roadmap for AI readiness",
+      "Skills gaps to address",
+      "Timeline and milestones"
+    ],
+    "timezone": "PT",
+    "title": "Building the AI-Ready Organization",
+    "topics": [
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Open floor: whoever wants to share pulls up their screen",
+      "2. Group discussion on whatever AI tools or techniques people are using that week",
+      "3. Time to ask questions or troubleshoot something you're stuck on"
+    ],
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
+    "end": "2026-09-19T10:00:00-07:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "slug": "coffee-and-ai-coding-2026-09-19",
+    "start": "2026-09-19T08:30:00-07:00",
+    "status": "limited",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "timezone": "PT",
+    "title": "Coffee and AI Coding",
+    "topics": [
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Open floor: whoever wants to share pulls up their screen",
+      "2. Group discussion on whatever AI tools or techniques people are using that week",
+      "3. Time to ask questions or troubleshoot something you're stuck on"
+    ],
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
+    "end": "2026-09-26T10:00:00-07:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "slug": "coffee-and-ai-coding-2026-09-26",
+    "start": "2026-09-26T08:30:00-07:00",
+    "status": "limited",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "timezone": "PT",
+    "title": "Coffee and AI Coding",
+    "topics": [
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Open floor: whoever wants to share pulls up their screen",
+      "2. Group discussion on whatever AI tools or techniques people are using that week",
+      "3. Time to ask questions or troubleshoot something you're stuck on"
+    ],
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
+    "end": "2026-10-03T10:00:00-07:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "slug": "coffee-and-ai-coding-2026-10-03",
+    "start": "2026-10-03T08:30:00-07:00",
+    "status": "limited",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "timezone": "PT",
+    "title": "Coffee and AI Coding",
+    "topics": [
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "We'll walk through picking the right AI tools for your setup and getting them configured once, so you're not starting over every time."
+    ],
+    "description": "Picking the right tools for your setup, getting them configured once, avoiding the reinstall-and-relearn cycle.",
+    "end": "2026-10-08T17:00:00-07:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "prerequisites": "A computer with a modern browser and basic comfort with software installation",
+    "slug": "getting-set-up-with-ai-tools",
+    "start": "2026-10-08T16:30:00-07:00",
+    "status": "open",
+    "summary": "Stop starting from zero every time you open a new AI tool.",
+    "takeaways": [
+      "A working AI setup you won't need to rebuild next week."
+    ],
+    "timezone": "PT",
+    "title": "Getting Set Up with AI Tools",
+    "topics": [
+      "intro-basics"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Open floor: whoever wants to share pulls up their screen",
+      "2. Group discussion on whatever AI tools or techniques people are using that week",
+      "3. Time to ask questions or troubleshoot something you're stuck on"
+    ],
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
+    "end": "2026-10-10T10:00:00-07:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "slug": "coffee-and-ai-coding-jvoibz",
+    "start": "2026-10-10T08:30:00-07:00",
+    "status": "limited",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "timezone": "PT",
+    "title": "Coffee and AI Coding",
+    "topics": [
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Open floor: whoever wants to share pulls up their screen",
+      "2. Group discussion on whatever AI tools or techniques people are using that week",
+      "3. Time to ask questions or troubleshoot something you're stuck on"
+    ],
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
+    "end": "2026-10-17T10:00:00-07:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "slug": "coffee-and-ai-coding-jcolg3",
+    "start": "2026-10-17T08:30:00-07:00",
+    "status": "limited",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "timezone": "PT",
+    "title": "Coffee and AI Coding",
+    "topics": [
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Open floor: whoever wants to share pulls up their screen",
+      "2. Group discussion on whatever AI tools or techniques people are using that week",
+      "3. Time to ask questions or troubleshoot something you're stuck on"
+    ],
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
+    "end": "2026-10-24T10:00:00-07:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "slug": "coffee-and-ai-coding-vhvu53",
+    "start": "2026-10-24T08:30:00-07:00",
+    "status": "limited",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "timezone": "PT",
+    "title": "Coffee and AI Coding",
+    "topics": [
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Open floor: whoever wants to share pulls up their screen",
+      "2. Group discussion on whatever AI tools or techniques people are using that week",
+      "3. Time to ask questions or troubleshoot something you're stuck on"
+    ],
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
+    "end": "2026-10-31T10:00:00-07:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "slug": "coffee-and-ai-coding-3c52vg",
+    "start": "2026-10-31T08:30:00-07:00",
+    "status": "full",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "timezone": "PT",
+    "title": "Coffee and AI Coding",
+    "topics": [
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Open floor: whoever wants to share pulls up their screen",
+      "2. Group discussion on whatever AI tools or techniques people are using that week",
+      "3. Time to ask questions or troubleshoot something you're stuck on"
+    ],
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
+    "end": "2026-11-07T10:00:00-08:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "slug": "coffee-and-ai-coding-dklvih",
+    "start": "2026-11-07T08:30:00-08:00",
+    "status": "limited",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "timezone": "PT",
+    "title": "Coffee and AI Coding",
+    "topics": [
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Open floor: whoever wants to share pulls up their screen",
+      "2. Group discussion on whatever AI tools or techniques people are using that week",
+      "3. Time to ask questions or troubleshoot something you're stuck on"
+    ],
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
+    "end": "2026-11-14T10:00:00-08:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "slug": "coffee-and-ai-coding-0q527t",
+    "start": "2026-11-14T08:30:00-08:00",
+    "status": "limited",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "timezone": "PT",
+    "title": "Coffee and AI Coding",
+    "topics": [
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Open floor: whoever wants to share pulls up their screen",
+      "2. Group discussion on whatever AI tools or techniques people are using that week",
+      "3. Time to ask questions or troubleshoot something you're stuck on"
+    ],
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
+    "end": "2026-11-21T10:00:00-08:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "slug": "coffee-and-ai-coding-kqy29a",
+    "start": "2026-11-21T08:30:00-08:00",
+    "status": "limited",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "timezone": "PT",
+    "title": "Coffee and AI Coding",
+    "topics": [
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Open floor: whoever wants to share pulls up their screen",
+      "2. Group discussion on whatever AI tools or techniques people are using that week",
+      "3. Time to ask questions or troubleshoot something you're stuck on"
+    ],
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
+    "end": "2026-11-28T10:00:00-08:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "slug": "coffee-and-ai-coding-pczndl",
+    "start": "2026-11-28T08:30:00-08:00",
+    "status": "limited",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "timezone": "PT",
+    "title": "Coffee and AI Coding",
+    "topics": [
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Open floor: whoever wants to share pulls up their screen",
+      "2. Group discussion on whatever AI tools or techniques people are using that week",
+      "3. Time to ask questions or troubleshoot something you're stuck on"
+    ],
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
+    "end": "2026-12-05T10:00:00-08:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "slug": "coffee-and-ai-coding-6uewuf",
+    "start": "2026-12-05T08:30:00-08:00",
+    "status": "limited",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "timezone": "PT",
+    "title": "Coffee and AI Coding",
+    "topics": [
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Open floor: whoever wants to share pulls up their screen",
+      "2. Group discussion on whatever AI tools or techniques people are using that week",
+      "3. Time to ask questions or troubleshoot something you're stuck on"
+    ],
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
+    "end": "2026-12-12T10:00:00-08:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "slug": "coffee-and-ai-coding-cd96fu",
+    "start": "2026-12-12T08:30:00-08:00",
+    "status": "limited",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "timezone": "PT",
+    "title": "Coffee and AI Coding",
+    "topics": [
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Open floor: whoever wants to share pulls up their screen",
+      "2. Group discussion on whatever AI tools or techniques people are using that week",
+      "3. Time to ask questions or troubleshoot something you're stuck on"
+    ],
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
+    "end": "2026-12-19T10:00:00-08:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "slug": "coffee-and-ai-coding-xannqu",
+    "start": "2026-12-19T08:30:00-08:00",
+    "status": "limited",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "timezone": "PT",
+    "title": "Coffee and AI Coding",
+    "topics": [
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Open floor: whoever wants to share pulls up their screen",
+      "2. Group discussion on whatever AI tools or techniques people are using that week",
+      "3. Time to ask questions or troubleshoot something you're stuck on"
+    ],
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
+    "end": "2026-12-26T10:00:00-08:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "slug": "coffee-and-ai-coding-wdg4jt",
+    "start": "2026-12-26T08:30:00-08:00",
+    "status": "limited",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "timezone": "PT",
+    "title": "Coffee and AI Coding",
+    "topics": [
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "We'll use AI inside Excel to speed up your forecasting and budgeting cycles."
+    ],
+    "description": "Using AI inside Excel to speed up forecasting and budgeting cycles.",
+    "end": "2026-10-22T17:00:00-07:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "prerequisites": "Excel experience, familiarity with your forecasting process",
+    "slug": "ai-and-excel-for-forecasting-io8n4w",
+    "start": "2026-10-22T16:30:00-07:00",
+    "status": "open",
+    "summary": "Rebuild your forecast in minutes, not a full afternoon.",
+    "takeaways": [
+      "A forecast rebuilt in minutes instead of an afternoon."
+    ],
+    "timezone": "PT",
+    "title": "AI for Forecasting",
+    "topics": [
+      "finance-accounting"
+    ]
+  },
+  {
+    "agenda": [
+      "A live decision gets challenged"
+    ],
+    "description": "Watch AI agents challenge a real business decision from every angle, then see how the panel is built.",
+    "end": "2026-11-05T17:00:00-08:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "prerequisites": null,
+    "slug": "red-teaming-decisions-with-ai-agents-imsufn",
+    "start": "2026-11-05T16:30:00-08:00",
+    "status": "full",
+    "summary": "Before you commit, let a panel of AI advisors try to talk you out of it.",
+    "takeaways": [
+      "A repeatable way to pressure-test big decisions before you make them."
+    ],
+    "timezone": "PT",
+    "title": "Red-Teaming Decisions with AI Agents",
+    "topics": [
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "A live demo from recording to finished notes, then what makes the notes trustworthy and how to roll it out to your team."
+    ],
+    "description": "A live demo takes a recorded meeting through to finished notes and a task list, and shows how to make them trustworthy.",
+    "end": "2026-11-19T17:00:00-08:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "prerequisites": null,
+    "slug": "automated-meeting-notes-rdc7u0",
+    "start": "2026-11-19T16:30:00-08:00",
+    "status": "limited",
+    "summary": "See a meeting turn into clean notes, decisions and follow-ups with no typing.",
+    "takeaways": [
+      "A simple setup that ends manual note-taking and lost action ite"
+    ],
+    "timezone": "PT",
+    "title": "Automated Meeting Notes (Voice and Transcripts)",
+    "topics": [
+      "intro-basics",
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "A live dashboard built from real-style activity, how it stays accurate, and what to track first."
+    ],
+    "description": "See one live view of tasks and projects that AI keeps current from your email and meetings.",
+    "end": "2026-12-03T17:00:00-08:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "prerequisites": null,
+    "slug": "task-and-project-visibility-6tqfmg",
+    "start": "2026-12-03T16:30:00-08:00",
+    "status": "limited",
+    "summary": "Know where everything stands without chasing anyone.",
+    "takeaways": [
+      "A plan for a status view that updates itself."
+    ],
+    "timezone": "PT",
+    "title": "Task and Project Visibility",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "Live drafting on real-style emails, how the AI learns your tone, and how drafts get reviewed before sending."
+    ],
+    "description": "Watch AI draft replies that sound like you, and see how every draft is reviewed by you before anything is sent.",
+    "end": "2026-12-16T09:30:00-08:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "prerequisites": null,
+    "slug": "ai-for-email-drafting-aelqaa",
+    "start": "2026-12-16T09:00:00-08:00",
+    "status": "limited",
+    "summary": "Clear your inbox in your own voice, with you in control of what goes out.",
+    "takeaways": [
+      "A drafting routine that saves time without risking a bad send."
+    ],
+    "timezone": "PT",
+    "title": "AI for Email Drafting",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "The orchestrator runs live, we explain how it works in plain language, and then pick the first workflow worth automating."
+    ],
+    "description": "An agent team handles a real workflow live, then we show how it is put together.",
+    "end": "2027-01-07T17:00:00-08:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "prerequisites": null,
+    "slug": "orchestrating-agents-for-daily-work-pvcjar",
+    "start": "2027-01-07T16:30:00-08:00",
+    "status": "limited",
+    "summary": "See a team of AI agents run a piece of your day while you do something else.",
+    "takeaways": [
+      "A clear view of what agent teams can do for your business and where to start."
+    ],
+    "timezone": "PT",
+    "title": "Orchestrating Agents for Daily Work",
+    "topics": [
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "A forecast built live, testing the assumptions, and presenting a range instead of a single number."
+    ],
+    "description": "See how to use AI with Excel to build and stress-test a forecast.",
+    "end": "2027-01-21T17:00:00-08:00",
+    "format": "Workshop",
+    "practice": "cfo",
+    "prerequisites": null,
+    "slug": "ai-and-excel-for-forecasting-ftar2m",
+    "start": "2027-01-21T16:30:00-08:00",
+    "status": "limited",
+    "summary": "Build a forecast in an afternoon and know how far to trust it.",
+    "takeaways": [
+      "A forecast method you can reuse and defend."
+    ],
+    "timezone": "PT",
+    "title": "AI and Excel for Forecasting",
+    "topics": [
+      "finance-accounting",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "A live data-to-report demo, how to keep the story accurate, and the review steps before it goes to the board."
+    ],
+    "description": "Watch AI turn raw numbers into a clear executive summary, and learn the review steps that keep it accurate.",
+    "end": "2027-02-03T09:30:00-08:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "prerequisites": null,
+    "slug": "ai-for-executive-reporting-e9aomx",
+    "start": "2027-02-03T09:00:00-08:00",
+    "status": "limited",
+    "summary": "Turn raw financial data into board and leadership reports in minutes.",
+    "takeaways": [
+      "A template for a monthly report that takes minutes, not days."
+    ],
+    "timezone": "PT",
+    "title": "AI for Executive Reporting",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "A messy set of files organized live, the simple rules that make it work, and how to keep it organized."
+    ],
+    "description": "We show a simple way to structure your folders, documents and data so AI gives you better answers without a big IT project.",
+    "end": "2027-02-18T17:00:00-08:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "prerequisites": null,
+    "slug": "organizing-data-for-ai-ch74zd",
+    "start": "2027-02-18T16:30:00-08:00",
+    "status": "limited",
+    "summary": "Learn how to organize your files and records so AI can find and use them.",
+    "takeaways": [
+      "A simple filing structure you can apply to your own data this week."
+    ],
+    "timezone": "PT",
+    "title": "Organizing Data for AI",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing"
+    ]
+  },
+  {
+    "agenda": [
+      "Welcome and how the cohort works",
+      "What AI agents are and what they can do for an executive",
+      "Getting set up: accounts and connecting email, calendar and files",
+      "Live demo: an assistant working on real tasks",
+      "Hands-on: set up your own workspace with help",
+      "Wrap-up and first homework"
+    ],
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate.\n\nEach week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work.\n\nEarly sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role.\n\nSeats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
+    "end": "2027-01-11T10:30:00-08:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "prerequisites": "No coding experience needed.",
+    "slug": "q1-2027-cohort-ai-for-business-executives-3m265b",
+    "start": "2027-01-11T09:00:00-08:00",
+    "status": "limited",
+    "summary": "The first class of our Q1 2027 cohort, a live, hands-on program where non-coding executives learn to build AI agents for their own work.",
+    "takeaways": [
+      "A working AI setup connected to your email, calendar and files",
+      "A clear picture of what you will build over the cohort",
+      "Your first small task automated",
+      "A plan for which work to hand to AI first"
+    ],
+    "timezone": "PT",
+    "title": "Q1 2027 Cohort: AI for Business Executives,",
+    "topics": [
+      "intro-basics",
+      "personal-productivity"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Walk one piece of content from idea to post",
+      "2. Mark each step as craft, which stays human, or mechanics, which a light tool can take",
+      "3. Live: a content bank as the single home for ideas",
+      "4. Live: /wf-council stress-tests the hand-off plan from five angles"
+    ],
+    "description": "Before adding any tool, find out where the time actually goes. The creative work is rarely the slow part. The slow parts are the handoffs, the resizing and the hunting for the latest version. This session walks one piece of content from idea to post and marks each step as craft, which stays human, or mechanics, which a light tool can take. Live: a content bank as the single home for ideas, and /wf-council, which stress-tests the hand-off plan from five angles. Presented by James Christopher.",
+    "end": "2026-11-19T11:00:00-08:00",
+    "format": "Webinar",
+    "practice": "corp-ai",
+    "prerequisites": "Basic knowledge of the terminal and Claude Code. Codex also works, but Claude Code is preferred.",
+    "slug": "where-the-hours-go-mapping-your-content-pipeline-lbfqvd",
+    "start": "2026-11-19T10:00:00-08:00",
+    "status": "open",
+    "summary": "Find the steps that eat your team's week, and decide which ones a light AI tool should take.",
+    "takeaways": [
+      "A pipeline time audit worksheet",
+      "A content bank template"
+    ],
+    "timezone": "PST",
+    "title": "Where the Hours Go: Mapping Your Content Pipeline",
+    "topics": [
+      "revenue-marketing"
+    ]
+  },
+  {
+    "agenda": [
+      "1. One idea, every format: a LinkedIn image, an Instagram post, a vertical cover and a short animation",
+      "2. Live: /wf-design places your exact copy and your own images into Canva layouts at each platform size",
+      "3. Live: /wf-motion turns the same message into a 6 to 10 second animation",
+      "4. Check every output and approve every result"
+    ],
+    "description": "A single idea has to become a LinkedIn image, an Instagram post, a vertical cover and a short animation. This session shows how to do that without another round in a design tool for each one. Live: /wf-design places your exact copy and your own images into Canva layouts at each platform size and waits for your pick. /wf-motion turns the same message into a 6 to 10 second animation. Every output is checked before you see it, and you approve every result. Presented by James Christopher.",
+    "end": "2026-12-10T11:00:00-08:00",
+    "format": "Webinar",
+    "practice": "corp-ai",
+    "prerequisites": "Basic knowledge of the terminal and Claude Code. Codex also works, but Claude Code is preferred.",
+    "slug": "one-idea-every-format-production-without-the-resizing-l9m66z",
+    "start": "2026-12-10T10:00:00-08:00",
+    "status": "open",
+    "summary": "Turn one approved idea into every platform format, with your words and images left exactly as you made them.",
+    "takeaways": [
+      "A one-idea, every-format checklist"
+    ],
+    "timezone": "PST",
+    "title": "One Idea, Every Format: Production Without the Resizing",
+    "topics": [
+      "revenue-marketing"
+    ]
+  },
+  {
+    "agenda": [
+      "1. From one long recording to vertical shorts with captions, clean audio and a thumbnail",
+      "2. Live: /vid pulls shorts from a long video",
+      "3. Live: /wf-design youtube builds thumbnail layouts",
+      "4. Choose the moments and check the cuts"
+    ],
+    "description": "One good recording can feed a month of posts, if someone has the hours to cut it. This session shows how to get from footage you already have to vertical shorts with captions, clean audio and a thumbnail. Live: /vid pulls shorts from a long video, and /wf-design youtube builds thumbnail layouts. Speaker quotes are used only when the speaker has approved them. You choose the moments. The tools do the cutting. Presented by James Christopher.",
+    "end": "2027-01-07T11:00:00-08:00",
+    "format": "Webinar",
+    "practice": "corp-ai",
+    "prerequisites": "Basic knowledge of the terminal and Claude Code. Codex also works, but Claude Code is preferred.",
+    "slug": "video-without-the-editing-bay-v2g060",
+    "start": "2027-01-07T10:00:00-08:00",
+    "status": "open",
+    "summary": "Get from one long recording to captioned shorts and a thumbnail, without days of editing.",
+    "takeaways": [
+      "A one-recording, many-posts plan"
+    ],
+    "timezone": "PST",
+    "title": "Video Without the Editing Bay",
+    "topics": [
+      "revenue-marketing"
+    ]
+  },
+  {
+    "agenda": [
+      "1. What every platform needs: caption length, hashtags, alt text and YouTube metadata",
+      "2. Live: /wf-pack builds a review-ready folder per platform",
+      "3. Live: review and post by hand from /desk",
+      "4. Scheduling, and why it always asks first"
+    ],
+    "description": "A finished post still has to go out to four platforms, each with its own caption length, hashtags, alt text and, for YouTube, a title, description and tags. This session shows how to prepare all of it in one step. Live: /wf-pack builds a review-ready folder per platform, and /desk is where a person reviews and posts by hand. Scheduling is available, but it always asks first. The tools prepare. Your team posts. Presented by James Christopher.",
+    "end": "2027-01-28T11:00:00-08:00",
+    "format": "Webinar",
+    "practice": "corp-ai",
+    "prerequisites": "Basic knowledge of the terminal and Claude Code. Codex also works, but Claude Code is preferred.",
+    "slug": "distribution-without-the-copy-paste-q4xahd",
+    "start": "2027-01-28T10:00:00-08:00",
+    "status": "open",
+    "summary": "Prepare every platform's caption, alt text and metadata at once, and still post each item yourself.",
+    "takeaways": [
+      "A weekly distribution routine for a small team"
+    ],
+    "timezone": "PST",
+    "title": "Distribution Without the Copy-Paste",
+    "topics": [
+      "revenue-marketing"
+    ]
+  },
+  {
+    "agenda": [
+      "1. Where voice slips and claims go unchecked as production speeds up",
+      "2. Live: /audit scores a draft for AI tells",
+      "3. Live: /human repairs stiff copy, /fact verifies claims with sources, and /hook compares first lines",
+      "4. Start your taste charter"
+    ],
+    "description": "Once production speeds up, the voice can slip and claims can go out unchecked. This session shows a few quick checks that hold every draft to your own standards. Live: /audit scores a draft for AI tells and sends it back to a person after two failed revisions. /human repairs stiff copy, /fact verifies claims with sources, and /hook compares first lines. Presented by James Christopher.",
+    "end": "2027-02-18T11:00:00-08:00",
+    "format": "Webinar",
+    "practice": "corp-ai",
+    "prerequisites": "Basic knowledge of the terminal and Claude Code. Codex also works, but Claude Code is preferred.",
+    "slug": "keeping-it-yours-light-quality-checks-for-a-small-team-se5i7u",
+    "start": "2027-02-18T10:00:00-08:00",
+    "status": "open",
+    "summary": "Keep your voice and your facts intact as production speeds up, without adding an approval committee.",
+    "takeaways": [
+      "A taste charter template",
+      "The Zero-Clickbait, Zero-Robot Guide",
+      "The four rules as a team policy"
+    ],
+    "timezone": "PST",
+    "title": "Keeping It Yours: Light Quality Checks for a Small Team",
+    "topics": [
+      "revenue-marketing"
+    ]
+  }
 ]

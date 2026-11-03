@@ -1,11 +1,20 @@
 import type { PlatformId } from "./show";
 
+// Nav targets are page anchors. Off the homepage they need the leading slash.
+export const anchorHref = (href: string) => (href.startsWith("#") ? `/${href}` : href);
+
+// Off the homepage, "Live sessions" goes to the full calendar. On the homepage it
+// stays the in-page anchor.
+export const navHref = (href: string, home?: boolean) =>
+  !home && href === "#sessions" ? "/sessions" : anchorHref(href);
+
 export const nav = [
   { label: "Watch", href: "#watch" },
   { label: "Episodes", href: "#lenses" },
   { label: "Hosts", href: "#hosts" },
   { label: "Live sessions", href: "#sessions" },
   { label: "Ask the hosts", href: "#ask" },
+  { label: "Contact", href: "/contact" },
 ] as const;
 
 export const hero = {

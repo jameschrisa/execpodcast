@@ -9,9 +9,9 @@ export const show = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://executiveupskill.live",
   campaignLine: "One question. Three lenses.",
 
-  // Wednesday after the Thursday F3 sessions, before Election Day, inside
-  // Q4 budget season. ISO 8601 with offset.
-  premiereAt: process.env.NEXT_PUBLIC_PREMIERE_AT ?? "2026-10-28T11:00:00-07:00",
+  // Wednesday, November 18, 2026, 11:00 PT (PST, so -08:00). Inside Q4 budget
+  // season. ISO 8601 with offset.
+  premiereAt: process.env.NEXT_PUBLIC_PREMIERE_AT ?? "2026-11-18T11:00:00-08:00",
   premiereLengthMinutes: 90,
   premiereEpisode: "Your 2027 AI Budget, Argued Three Ways",
 
@@ -48,6 +48,7 @@ export const show = {
   },
 
   // Affiliated free sessions. Outbound links carry these UTMs.
+  eventsApi: "https://f3insights.com/api/events",
   eventsSource: "https://f3insights.com/events",
   eventsUtm: {
     utm_source: "executiveupskill",

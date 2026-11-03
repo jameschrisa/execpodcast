@@ -2,7 +2,7 @@ import type { InputHTMLAttributes, ReactNode, TextareaHTMLAttributes } from "rea
 import { cx } from "@/lib/ui";
 
 const control =
-  "w-full rounded-xl border bg-paper px-4 text-[15px] text-ink placeholder:text-muted/80 transition-colors focus:border-ink focus:outline-none";
+  "w-full rounded-xl border bg-paper px-4 text-[15px] text-ink placeholder:text-muted/80 transition-colors focus:border-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";
 
 export function Field({
   id,

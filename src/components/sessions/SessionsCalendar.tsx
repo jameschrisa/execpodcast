@@ -1,61 +1,19 @@
 "use client";
 
-import { ArrowUpRightIcon, CalendarPlusIcon, CaretLeftIcon, CaretRightIcon } from "@phosphor-icons/react";
+import { ArrowUpRightIcon, CaretLeftIcon, CaretRightIcon } from "@phosphor-icons/react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { useMemo, useState } from "react";
 import { episodeByNumber, episodeTag } from "@/content/episodes";
-import { sessionNotes } from "@/content/site";
-import { show } from "@/content/show";
 import { track } from "@/lib/analytics";
-import type { EventCategory, LiveSession } from "@/lib/events";
-import { downloadIcs } from "@/lib/ics";
+import type { LiveSession } from "@/lib/events";
 import { useNowSeconds } from "@/lib/premiere";
+import { monthGrid, monthKeyOf, sessionNote as note, shiftMonth, statusLabel, visibleFilters, withUtm, type Filter } from "@/lib/sessions";
 import { dateParts, dayKey, minutesBetween, monthLabel, timeRange } from "@/lib/time";
 import { button, cx } from "@/lib/ui";
-
-type Filter = "all" | EventCategory;
-
-const filters: { id: Filter; label: string }[] = [
-  { id: "all", label: "All" },
-  { id: "finance", label: "Finance" },
-  { id: "productivity", label: "Productivity" },
-  { id: "leadership", label: "Leadership" },
-  { id: "community", label: "Weekly meetup" },
-];
+import { SessionActions } from "./SessionCard";
 
 const WEEKDAYS = ["S", "M", "T", "W", "T", "F", "S"];
 const PAGE = 5;
-
-function withUtm(url: string, content: string) {
-  const u = new URL(url);
-  for (const [k, v] of Object.entries(show.eventsUtm)) u.searchParams.set(k, v);
-  u.searchParams.set("utm_content", content);
-  return u.toString();
-}
-
-function note(s: LiveSession) {
-  return sessionNotes[s.name.toLowerCase()] ?? {};
-}
-
-function monthKeyOf(dk: string) {
-  return dk.slice(0, 7);
-}
-
-function shiftMonth(mk: string, delta: number) {
-  const [y, m] = mk.split("-").map(Number);
-  const d = new Date(Date.UTC(y, m - 1 + delta, 1));
-  return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, "0")}`;
-}
-
-function monthGrid(mk: string) {
-  const [y, m] = mk.split("-").map(Number);
-  const first = new Date(Date.UTC(y, m - 1, 1)).getUTCDay();
-  const days = new Date(Date.UTC(y, m, 0)).getUTCDate();
-  const cells: (string | null)[] = Array(first).fill(null);
-  for (let d = 1; d <= days; d++) cells.push(`${mk}-${String(d).padStart(2, "0")}`);
-  while (cells.length % 7) cells.push(null);
-  return cells;
-}
 
 function SessionCard({ s, nextUp, placement }: { s: LiveSession; nextUp?: boolean; placement: string }) {
   const p = dateParts(s.start);
@@ -75,43 +33,25 @@ function SessionCard({ s, nextUp, placement }: { s: LiveSession; nextUp?: boolea
             Next up
           </span>
         )}
-        <h4 className="text-[18px] font-bold leading-snug">{s.name}</h4>
+        <h4 className="text-[18px] font-bold leading-snug">
+          {s.name}
+          {statusLabel(s) && (
+            <span className="ml-2 inline-flex h-6 translate-y-[-1px] items-center rounded-full border border-line px-2.5 align-middle text-[12px] font-semibold text-ink-soft">
+              {statusLabel(s)}
+            </span>
+          )}
+        </h4>
         <p className="mt-1 text-[13px] text-muted">
           {timeRange(s.start, s.end)}. Free, online, {minutesBetween(s.start, s.end)} min.
         </p>
-        <p className="mt-2.5 text-[15px] leading-relaxed text-ink-soft">{n.line ?? s.description}</p>
+        <p className="mt-2.5 text-[15px] leading-relaxed text-ink-soft">{n.line ?? s.summary}</p>
         {pairs && (
           <p className="mt-2 text-[13px] text-muted">
             Pairs with <span className="font-semibold text-ink">{episodeTag(pairs.number)}, {pairs.title}</span>
           </p>
         )}
         <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2">
-          <a
-            href={withUtm(s.url, content)}
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={() =>
-              track("session_register_clicked", { session: s.name, session_date: dayKey(s.start), category: s.category, placement })
-            }
-            className={cx(button.outline, "h-10 px-4")}
-          >
-            Register free
-            <ArrowUpRightIcon size={16} weight="bold" aria-hidden />
-          </a>
-          <button
-            type="button"
-            className={button.text}
-            onClick={() => {
-              track("session_added_to_calendar", { session: s.name, session_date: dayKey(s.start) });
-              downloadIcs(
-                { uid: s.id, title: s.name, description: n.line ?? s.description, start: s.start, end: s.end, url: s.url, location: "Online" },
-                s.id,
-              );
-            }}
-          >
-            <CalendarPlusIcon size={16} weight="bold" aria-hidden />
-            Add to calendar
-          </button>
+          <SessionActions s={s} placement={placement} utmContent={content} />
           <span className="text-[12px] text-muted">Opens the F3 Insights site</span>
         </div>
       </div>
@@ -156,7 +96,7 @@ export function SessionsCalendar({ sessions, renderedAt }: { sessions: LiveSessi
 
   const visible = day || expanded ? list : list.slice(0, PAGE);
   const nextUpId = featured[0]?.id;
-  const nextWeekly = weekly[0];
+  const nextWeekly = weekly.find((w) => w.status !== "full");
 
   return (
     <div className="mt-10 grid gap-8 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-12">
@@ -176,7 +116,7 @@ export function SessionsCalendar({ sessions, renderedAt }: { sessions: LiveSessi
                   setDay(null);
                   track("sessions_month_changed", { month: m, direction: "prev" });
                 }}
-                className="grid size-9 place-items-center rounded-full border border-line transition-colors hover:border-ink disabled:opacity-30"
+                className="grid size-11 md:size-9 place-items-center rounded-full border border-line transition-colors hover:border-ink disabled:opacity-30"
               >
                 <CaretLeftIcon size={16} weight="bold" />
               </button>
@@ -190,7 +130,7 @@ export function SessionsCalendar({ sessions, renderedAt }: { sessions: LiveSessi
                   setDay(null);
                   track("sessions_month_changed", { month: m, direction: "next" });
                 }}
-                className="grid size-9 place-items-center rounded-full border border-line transition-colors hover:border-ink disabled:opacity-30"
+                className="grid size-11 md:size-9 place-items-center rounded-full border border-line transition-colors hover:border-ink disabled:opacity-30"
               >
                 <CaretRightIcon size={16} weight="bold" />
               </button>
@@ -257,7 +197,7 @@ export function SessionsCalendar({ sessions, renderedAt }: { sessions: LiveSessi
       {/* Agenda */}
       <div>
         <div className="flex flex-wrap gap-2" role="group" aria-label="Filter sessions">
-          {filters.map((f) => (
+          {visibleFilters(upcoming).map((f) => (
             <button
               key={f.id}
               type="button"
@@ -269,7 +209,7 @@ export function SessionsCalendar({ sessions, renderedAt }: { sessions: LiveSessi
                 track("sessions_filter_changed", { category: f.id });
               }}
               className={cx(
-                "h-9 rounded-full border px-4 text-[13px] font-semibold transition-colors",
+                "h-11 md:h-9 rounded-full border px-4 text-[13px] font-semibold transition-colors",
                 !day && filter === f.id ? "border-ink bg-ink text-paper" : "border-line hover:border-ink",
               )}
             >

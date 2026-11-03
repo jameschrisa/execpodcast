@@ -10,7 +10,7 @@ Launch site for **Executive Upskill**, a live video podcast:
 - Greg Fisher, co-host, AI and finance lens
 - Bryce Gilleland, co-host, venture lens
 
-The premiere streams on YouTube Live on Wednesday, October 28, 2026 at 11:00 PT. Clips go to YouTube Shorts, Instagram, TikTok and LinkedIn.
+The premiere streams on YouTube Live on Wednesday, November 18, 2026 at 11:00 PT. It moved from October 28. Clips go to YouTube Shorts, Instagram, TikTok and LinkedIn.
 
 The site's job:
 
@@ -86,8 +86,12 @@ Sections in page order (`src/app/page.tsx`):
 7. **LensTest.** Four questions. The visitor picks a take, then the site shows which host said it.
 8. **Hosts.** Tabbed bios, "The question he asks first" and LinkedIn links.
 9. **Sessions (the F3 Insights events calendar).**
-   - Reads the schema.org Event markup on f3insights.com/events every 6 hours.
-   - Falls back to `src/content/events-snapshot.json`.
+   - Reads the public JSON API at f3insights.com/api/events every 6 hours (`src/lib/events.ts`).
+   - Falls back to the schema.org Event markup on f3insights.com/events, then to `src/content/events-snapshot.json` (kept in the API's shape, only the fields the site uses).
+   - A session's id is its full slug, exactly as returned. It is also the calendar UID, so subscribed calendars stay stable. Registration URL is f3insights.com/events/<slug>.
+   - Cancelled sessions are hidden. Full sessions stay visible with a "Full" label and a link to the session page instead of Register. Limited sessions show "Limited seats".
+   - Categories come from the API (see the comment above `categorize` in `events.ts`): Office Hours is Weekly meetup, revenue-marketing is Creative, finance-accounting is Finance, personal-productivity is Productivity, deep-dives, Seminar and Briefing are Leadership.
+   - Join links and platform fields are never read or shown.
    - Offers .ics calendar files.
 10. **Join.** Forms for live-show questions and guest pitches.
 11. **Faq, then SiteFooter.**
@@ -156,9 +160,11 @@ Every key is in `.env.example`.
 | `NEXT_PUBLIC_POSTHOG_KEY` | live project key (`phc_...`) | a separate test project key, or blank | **Not set.** Needed before launch |
 | `NEXT_PUBLIC_POSTHOG_REGION` | `us` | `us` | Set |
 | `NEXT_PUBLIC_SITE_URL` | `https://executiveupskill.live` | blank | Set |
-| `NEXT_PUBLIC_PREMIERE_AT` | `2026-10-28T11:00:00-07:00` | same | Set |
+| `NEXT_PUBLIC_PREMIERE_AT` | `2026-11-18T11:00:00-08:00` | same | Set |
 | `NEXT_PUBLIC_YT_LIVE_URL` | the scheduled YouTube Live URL | same | Not set. Buttons fall back to "Subscribe on YouTube" |
 | `LEADS_WEBHOOK_URL` | optional | optional, use a test hook | Not set |
+| `EVENTS_API_URL` | leave blank | leave blank | Optional, test-only, server-side. Overrides the events API URL (default `show.eventsApi`) |
+| `EVENTS_PAGE_URL` | leave blank | leave blank | Optional, test-only, server-side. Overrides the JSON-LD events page URL (default `show.eventsSource`) |
 
 Things that catch people out:
 

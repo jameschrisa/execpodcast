@@ -9,6 +9,9 @@ const MESSAGES: Record<string, string> = {
   invalid_email: "That email looks off. Check for a typo.",
   missing_question: "Add your question first.",
   missing_pitch: "Add the guest's name and the call they made.",
+  missing_name: "Add your name.",
+  missing_message: "Write your message first.",
+  invalid_topic: "Pick a topic.",
   rate_limited: "Too many tries in a minute. Wait a moment and send again.",
   not_configured: "Sign-ups are offline for a moment. Try again shortly.",
 };
