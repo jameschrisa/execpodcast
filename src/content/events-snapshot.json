@@ -677,7 +677,6 @@
     "end": "2026-11-05T17:00:00-08:00",
     "format": "Workshop",
     "practice": "corp-ai",
-    "prerequisites": null,
     "slug": "red-teaming-decisions-with-ai-agents-imsufn",
     "start": "2026-11-05T16:30:00-08:00",
     "status": "full",
@@ -701,7 +700,6 @@
     "end": "2026-11-19T17:00:00-08:00",
     "format": "Workshop",
     "practice": "corp-ai",
-    "prerequisites": null,
     "slug": "automated-meeting-notes-rdc7u0",
     "start": "2026-11-19T16:30:00-08:00",
     "status": "limited",
@@ -724,7 +722,6 @@
     "end": "2026-12-03T17:00:00-08:00",
     "format": "Workshop",
     "practice": "corp-ai",
-    "prerequisites": null,
     "slug": "task-and-project-visibility-6tqfmg",
     "start": "2026-12-03T16:30:00-08:00",
     "status": "limited",
@@ -750,7 +747,6 @@
     "end": "2026-12-16T09:30:00-08:00",
     "format": "Workshop",
     "practice": "corp-ai",
-    "prerequisites": null,
     "slug": "ai-for-email-drafting-aelqaa",
     "start": "2026-12-16T09:00:00-08:00",
     "status": "limited",
@@ -775,7 +771,6 @@
     "end": "2027-01-07T17:00:00-08:00",
     "format": "Workshop",
     "practice": "corp-ai",
-    "prerequisites": null,
     "slug": "orchestrating-agents-for-daily-work-pvcjar",
     "start": "2027-01-07T16:30:00-08:00",
     "status": "limited",
@@ -798,7 +793,6 @@
     "end": "2027-01-21T17:00:00-08:00",
     "format": "Workshop",
     "practice": "cfo",
-    "prerequisites": null,
     "slug": "ai-and-excel-for-forecasting-ftar2m",
     "start": "2027-01-21T16:30:00-08:00",
     "status": "limited",
@@ -822,7 +816,6 @@
     "end": "2027-02-03T09:30:00-08:00",
     "format": "Workshop",
     "practice": "corp-ai",
-    "prerequisites": null,
     "slug": "ai-for-executive-reporting-e9aomx",
     "start": "2027-02-03T09:00:00-08:00",
     "status": "limited",
@@ -847,7 +840,6 @@
     "end": "2027-02-18T17:00:00-08:00",
     "format": "Workshop",
     "practice": "corp-ai",
-    "prerequisites": null,
     "slug": "organizing-data-for-ai-ch74zd",
     "start": "2027-02-18T16:30:00-08:00",
     "status": "limited",
@@ -902,12 +894,12 @@
       "4. Live: /wf-council stress-tests the hand-off plan from five angles"
     ],
     "description": "Before adding any tool, find out where the time actually goes. The creative work is rarely the slow part. The slow parts are the handoffs, the resizing and the hunting for the latest version. This session walks one piece of content from idea to post and marks each step as craft, which stays human, or mechanics, which a light tool can take. Live: a content bank as the single home for ideas, and /wf-council, which stress-tests the hand-off plan from five angles. Presented by James Christopher.",
-    "end": "2026-11-19T11:00:00-08:00",
+    "end": "2026-11-18T14:00:00-08:00",
     "format": "Webinar",
     "practice": "corp-ai",
     "prerequisites": "Basic knowledge of the terminal and Claude Code. Codex also works, but Claude Code is preferred.",
     "slug": "where-the-hours-go-mapping-your-content-pipeline-lbfqvd",
-    "start": "2026-11-19T10:00:00-08:00",
+    "start": "2026-11-18T13:00:00-08:00",
     "status": "open",
     "summary": "Find the steps that eat your team's week, and decide which ones a light AI tool should take.",
     "takeaways": [
@@ -928,12 +920,12 @@
       "4. Check every output and approve every result"
     ],
     "description": "A single idea has to become a LinkedIn image, an Instagram post, a vertical cover and a short animation. This session shows how to do that without another round in a design tool for each one. Live: /wf-design places your exact copy and your own images into Canva layouts at each platform size and waits for your pick. /wf-motion turns the same message into a 6 to 10 second animation. Every output is checked before you see it, and you approve every result. Presented by James Christopher.",
-    "end": "2026-12-10T11:00:00-08:00",
+    "end": "2026-12-09T14:00:00-08:00",
     "format": "Webinar",
     "practice": "corp-ai",
     "prerequisites": "Basic knowledge of the terminal and Claude Code. Codex also works, but Claude Code is preferred.",
     "slug": "one-idea-every-format-production-without-the-resizing-l9m66z",
-    "start": "2026-12-10T10:00:00-08:00",
+    "start": "2026-12-09T13:00:00-08:00",
     "status": "open",
     "summary": "Turn one approved idea into every platform format, with your words and images left exactly as you made them.",
     "takeaways": [
@@ -953,12 +945,12 @@
       "4. Choose the moments and check the cuts"
     ],
     "description": "One good recording can feed a month of posts, if someone has the hours to cut it. This session shows how to get from footage you already have to vertical shorts with captions, clean audio and a thumbnail. Live: /vid pulls shorts from a long video, and /wf-design youtube builds thumbnail layouts. Speaker quotes are used only when the speaker has approved them. You choose the moments. The tools do the cutting. Presented by James Christopher.",
-    "end": "2027-01-07T11:00:00-08:00",
+    "end": "2027-01-06T14:00:00-08:00",
     "format": "Webinar",
     "practice": "corp-ai",
     "prerequisites": "Basic knowledge of the terminal and Claude Code. Codex also works, but Claude Code is preferred.",
     "slug": "video-without-the-editing-bay-v2g060",
-    "start": "2027-01-07T10:00:00-08:00",
+    "start": "2027-01-06T13:00:00-08:00",
     "status": "open",
     "summary": "Get from one long recording to captioned shorts and a thumbnail, without days of editing.",
     "takeaways": [
@@ -978,12 +970,12 @@
       "4. Scheduling, and why it always asks first"
     ],
     "description": "A finished post still has to go out to four platforms, each with its own caption length, hashtags, alt text and, for YouTube, a title, description and tags. This session shows how to prepare all of it in one step. Live: /wf-pack builds a review-ready folder per platform, and /desk is where a person reviews and posts by hand. Scheduling is available, but it always asks first. The tools prepare. Your team posts. Presented by James Christopher.",
-    "end": "2027-01-28T11:00:00-08:00",
+    "end": "2027-01-27T14:00:00-08:00",
     "format": "Webinar",
     "practice": "corp-ai",
     "prerequisites": "Basic knowledge of the terminal and Claude Code. Codex also works, but Claude Code is preferred.",
     "slug": "distribution-without-the-copy-paste-q4xahd",
-    "start": "2027-01-28T10:00:00-08:00",
+    "start": "2027-01-27T13:00:00-08:00",
     "status": "open",
     "summary": "Prepare every platform's caption, alt text and metadata at once, and still post each item yourself.",
     "takeaways": [
@@ -1003,12 +995,12 @@
       "4. Start your taste charter"
     ],
     "description": "Once production speeds up, the voice can slip and claims can go out unchecked. This session shows a few quick checks that hold every draft to your own standards. Live: /audit scores a draft for AI tells and sends it back to a person after two failed revisions. /human repairs stiff copy, /fact verifies claims with sources, and /hook compares first lines. Presented by James Christopher.",
-    "end": "2027-02-18T11:00:00-08:00",
+    "end": "2027-02-17T14:00:00-08:00",
     "format": "Webinar",
     "practice": "corp-ai",
     "prerequisites": "Basic knowledge of the terminal and Claude Code. Codex also works, but Claude Code is preferred.",
     "slug": "keeping-it-yours-light-quality-checks-for-a-small-team-se5i7u",
-    "start": "2027-02-18T10:00:00-08:00",
+    "start": "2027-02-17T13:00:00-08:00",
     "status": "open",
     "summary": "Keep your voice and your facts intact as production speeds up, without adding an approval committee.",
     "takeaways": [
@@ -1020,6 +1012,613 @@
     "title": "Keeping It Yours: Light Quality Checks for a Small Team",
     "topics": [
       "revenue-marketing"
+    ]
+  },
+  {
+    "agenda": [
+      "Welcome and how the cohort works",
+      "What AI agents are and what they can do for an executive",
+      "Getting set up: accounts and connecting email, calendar and files",
+      "Live demo: an assistant working on real tasks",
+      "Hands-on: set up your own workspace with help",
+      "Wrap-up and first homework"
+    ],
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
+    "end": "2027-01-18T10:30:00-08:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "slug": "q1-2027-cohort-ai-for-business-executives-vhfee8",
+    "start": "2027-01-18T09:00:00-08:00",
+    "status": "limited",
+    "summary": "No coding experience needed.",
+    "takeaways": [
+      "A working AI setup connected to your email, calendar and files",
+      "A clear picture of what you will build over the cohort",
+      "Your first small task automated",
+      "A plan for which work to hand to AI first"
+    ],
+    "timezone": "PT",
+    "title": "Q1 2027 Cohort: AI for Business Executives",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "Welcome and how the cohort works",
+      "What AI agents are and what they can do for an executive",
+      "Getting set up: accounts and connecting email, calendar and files",
+      "Live demo: an assistant working on real tasks",
+      "Hands-on: set up your own workspace with help",
+      "Wrap-up and first homework"
+    ],
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
+    "end": "2027-01-25T10:30:00-08:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "slug": "q1-2027-cohort-ai-for-business-executives-vjr81m",
+    "start": "2027-01-25T09:00:00-08:00",
+    "status": "limited",
+    "summary": "No coding experience needed.",
+    "takeaways": [
+      "A working AI setup connected to your email, calendar and files",
+      "A clear picture of what you will build over the cohort",
+      "Your first small task automated",
+      "A plan for which work to hand to AI first"
+    ],
+    "timezone": "PT",
+    "title": "Q1 2027 Cohort: AI for Business Executives",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "Welcome and how the cohort works",
+      "What AI agents are and what they can do for an executive",
+      "Getting set up: accounts and connecting email, calendar and files",
+      "Live demo: an assistant working on real tasks",
+      "Hands-on: set up your own workspace with help",
+      "Wrap-up and first homework"
+    ],
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
+    "end": "2027-02-01T10:30:00-08:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "slug": "q1-2027-cohort-ai-for-business-executives-37lnus",
+    "start": "2027-02-01T09:00:00-08:00",
+    "status": "limited",
+    "summary": "No coding experience needed.",
+    "takeaways": [
+      "A working AI setup connected to your email, calendar and files",
+      "A clear picture of what you will build over the cohort",
+      "Your first small task automated",
+      "A plan for which work to hand to AI first"
+    ],
+    "timezone": "PT",
+    "title": "Q1 2027 Cohort: AI for Business Executives",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "Welcome and how the cohort works",
+      "What AI agents are and what they can do for an executive",
+      "Getting set up: accounts and connecting email, calendar and files",
+      "Live demo: an assistant working on real tasks",
+      "Hands-on: set up your own workspace with help",
+      "Wrap-up and first homework"
+    ],
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
+    "end": "2027-02-08T10:30:00-08:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "slug": "q1-2027-cohort-ai-for-business-executives-vxc0fl",
+    "start": "2027-02-08T09:00:00-08:00",
+    "status": "limited",
+    "summary": "No coding experience needed.",
+    "takeaways": [
+      "A working AI setup connected to your email, calendar and files",
+      "A clear picture of what you will build over the cohort",
+      "Your first small task automated",
+      "A plan for which work to hand to AI first"
+    ],
+    "timezone": "PT",
+    "title": "Q1 2027 Cohort: AI for Business Executives",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "Welcome and how the cohort works",
+      "What AI agents are and what they can do for an executive",
+      "Getting set up: accounts and connecting email, calendar and files",
+      "Live demo: an assistant working on real tasks",
+      "Hands-on: set up your own workspace with help",
+      "Wrap-up and first homework"
+    ],
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
+    "end": "2027-02-15T10:30:00-08:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "slug": "q1-2027-cohort-ai-for-business-executives-u2xlh4",
+    "start": "2027-02-15T09:00:00-08:00",
+    "status": "limited",
+    "summary": "No coding experience needed.",
+    "takeaways": [
+      "A working AI setup connected to your email, calendar and files",
+      "A clear picture of what you will build over the cohort",
+      "Your first small task automated",
+      "A plan for which work to hand to AI first"
+    ],
+    "timezone": "PT",
+    "title": "Q1 2027 Cohort: AI for Business Executives",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "Welcome and how the cohort works",
+      "What AI agents are and what they can do for an executive",
+      "Getting set up: accounts and connecting email, calendar and files",
+      "Live demo: an assistant working on real tasks",
+      "Hands-on: set up your own workspace with help",
+      "Wrap-up and first homework"
+    ],
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
+    "end": "2027-02-22T10:30:00-08:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "slug": "q1-2027-cohort-ai-for-business-executives-rv7q55",
+    "start": "2027-02-22T09:00:00-08:00",
+    "status": "limited",
+    "summary": "No coding experience needed.",
+    "takeaways": [
+      "A working AI setup connected to your email, calendar and files",
+      "A clear picture of what you will build over the cohort",
+      "Your first small task automated",
+      "A plan for which work to hand to AI first"
+    ],
+    "timezone": "PT",
+    "title": "Q1 2027 Cohort: AI for Business Executives",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "Welcome and how the cohort works",
+      "What AI agents are and what they can do for an executive",
+      "Getting set up: accounts and connecting email, calendar and files",
+      "Live demo: an assistant working on real tasks",
+      "Hands-on: set up your own workspace with help",
+      "Wrap-up and first homework"
+    ],
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
+    "end": "2027-03-01T10:30:00-08:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "slug": "q1-2027-cohort-ai-for-business-executives-kekdgv",
+    "start": "2027-03-01T09:00:00-08:00",
+    "status": "limited",
+    "summary": "No coding experience needed.",
+    "takeaways": [
+      "A working AI setup connected to your email, calendar and files",
+      "A clear picture of what you will build over the cohort",
+      "Your first small task automated",
+      "A plan for which work to hand to AI first"
+    ],
+    "timezone": "PT",
+    "title": "Q1 2027 Cohort: AI for Business Executives",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "Welcome and how the cohort works",
+      "What AI agents are and what they can do for an executive",
+      "Getting set up: accounts and connecting email, calendar and files",
+      "Live demo: an assistant working on real tasks",
+      "Hands-on: set up your own workspace with help",
+      "Wrap-up and first homework"
+    ],
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
+    "end": "2027-03-08T10:30:00-08:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "slug": "q1-2027-cohort-ai-for-business-executives-b7oxri",
+    "start": "2027-03-08T09:00:00-08:00",
+    "status": "limited",
+    "summary": "No coding experience needed.",
+    "takeaways": [
+      "A working AI setup connected to your email, calendar and files",
+      "A clear picture of what you will build over the cohort",
+      "Your first small task automated",
+      "A plan for which work to hand to AI first"
+    ],
+    "timezone": "PT",
+    "title": "Q1 2027 Cohort: AI for Business Executives",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "Welcome and how the cohort works",
+      "What AI agents are and what they can do for an executive",
+      "Getting set up: accounts and connecting email, calendar and files",
+      "Live demo: an assistant working on real tasks",
+      "Hands-on: set up your own workspace with help",
+      "Wrap-up and first homework"
+    ],
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
+    "end": "2027-03-15T10:30:00-07:00",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "slug": "q1-2027-cohort-ai-for-business-executives-rj4qqg",
+    "start": "2027-03-15T09:00:00-07:00",
+    "status": "limited",
+    "summary": "No coding experience needed.",
+    "takeaways": [
+      "A working AI setup connected to your email, calendar and files",
+      "A clear picture of what you will build over the cohort",
+      "Your first small task automated",
+      "A plan for which work to hand to AI first"
+    ],
+    "timezone": "PT",
+    "title": "Q1 2027 Cohort: AI for Business Executives",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "Quick round: what everyone is working on this week",
+      "Questions sent in ahead of time",
+      "Live help on your own files and agents",
+      "Open floor for anything else"
+    ],
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
+    "end": "2027-01-15T14:30:00-08:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
+    "slug": "q1-cohort-office-hours-im9f3p",
+    "start": "2027-01-15T13:00:00-08:00",
+    "status": "limited",
+    "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
+    "takeaways": [
+      "Answers to what got you stuck this week",
+      "Your build step finished, or a clear next step",
+      "Ideas from how others in the cohort are using their agents"
+    ],
+    "timezone": "PT",
+    "title": "Q1 Cohort: Office Hours",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "Quick round: what everyone is working on this week",
+      "Questions sent in ahead of time",
+      "Live help on your own files and agents",
+      "Open floor for anything else"
+    ],
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
+    "end": "2027-01-22T14:30:00-08:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
+    "slug": "q1-cohort-office-hours-k4jdmc",
+    "start": "2027-01-22T13:00:00-08:00",
+    "status": "limited",
+    "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
+    "takeaways": [
+      "Answers to what got you stuck this week",
+      "Your build step finished, or a clear next step",
+      "Ideas from how others in the cohort are using their agents"
+    ],
+    "timezone": "PT",
+    "title": "Q1 Cohort: Office Hours",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "Quick round: what everyone is working on this week",
+      "Questions sent in ahead of time",
+      "Live help on your own files and agents",
+      "Open floor for anything else"
+    ],
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
+    "end": "2027-01-29T14:30:00-08:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
+    "slug": "q1-cohort-office-hours-goft0s",
+    "start": "2027-01-29T13:00:00-08:00",
+    "status": "limited",
+    "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
+    "takeaways": [
+      "Answers to what got you stuck this week",
+      "Your build step finished, or a clear next step",
+      "Ideas from how others in the cohort are using their agents"
+    ],
+    "timezone": "PT",
+    "title": "Q1 Cohort: Office Hours",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "Quick round: what everyone is working on this week",
+      "Questions sent in ahead of time",
+      "Live help on your own files and agents",
+      "Open floor for anything else"
+    ],
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
+    "end": "2027-02-05T14:30:00-08:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
+    "slug": "q1-cohort-office-hours-0po6y8",
+    "start": "2027-02-05T13:00:00-08:00",
+    "status": "limited",
+    "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
+    "takeaways": [
+      "Answers to what got you stuck this week",
+      "Your build step finished, or a clear next step",
+      "Ideas from how others in the cohort are using their agents"
+    ],
+    "timezone": "PT",
+    "title": "Q1 Cohort: Office Hours",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "Quick round: what everyone is working on this week",
+      "Questions sent in ahead of time",
+      "Live help on your own files and agents",
+      "Open floor for anything else"
+    ],
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
+    "end": "2027-02-12T14:30:00-08:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
+    "slug": "q1-cohort-office-hours-3mkc19",
+    "start": "2027-02-12T13:00:00-08:00",
+    "status": "limited",
+    "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
+    "takeaways": [
+      "Answers to what got you stuck this week",
+      "Your build step finished, or a clear next step",
+      "Ideas from how others in the cohort are using their agents"
+    ],
+    "timezone": "PT",
+    "title": "Q1 Cohort: Office Hours",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "Quick round: what everyone is working on this week",
+      "Questions sent in ahead of time",
+      "Live help on your own files and agents",
+      "Open floor for anything else"
+    ],
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
+    "end": "2027-02-19T14:30:00-08:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
+    "slug": "q1-cohort-office-hours-65ah44",
+    "start": "2027-02-19T13:00:00-08:00",
+    "status": "limited",
+    "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
+    "takeaways": [
+      "Answers to what got you stuck this week",
+      "Your build step finished, or a clear next step",
+      "Ideas from how others in the cohort are using their agents"
+    ],
+    "timezone": "PT",
+    "title": "Q1 Cohort: Office Hours",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "Quick round: what everyone is working on this week",
+      "Questions sent in ahead of time",
+      "Live help on your own files and agents",
+      "Open floor for anything else"
+    ],
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
+    "end": "2027-02-26T14:30:00-08:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
+    "slug": "q1-cohort-office-hours-28cqqh",
+    "start": "2027-02-26T13:00:00-08:00",
+    "status": "limited",
+    "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
+    "takeaways": [
+      "Answers to what got you stuck this week",
+      "Your build step finished, or a clear next step",
+      "Ideas from how others in the cohort are using their agents"
+    ],
+    "timezone": "PT",
+    "title": "Q1 Cohort: Office Hours",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "Quick round: what everyone is working on this week",
+      "Questions sent in ahead of time",
+      "Live help on your own files and agents",
+      "Open floor for anything else"
+    ],
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
+    "end": "2027-03-05T14:30:00-08:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
+    "slug": "q1-cohort-office-hours-0c1fzp",
+    "start": "2027-03-05T13:00:00-08:00",
+    "status": "limited",
+    "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
+    "takeaways": [
+      "Answers to what got you stuck this week",
+      "Your build step finished, or a clear next step",
+      "Ideas from how others in the cohort are using their agents"
+    ],
+    "timezone": "PT",
+    "title": "Q1 Cohort: Office Hours",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "Quick round: what everyone is working on this week",
+      "Questions sent in ahead of time",
+      "Live help on your own files and agents",
+      "Open floor for anything else"
+    ],
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
+    "end": "2027-03-12T14:30:00-08:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
+    "slug": "q1-cohort-office-hours-sssxeh",
+    "start": "2027-03-12T13:00:00-08:00",
+    "status": "limited",
+    "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
+    "takeaways": [
+      "Answers to what got you stuck this week",
+      "Your build step finished, or a clear next step",
+      "Ideas from how others in the cohort are using their agents"
+    ],
+    "timezone": "PT",
+    "title": "Q1 Cohort: Office Hours",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "agenda": [
+      "Quick round: what everyone is working on this week",
+      "Questions sent in ahead of time",
+      "Live help on your own files and agents",
+      "Open floor for anything else"
+    ],
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
+    "end": "2027-03-19T14:30:00-07:00",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
+    "slug": "q1-cohort-office-hours-binr1y",
+    "start": "2027-03-19T13:00:00-07:00",
+    "status": "limited",
+    "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
+    "takeaways": [
+      "Answers to what got you stuck this week",
+      "Your build step finished, or a clear next step",
+      "Ideas from how others in the cohort are using their agents"
+    ],
+    "timezone": "PT",
+    "title": "Q1 Cohort: Office Hours",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
     ]
   }
 ]
