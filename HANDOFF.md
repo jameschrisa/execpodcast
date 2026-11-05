@@ -1,6 +1,6 @@
 # Handoff: Executive Upskill site
 
-Updated 2026-10-16. Start here, then read `AGENTS.md`, `README.md` and `docs/TRACKING.md` before you change code.
+Updated 2026-11-05. Start here, then read `AGENTS.md`, `README.md` and `docs/TRACKING.md` before you change code.
 
 ## The project
 
@@ -23,7 +23,7 @@ The site's job:
 | Stack | Next.js 16.3.8 App Router (Turbopack), React 19.2, Tailwind CSS 4, Motion, Phosphor icons, PostHog (`posthog-js` + `posthog-node`) |
 | Live site | https://executiveupskill.live (`www` redirects to it) |
 | Hosting | Vercel project `execpodcast` in the `jchrisas-projects` team. Every push to `main` deploys to production. |
-| Status | Deployed and live. Forms need a PostHog key before launch (see "Open work"). |
+| Status | Deployed and live. Forms, PostHog and the leads webhook all work end to end (tested 2026-11-02). |
 | Next job | "Open work" below, then the social posts in "Pending: F3 Insights toolbox posts" |
 
 ## Set up on a new computer
@@ -157,19 +157,19 @@ Every key is in `.env.example`.
 
 | Variable | Production | Preview | Status |
 |---|---|---|---|
-| `NEXT_PUBLIC_POSTHOG_KEY` | live project key (`phc_...`) | a separate test project key, or blank | **Not set.** Needed before launch |
+| `NEXT_PUBLIC_POSTHOG_KEY` | live project key (`phc_...`) | a separate test project key, or blank | Set in Production (US Cloud). Not set for Preview |
 | `NEXT_PUBLIC_POSTHOG_REGION` | `us` | `us` | Set |
 | `NEXT_PUBLIC_SITE_URL` | `https://executiveupskill.live` | blank | Set |
 | `NEXT_PUBLIC_PREMIERE_AT` | `2026-11-18T11:00:00-08:00` | same | Set |
 | `NEXT_PUBLIC_YT_LIVE_URL` | the scheduled YouTube Live URL | same | Not set. Buttons fall back to "Subscribe on YouTube" |
-| `LEADS_WEBHOOK_URL` | optional | optional, use a test hook | Not set |
+| `LEADS_WEBHOOK_URL` | Apps Script web app URL with `?key=<secret>` (see "Leads webhook") | leave blank, or a test hook | Set in Production as a sensitive value. Not set for Preview |
 | `EVENTS_API_URL` | leave blank | leave blank | Optional, test-only, server-side. Overrides the events API URL (default `show.eventsApi`) |
 | `EVENTS_PAGE_URL` | leave blank | leave blank | Optional, test-only, server-side. Overrides the JSON-LD events page URL (default `show.eventsSource`) |
 
 Things that catch people out:
 
 - Next.js bakes `NEXT_PUBLIC_*` values in at build time. After you change one, redeploy (`vercel deploy --prod --scope jchrisas-projects`, or push to `main`).
-- `/api/participate` returns a 503 (`not_configured`) when neither the PostHog key nor the webhook is set. **The live forms fail until one of them is set.** Set at least one for Preview too.
+- `/api/participate` returns a 503 (`not_configured`) when neither the PostHog key nor the webhook is set. Production has both. Preview has neither, so forms on preview URLs return 503.
 - `vercel env add NAME preview` loops on a branch prompt when run non-interactively, even with `--value` and `--yes`. Add Preview variables in the dashboard, or with the REST API (`POST /v10/projects/<id>/env`).
 - The claude.ai Vercel connector can read this project but got 403 on writes. Use the CLI or REST API for changes.
 
@@ -189,15 +189,35 @@ Things that catch people out:
 
 Passed on 2026-10-16 against `executiveupskill.live`: home, `/privacy`, `/robots.txt`, `/sitemap.xml`, `/opengraph-image` and the `www` redirect. `/yt` redirects with UTMs.
 
-Still to check once the PostHog key is set:
+Passed on 2026-11-02: the live contact and alerts forms return 200, `lead_captured` appears in PostHog, the webhook adds a row to the leads sheet, and the contact email reached James with Reply-To set to the sender.
 
-- The alerts form succeeds, and `lead_captured` appears in PostHog. If the webhook is set, it receives the submission too.
+Still to check:
+
 - PostHog Activity shows a pageview from `executiveupskill.live`. That confirms the `/ingest` proxy works.
 - The theme toggle works and remembers your choice; the countdown shows the right date in your time zone.
 - Share-card check: paste the URL into LinkedIn Post Inspector.
 - On a phone, the email field, countdown and the mobile menu's social links fit without sideways scrolling.
 
+## Leads webhook
+
+Every form submission (`alerts`, `question`, `pitch`, `contact`) goes to two places: a server-side PostHog `lead_captured` event, and a POST to `LEADS_WEBHOOK_URL`.
+
+- **What runs it:** a Google Apps Script web app bound to the "Executive Upskill leads" Google Sheet in James's Workspace account (james@signetscience.com). The source is in `docs/leads-webhook.gs`, with a placeholder secret.
+- **What it does:** appends one row per submission (columns are `COLUMNS` in the script) and emails james@signetscience.com for `contact` and `pitch` submissions. Reply-To is the sender, so hitting Reply answers them. Premiere signups and questions are rows only, no email.
+- **Secret:** the script rejects any request whose `?key=` doesn't match `SECRET` (it returns `forbidden` with a 200). The real secret and URL live only in the script and in Vercel's `LEADS_WEBHOOK_URL`. This repo is public, so never commit them.
+- **Deployment settings:** Execute as Me, Who has access: Anyone. "Anyone" is required, or Google returns Access Denied to the site.
+- **Changing the script:** edit it, then Deploy > Manage deployments > pencil > Version: New version > Deploy. That keeps the same URL. **Don't use New deployment**: it creates a new URL the site doesn't know about, and you'd have to update `LEADS_WEBHOOK_URL` and redeploy the site.
+- **Changing the secret:** change `SECRET`, deploy a new version, update `LEADS_WEBHOOK_URL` in Vercel, then redeploy the site (`vercel deploy --prod --scope jchrisas-projects`).
+- **Limits:** Apps Script mail is capped at about 100 emails a day on this account. If emails stop arriving, open the script, run `doPost` once from the editor and re-approve the Gmail permission.
+- **Testing:** POST JSON to `/api/participate` (for example `{"kind":"contact","email":"launch-test@example.com","name":"Launch test","topic":"general","message":"Test"}`), then delete the test row in the sheet and the event in PostHog.
+
 ## Changes since the first deploy
+
+- **Premiere moved** to Wednesday, November 18, 2026 at 11:00 PT (`NEXT_PUBLIC_PREMIERE_AT` and the default in `src/content/show.ts`). The premiere `.ics` carries `SEQUENCE:1` so calendars that saved October 28 update.
+- **Contact form** at `/contact` (`src/app/contact/page.tsx`, `src/components/contact/ContactForm.tsx`). Name, email, topic and a 2,000-character message, sent as kind `contact` through `/api/participate`.
+- **Full sessions calendar** at `/sessions`: month and list views, category filters (empty categories hide), search, a past-sessions toggle and a details dialog with register and add-to-calendar. Subscribable feed at `/sessions/calendar.ics`.
+- **Events come from the F3 API** (`f3insights.com/api/events`), keyed on the full F3 slug. Fallbacks: the JSON-LD on the events page, then `src/content/events-snapshot.json` (refreshed 2026-11-02, 40 sessions). Creative means practice `revenue`, or topic `revenue-marketing` without finance or deep-dive topics. The five Craft First sessions (Nov 19 to Feb 18) land there.
+- **Nav works from every page**, and the header and footer link to `/sessions` and `/contact`.
 
 - **Hero caption** (`hero.valueProp` in `src/content/site.ts`): "Three operators talk AI, business and brand from the seats they've held. Live on YouTube, clipped for your feed."
 - **LinkedIn added as a channel** (`linkedin` in `show.channels`, `PlatformId`, `PlatformIcon`, `platforms` in `site.ts`):
@@ -252,11 +272,13 @@ The 1,448 tests and 18 departments come from the creatives and were not checked 
 
 ## Open work
 
-1. **Set `NEXT_PUBLIC_POSTHOG_KEY`** (Production, plus a test key or `LEADS_WEBHOOK_URL` for Preview), then redeploy. Until then the live forms return 503.
-2. **Schedule the YouTube Live event**, set `NEXT_PUBLIC_YT_LIVE_URL`, redeploy.
-3. **Confirm the YouTube handle** and update `show.channels.youtube` and `show.channels.shorts`.
-4. **Meta description** in `src/app/layout.tsx` still says "argue AI, money and brand". Asked James whether to match the new hero caption ("talk AI, business and brand"); no answer yet.
-5. **Post the F3 Insights toolbox creatives** (section above).
+1. **Tell existing alert subscribers** the premiere moved from October 28 to November 18. Their addresses are in PostHog (`lead_captured`, kind `alerts`); new signups also land in the leads sheet.
+2. **Browser check on a phone** of `/sessions` (filters, dialog) and `/contact`. Not done yet: Claude in Chrome was not connected.
+3. **Schedule the YouTube Live event**, set `NEXT_PUBLIC_YT_LIVE_URL`, redeploy.
+4. **Confirm the YouTube handle** and update `show.channels.youtube` and `show.channels.shorts`.
+5. **Meta description** in `src/app/layout.tsx` still says "argue AI, money and brand". Asked James whether to match the new hero caption ("talk AI, business and brand"); no answer yet.
+6. **Post the F3 Insights toolbox creatives** (section above).
+7. **Mention Craft First session 1** (Nov 19) on the premiere.
 
 ## Open questions for James
 
@@ -276,16 +298,18 @@ Waiting on someone:
 
 ## Launch checklist (also in README.md)
 
-- [ ] Confirm the premiere date and time, schedule the YouTube Live event, then set `NEXT_PUBLIC_YT_LIVE_URL`.
+- [x] Confirm the premiere date and time (Nov 18, 11:00 PT).
+- [ ] Schedule the YouTube Live event, then set `NEXT_PUBLIC_YT_LIVE_URL`.
 - [ ] Confirm the YouTube handle in `src/content/show.ts`. It is still a placeholder (`@ExecutiveUpskill`). Instagram (`@exec.upskill`), TikTok (`@execupskill`) and LinkedIn are confirmed.
 - [ ] Each host approves his bio, photos, card question and four lens-test takes.
 - [ ] Confirm "We don't share your email" matches your email tool's practice.
 - [x] Set `NEXT_PUBLIC_SITE_URL` to the real domain (`https://executiveupskill.live`).
-- [ ] Add the PostHog key and build the dashboard in `docs/TRACKING.md`.
+- [x] Add the PostHog key and the leads webhook.
+- [ ] Build the PostHog dashboard in `docs/TRACKING.md`.
 - [ ] Put the short paths in each platform bio (`executiveupskill.live/ig`, `/tt`, `/li`, `/yt`).
 
 ## Kickoff prompt for the next session
 
 Paste this into Claude Code from the cloned folder:
 
-> Read HANDOFF.md, AGENTS.md, README.md and docs/TRACKING.md. The site is live on Vercel at executiveupskill.live. Work through "Open work" in HANDOFF.md, starting with whatever I give you (PostHog key, YouTube Live URL or handle). If Claude in Chrome is connected, help me post the F3 Insights toolbox creatives from "Pending: F3 Insights toolbox posts", stopping before each publish button.
+> Read HANDOFF.md, AGENTS.md, README.md and docs/TRACKING.md. The site is live on Vercel at executiveupskill.live. Work through "Open work" in HANDOFF.md, starting with whatever I give you (YouTube Live URL or handle). If Claude in Chrome is connected, help me post the F3 Insights toolbox creatives from "Pending: F3 Insights toolbox posts", stopping before each publish button.

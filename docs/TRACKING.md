@@ -11,7 +11,7 @@ PostHog runs every measurement on this site. This file covers setup, how channel
    - Heatmaps and Web vitals: turn on.
    - Exception autocapture: turn on.
    - Toolbar > Authorized URLs: add your production domain so you can view heatmaps on the live page.
-4. Optional: set `LEADS_WEBHOOK_URL` to forward every form submission to Zapier, Make, Slack, HubSpot or a Google Sheet.
+4. Optional: set `LEADS_WEBHOOK_URL` to forward every form submission to a webhook. Production uses the Google Apps Script in `docs/leads-webhook.gs`, which writes each submission to a Google Sheet and emails contact messages and pitches. Setup is in HANDOFF.md, "Leads webhook".
 
 The browser sends events to `/ingest` on your own domain, and Next.js forwards them to PostHog (see `next.config.ts`). Ad blockers that block `posthog.com` don't block this path.
 
