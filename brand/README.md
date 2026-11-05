@@ -296,3 +296,9 @@ Noted, not resolved.
 8. **Draft copy.** The lens-test takes are drafts that each host should approve before launch, so quote them cautiously. The episode titles are working titles.
 9. **Greg's photos** are generated until real ones arrive, so photography guidance covers two sources.
 10. **Theme color.** `viewport.themeColor` is #f7f7f5 only, with no dark value.
+
+## HTML and PDF versions
+
+- `brand/executive-upskill-brand-guide.html`: the tabbed guide as a standalone page. Open it in any browser. Printing it shows every section.
+- `brand/executive-upskill-brand-guide.pdf`: the print version, light theme, one section per page. The machine-readable spec is left out of the PDF; it lives in `brand/brand.json`.
+- Rebuild both after editing `guide.html`: `python3 brand/scripts/build-print.py` (needs Google Chrome).
