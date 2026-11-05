@@ -1,0 +1,230 @@
+[
+  {
+    "concept": "lens-brand",
+    "lucide": "megaphone",
+    "phosphorOnSite": null,
+    "usage": "Brand lens and the moderator seat. Matches the megaphone print on the Brand panel."
+  },
+  {
+    "concept": "lens-money",
+    "lucide": "calculator",
+    "phosphorOnSite": null,
+    "usage": "AI and finance lens. Matches the adding-machine print on the Money panel."
+  },
+  {
+    "concept": "lens-venture",
+    "lucide": "chess-knight",
+    "phosphorOnSite": null,
+    "usage": "Venture lens. Matches the knight print on the Venture panel."
+  },
+  {
+    "concept": "live-premiere",
+    "lucide": "radio",
+    "phosphorOnSite": null,
+    "usage": "Live and premiere. The only icon that takes the orange accent, and only while a stream is live or a premiere is active."
+  },
+  {
+    "concept": "episodes",
+    "lucide": "list-video",
+    "phosphorOnSite": null,
+    "usage": "Episode lists and the episodes nav item."
+  },
+  {
+    "concept": "sessions-calendar",
+    "lucide": "calendar-days",
+    "phosphorOnSite": null,
+    "usage": "Live sessions calendar and date rows."
+  },
+  {
+    "concept": "add-to-calendar",
+    "lucide": "calendar-plus",
+    "phosphorOnSite": "CalendarPlus",
+    "usage": "Add to calendar buttons (Google, Outlook, .ics)."
+  },
+  {
+    "concept": "subscribe-rss",
+    "lucide": "rss",
+    "phosphorOnSite": null,
+    "usage": "RSS feed and podcast-feed subscribe links."
+  },
+  {
+    "concept": "register",
+    "lucide": "ticket-check",
+    "phosphorOnSite": null,
+    "usage": "Register for a session. Pairs with the F3 Insights register link."
+  },
+  {
+    "concept": "contact-mail",
+    "lucide": "mail",
+    "phosphorOnSite": null,
+    "usage": "Contact form, email links and the email header."
+  },
+  {
+    "concept": "guest-pitch",
+    "lucide": "mic",
+    "phosphorOnSite": "Microphone",
+    "usage": "Pitch a founder worth arguing with. Also the call-in band."
+  },
+  {
+    "concept": "question",
+    "lucide": "message-circle-question",
+    "phosphorOnSite": null,
+    "usage": "Send my question and the ask-the-hosts form."
+  },
+  {
+    "concept": "chat",
+    "lucide": "message-circle",
+    "phosphorOnSite": "ChatTeardrop",
+    "usage": "Chat bubbles in the topic ticker. Phosphor fill weight becomes Lucide outline."
+  },
+  {
+    "concept": "alerts-bell",
+    "lucide": "bell-ring",
+    "phosphorOnSite": null,
+    "usage": "Premiere alerts and reminders."
+  },
+  {
+    "concept": "platform-youtube",
+    "lucide": "youtube",
+    "phosphorOnSite": "YoutubeLogo",
+    "usage": "YouTube and YouTube Live channel links."
+  },
+  {
+    "concept": "platform-shorts",
+    "lucide": "youtube",
+    "phosphorOnSite": "YoutubeLogo",
+    "usage": "YouTube Shorts. The site uses the YouTube glyph for Shorts too, so the label does the work."
+  },
+  {
+    "concept": "platform-instagram",
+    "lucide": "instagram",
+    "phosphorOnSite": "InstagramLogo",
+    "usage": "Instagram channel links."
+  },
+  {
+    "concept": "platform-tiktok",
+    "lucide": "music-2",
+    "phosphorOnSite": "TiktokLogo",
+    "usage": "TikTok. Lucide has no TikTok glyph, so music-2 is the fallback. Where the official mark is required, keep the official glyph."
+  },
+  {
+    "concept": "platform-linkedin",
+    "lucide": "linkedin",
+    "phosphorOnSite": "LinkedinLogo",
+    "usage": "LinkedIn page and host profile links."
+  },
+  {
+    "concept": "share",
+    "lucide": "share-2",
+    "phosphorOnSite": null,
+    "usage": "Share a clip, episode or session."
+  },
+  {
+    "concept": "external-link",
+    "lucide": "arrow-up-right",
+    "phosphorOnSite": "ArrowUpRight",
+    "usage": "Links that leave the site. Alternate: external-link."
+  },
+  {
+    "concept": "clock",
+    "lucide": "clock",
+    "phosphorOnSite": null,
+    "usage": "Start time and duration."
+  },
+  {
+    "concept": "time-zone",
+    "lucide": "globe",
+    "phosphorOnSite": null,
+    "usage": "Time zone label next to a start time."
+  },
+  {
+    "concept": "seats-users",
+    "lucide": "users",
+    "phosphorOnSite": null,
+    "usage": "Seats and attendee counts."
+  },
+  {
+    "concept": "status-open",
+    "lucide": "circle-check",
+    "phosphorOnSite": null,
+    "usage": "Session status: open."
+  },
+  {
+    "concept": "status-limited",
+    "lucide": "circle-alert",
+    "phosphorOnSite": null,
+    "usage": "Session status: limited seats."
+  },
+  {
+    "concept": "status-full",
+    "lucide": "circle-x",
+    "phosphorOnSite": null,
+    "usage": "Session status: full."
+  },
+  {
+    "concept": "status-cancelled",
+    "lucide": "ban",
+    "phosphorOnSite": null,
+    "usage": "Session status: cancelled."
+  },
+  {
+    "concept": "arrow-right",
+    "lucide": "arrow-right",
+    "phosphorOnSite": "ArrowRight",
+    "usage": "Forward links and primary calls to action."
+  },
+  {
+    "concept": "previous",
+    "lucide": "chevron-left",
+    "phosphorOnSite": "CaretLeft",
+    "usage": "Calendar and carousel previous."
+  },
+  {
+    "concept": "next",
+    "lucide": "chevron-right",
+    "phosphorOnSite": "CaretRight",
+    "usage": "Calendar and carousel next."
+  },
+  {
+    "concept": "check",
+    "lucide": "check",
+    "phosphorOnSite": "Check",
+    "usage": "Selected state and confirmations."
+  },
+  {
+    "concept": "close",
+    "lucide": "x",
+    "phosphorOnSite": "X",
+    "usage": "Close dialogs, menus and filters."
+  },
+  {
+    "concept": "menu",
+    "lucide": "menu",
+    "phosphorOnSite": "List",
+    "usage": "Mobile navigation toggle."
+  },
+  {
+    "concept": "search",
+    "lucide": "search",
+    "phosphorOnSite": "MagnifyingGlass",
+    "usage": "Session search field."
+  },
+  {
+    "concept": "refresh",
+    "lucide": "refresh-cw",
+    "phosphorOnSite": "ArrowsClockwise",
+    "usage": "Reload the sessions snapshot."
+  },
+  {
+    "concept": "theme-light",
+    "lucide": "sun",
+    "phosphorOnSite": "Sun",
+    "usage": "Theme toggle, light state."
+  },
+  {
+    "concept": "theme-dark",
+    "lucide": "moon",
+    "phosphorOnSite": "Moon",
+    "usage": "Theme toggle, dark state."
+  }
+]

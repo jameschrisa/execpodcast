@@ -214,6 +214,37 @@ Where the variable width axis is not available (slides, some video tools), use A
 
 **Video lower third.** A 16px-radius bar in #0e0e0d at 90% opacity (the scrim is #0b0b0a in dark). Name in the display cut at #f2f2ee, role line in Geist 16px #d6d6d1, a lens chip as a full pill using the host's lens panel color and text color (Brand #ff4d12 with #121212, Money #262724 with #f2f2ee, Venture #f2f2ee with #121212). Ease in with `cubic-bezier(0.16, 1, 0.3, 1)` over 0.9s, letters staggered at 28ms if animating the name. Keep text clear of platform UI safe areas.
 
+## Brand assets
+
+Ready-to-use files in `assets/`. Each is an SVG with outlined text (no font needed) and a PNG at its exact pixel size. They use only copy from the site: the campaign line, the hero tail, the show name and the premiere date (Wed Nov 18, 11:00 PT). Social surfaces and video cards sit on the logo black. The share card, email header and slides default to light paper.
+
+| Folder | Files |
+|---|---|
+| `assets/profile/` | `profile-1080` (Instagram, TikTok, LinkedIn page), `profile-800` (YouTube). The square mark at 90% so every letter sits inside the circle crop. |
+| `assets/banners/` | `youtube-banner-2560x1440` (key content inside the 1546 x 423 safe area), `youtube-banner-2560x1440-safe-area-guide` (same art with the safe area marked, reference only), `linkedin-cover-1128x191`, `x-header-1500x500`. |
+| `assets/social/` | `og-share-card-1200x630`. Palette colors only, replacing the off-palette #161618. |
+| `assets/email/` | `email-header-1200x300`. |
+| `assets/video/` | `lower-third-james`, `lower-third-greg`, `lower-third-bryce` (1920 x 1080, transparent), `title-card-1920x1080`, `end-card-1920x1080`. Names, roles and lens colors come from `src/content/hosts.ts`. |
+| `assets/slides/` | `slide-title-{light,dark}-1920x1080`, `slide-content-{light,dark}-1920x1080`. |
+
+**Rebuild.** `scripts/build-all.sh` runs `build-icons.py`, `gen-assets.py` and `render-svg.mjs`. It needs a folder with `lucide-static@0.577.0`, `@resvg/resvg-js@2.6.2` and `geist@1.9.1` installed (kept outside the site's `package.json`), a Python environment with `fonttools`, `uharfbuzz` and `brotli`, and the Archivo variable font. `scripts/build-guide.py` then rebuilds `guide.html` and `brand.json`. Do not edit the generated SVG or PNG files by hand.
+
+## Icons
+
+Lucide, pinned to lucide-static 0.577.0 (ISC license in `icons/LICENSE`). Lucide 1.x removed its brand icons, so 0.577.0 stays pinned to keep YouTube, Instagram and LinkedIn. Raw SVGs are in `icons/svg/`. `icons/icons.json` maps each brand concept to a Lucide icon, the Phosphor icon on the site it replaces (or null) and a usage note. PNG sets of the lens and platform icons at 24, 48 and 96 px, in ink (#121212) and paper (#f2f2ee), are in `icons/png/`.
+
+Rules: 24px grid, 2px stroke (1.75 at 16px), `currentColor`, round caps and joins. The orange accent is only for live or active state.
+
+Lens icons follow the linocut prints: Brand megaphone, AI and finance calculator (adding machine), Venture chess-knight.
+
+**Phosphor to Lucide.** ArrowRight to arrow-right, ArrowUpRight to arrow-up-right, ArrowsClockwise to refresh-cw, CalendarPlus to calendar-plus, CaretLeft and CaretRight to chevron-left and chevron-right, ChatTeardrop to message-circle, Check to check, InstagramLogo to instagram, LinkedinLogo to linkedin, List to menu, MagnifyingGlass to search, Microphone to mic, Moon to moon, Sun to sun, X to x, YoutubeLogo to youtube.
+
+**Gaps.** TiktokLogo has no Lucide match. `music-2` is the fallback, and the official glyph stays where the platform requires it. The site uses Phosphor fill weights for the brand logos, ChatTeardrop and Microphone, and Lucide is outline only, so those look lighter.
+
+## Guide and machine-readable spec
+
+`guide.html` is a tabbed reference (overview, logo, color, type, icons, visual, voice, assets, agents) for people and agents. Tabs route by hash (`#color`). `brand.json` holds the same spec for tools: tokens, fonts, logo files, icon map, asset paths, voice rules, banned terms and open questions. The guide embeds the same JSON in `script#brand-data`.
+
 ## Assets index
 
 ```
@@ -236,8 +267,15 @@ brand/
   tokens/
     tokens.css
     tokens.json
+  assets/{profile,banners,social,email,video,slides}/   SVG + PNG pairs
+  icons/
+    LICENSE, icons.json
+    svg/    png/
+  guide.html
+  brand.json
   scripts/
-    build-logo.py
+    build-logo.py  build-icons.py  gen-assets.py  render-svg.mjs
+    build-guide.py  guide.template.html  build-all.sh
 ```
 
 Site assets used by the brand: `public/art/*.svg`, `public/photos/`, `src/assets/Anton-Regular.ttf`, `src/app/icon.tsx`, `src/app/apple-icon.tsx`, `src/lib/share-image.tsx`.

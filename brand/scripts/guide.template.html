@@ -1,0 +1,356 @@
+<title>Executive Upskill Brand</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wdth,wght@62,900&family=Geist:wght@400;600;700&display=swap");
+:root{
+{{CONST_COLORS}}
+--paper:#f7f7f5;--paper-raised:#ffffff;--ink:#121212;--ink-soft:#2a2a28;--muted:#5a5a57;--line:#e2e2dd;
+--accent:#ff4d12;--accent-ink:#b93408;--on-accent:#121212;
+--lens-brand:#ff4d12;--lens-brand-ring:#e03c05;--lens-brand-text:#121212;
+--lens-money:#d9dad5;--lens-money-ring:#bdbfb8;--lens-money-text:#121212;
+--lens-venture:#151515;--lens-venture-ring:#343432;--lens-venture-text:#f2f2ee;
+--shadow:0 1px 0 rgb(18 18 18 / 0.04),0 18px 40px -24px rgb(18 18 18 / 0.25);
+--ease:cubic-bezier(0.16,1,0.3,1);
+--display:"Archivo","Arial Narrow",sans-serif;
+--body:"Geist",ui-sans-serif,system-ui,sans-serif;
+color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+--paper:#0e0e0d;--paper-raised:#171716;--ink:#f2f2ee;--ink-soft:#d6d6d1;--muted:#a3a39f;--line:#2a2a28;
+--accent:#ff5a1f;--accent-ink:#ff6a33;--on-accent:#0e0e0d;
+--lens-brand:#ff5a1f;--lens-brand-ring:#ff7a47;--lens-brand-text:#0e0e0d;
+--lens-money:#262724;--lens-money-ring:#3a3b37;--lens-money-text:#f2f2ee;
+--lens-venture:#f2f2ee;--lens-venture-ring:#d6d6d1;--lens-venture-text:#121212;
+--shadow:0 1px 0 rgb(0 0 0 / 0.3),0 18px 40px -24px rgb(0 0 0 / 0.7);
+color-scheme:dark}}
+:root[data-theme="dark"]{
+--paper:#0e0e0d;--paper-raised:#171716;--ink:#f2f2ee;--ink-soft:#d6d6d1;--muted:#a3a39f;--line:#2a2a28;
+--accent:#ff5a1f;--accent-ink:#ff6a33;--on-accent:#0e0e0d;
+--lens-brand:#ff5a1f;--lens-brand-ring:#ff7a47;--lens-brand-text:#0e0e0d;
+--lens-money:#262724;--lens-money-ring:#3a3b37;--lens-money-text:#f2f2ee;
+--lens-venture:#f2f2ee;--lens-venture-ring:#d6d6d1;--lens-venture-text:#121212;
+--shadow:0 1px 0 rgb(0 0 0 / 0.3),0 18px 40px -24px rgb(0 0 0 / 0.7);
+color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.55 var(--body);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-wrap:anywhere}
+::selection{background:var(--accent);color:var(--on-accent)}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:var(--accent-ink)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+.display{font-family:var(--display);font-variation-settings:"wdth" 62;font-weight:900;letter-spacing:-0.01em;word-spacing:0.06em;line-height:0.88;text-transform:uppercase;margin:0}
+h1.display{font-size:clamp(32px,9vw,104px);min-width:0}
+h2.display{font-size:clamp(36px,5.4vw,72px);margin:8px 0 20px}
+h3{font:700 20px/1.25 var(--body);margin:32px 0 10px}
+h4{font:700 16px/1.3 var(--body);margin:0 0 6px}
+p{margin:0 0 14px}
+ul,ol{margin:0 0 14px;padding-left:22px}
+li{margin:0 0 6px}
+code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px}
+code{background:var(--paper-raised);border:1px solid var(--line);border-radius:6px;padding:1px 6px}
+pre{background:var(--paper-raised);border:1px solid var(--line);border-radius:12px;padding:14px 16px;overflow-x:auto;margin:0 0 16px;white-space:pre}
+.top{display:flex;gap:16px;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;padding-top:28px;padding-bottom:20px}
+.top svg{width:48px;height:48px;display:block;flex:none}
+.brandrow{display:flex;gap:16px;align-items:center;min-width:0}
+.btn{font:600 14px/1 var(--body);height:44px;padding:0 18px;border-radius:9999px;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer}
+.btn.sm{height:32px;padding:0 12px;font-size:13px;border-color:var(--line)}
+.btn:hover{background:var(--ink);color:var(--paper)}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;padding:12px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.tab{font:600 14px/1 var(--body);height:44px;padding:0 16px;border-radius:9999px;border:1px solid var(--line);background:var(--paper-raised);color:var(--ink);cursor:pointer;text-transform:capitalize}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+main{padding-top:28px;padding-bottom:96px}
+[hidden]{display:none !important}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr))}
+.grid.wide{grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr))}
+.card{background:var(--paper-raised);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:var(--shadow);min-width:0}
+.card p:last-child,.card ul:last-child{margin-bottom:0}
+.tile{border-radius:16px;border:1px solid var(--line);padding:22px;display:flex;align-items:center;justify-content:center;min-height:150px}
+.tile svg{display:block;max-width:100%;height:auto}
+.tile.l{background:var(--tile-light)}.tile.d{background:var(--tile-dark)}
+.tw{overflow-x:auto;margin:0 0 16px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:700}
+.lens{border-radius:16px;padding:20px;box-shadow:inset 0 0 0 6px var(--panel),inset 0 0 0 8px var(--ring);background:var(--panel);color:var(--ptext);min-width:0}
+.lens .display{font-size:40px;margin-bottom:12px;color:var(--ptext)}
+.lens.brand{--panel:var(--lens-brand);--ring:var(--lens-brand-ring);--ptext:var(--lens-brand-text)}
+.lens.money{--panel:var(--lens-money);--ring:var(--lens-money-ring);--ptext:var(--lens-money-text)}
+.lens.venture{--panel:var(--lens-venture);--ring:var(--lens-venture-ring);--ptext:var(--lens-venture-text)}
+.lens p{color:var(--ptext)}
+.sw{border-radius:16px;overflow:hidden;border:1px solid var(--line);background:var(--paper-raised);min-width:0}
+.sw .chips{display:grid;grid-template-columns:1fr 1fr}
+.sw .chip{padding:14px 12px;min-height:84px;display:flex;flex-direction:column;justify-content:space-between;gap:8px}
+.sw .chip.on-d{color:var(--logo-white)}.sw .chip.on-l{color:var(--logo-ink)}
+.sw .info{padding:12px 14px;font-size:14px}
+.sw .info b{display:block}
+.hexrow{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.hexrow code{background:transparent;border-color:currentColor;color:inherit}
+.chip .btn.sm{border-color:currentColor;color:inherit;background:transparent;height:28px}
+.ico{display:grid;grid-template-columns:44px 1fr;gap:12px;align-items:center;padding:12px 14px;border:1px solid var(--line);border-radius:16px;background:var(--paper-raised);min-width:0}
+.ico svg{width:32px;height:32px;fill:none;stroke:var(--ink);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.ico.live svg{stroke:var(--accent)}
+.ico b{display:block;font-size:14px}.ico span{font-size:12px;color:var(--muted)}
+.spec{border:1px solid var(--line);border-radius:16px;padding:20px;background:var(--paper-raised);margin-bottom:16px;overflow:hidden}
+.spec .big{font-size:clamp(40px,8vw,88px)}
+.do,.dont{border-radius:16px;border:1px solid var(--line);padding:16px 18px;background:var(--paper-raised)}
+.checks{list-style:none;padding:0}
+.checks li{padding:10px 14px 10px 14px;border:1px solid var(--line);border-radius:12px;background:var(--paper-raised)}
+.checks li::before{content:"[ ] ";font-family:ui-monospace,Menlo,monospace;color:var(--accent-ink)}
+.clear{display:inline-block;border:2px dashed var(--accent);padding:9%;border-radius:2px;line-height:0}
+.clear svg{width:160px;height:160px}
+.q li b{color:var(--accent-ink)}
+@media (prefers-reduced-motion: no-preference){.btn,.tab{transition:background-color 200ms ease-out,color 200ms ease-out}.btn:active{transform:scale(0.98)}}
+</style>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">{{ICON_SYMBOLS}}</svg>
+<header class="wrap top">
+<div class="brandrow">{{LOGO_MARK_SMALL}}<h1 class="display">Executive Upskill brand</h1></div>
+<button class="btn" id="theme" type="button">Switch theme</button>
+</header>
+<nav class="wrap" aria-label="Brand sections">
+<div class="tabs" role="tablist" aria-label="Brand sections">
+{{TABS}}
+</div>
+</nav>
+<main class="wrap">
+
+<section role="tabpanel" id="panel-overview" data-panel="overview" aria-labelledby="tab-overview">
+<h2 class="display">Overview</h2>
+<p>Executive Upskill is a live video podcast. Three operators argue one AI decision at a time from the brand, finance and venture seats, live on YouTube, with clips on YouTube Shorts, Instagram, TikTok and LinkedIn. This page is the brand reference for people and for agents. The same facts sit in <code>brand.json</code> and in the JSON block on the Agents tab.</p>
+<h3>Positioning</h3>
+<p><b>Campaign line.</b> One question. Three lenses.</p>
+<p><b>Hero line.</b> Three operators talk AI, business and brand from the seats they've held. Live on YouTube, clipped for your feed.</p>
+<p><b>One sentence.</b> Three operators argue the AI decision you are facing from the brand, finance and venture seats, live, and you can ask them in the chat.</p>
+<h3>Audience</h3>
+<p>Executives and operators who have to make decisions about AI and want to hear them argued from more than one seat: marketing and brand leaders, finance leaders, founders and investors. Guests are founders and operators who made a hard call on AI, money or brand and will defend it on camera.</p>
+<h3>What makes it different</h3>
+<ul>
+<li>The hosts argue. Each makes his own call on the same question, and they disagree on camera.</li>
+<li>They speak from seats they have held: a marketing executive with ML patents, a finance executive of about 20 years, a fund Co-GP who runs the fund's operations on AI agents he designed.</li>
+<li>Viewers ask live. Questions that name a real decision get picked.</li>
+<li>One argument per clip, short enough for the gap between meetings.</li>
+</ul>
+<h3>The three lenses</h3>
+<div class="grid wide">
+<div class="lens brand"><p class="display">Brand</p><p><b>James Christopher</b>, host and moderator.</p><p>Brand meets the bot. Asks first: "Who's the human in this loop, and can they say no?"</p></div>
+<div class="lens money"><p class="display">AI and finance</p><p><b>Greg Fisher</b>, co-host.</p><p>Make the AI pay. Asks first: "Which line on the P&amp;L moves, and when?"</p></div>
+<div class="lens venture"><p class="display">Venture</p><p><b>Bryce Gilleland</b>, co-host.</p><p>Bet before consensus. Asks first: "If this works, who keeps the money?"</p></div>
+</div>
+<h3>Premiere</h3>
+<p>Wednesday, November 18, 2026 at 11:00 PT, 90 minutes, on YouTube Live. Episode: "Your 2027 AI Budget, Argued Three Ways". Season 1 is 12 planned episodes. The show is free.</p>
+<h3>Channels</h3>
+<ul><li>YouTube and Shorts: @ExecutiveUpskill</li><li>Instagram: @exec.upskill</li><li>TikTok: @execupskill</li><li>LinkedIn: the Executive Upskill page</li></ul>
+<h3>Open questions</h3>
+<p>Noted in the brand kit, not resolved. Treat each as undecided.</p>
+<ol class="q">{{OPEN_QUESTIONS}}</ol>
+</section>
+
+<section role="tabpanel" id="panel-logo" data-panel="logo" aria-labelledby="tab-logo" hidden>
+<h2 class="display">Logo</h2>
+<p>The logo is a square: EXECUTIVE in off-white over UPSKILL in orange, both stretched to the same width inside a near-black square. It is the site mark, the home-screen icon and the basis for the favicon. Every file is outlined paths, so no font is needed.</p>
+<div class="grid wide">
+{{LOGO_TILES}}
+</div>
+<h3>Clear space</h3>
+<p>Keep at least 9% of the mark's width (the square's own padding, 9 of 100 units) free on every side. For the wordmark, keep clear space equal to the cap height of the letter L. These are working rules derived from the mark's built-in padding.</p>
+<div class="tile l"><span class="clear">{{LOGO_MARK_SMALL}}</span></div>
+<h3>Minimum size</h3>
+<ul><li>Square mark: 32 px wide on screen, 12 mm in print.</li><li>Below 48 px use the monogram, as the site does for the favicon.</li><li>Wordmark: 120 px wide.</li></ul>
+<h3>Dark surfaces</h3>
+<p>On #0e0e0d to #171716 the black square meets near-black. Draw a 2-unit stroke of white at 16% opacity (<code>rgb(255 255 255 / 0.16)</code>) around the square. The SVG files do not include it.</p>
+<div class="grid wide">
+<div class="do"><h4>Do</h4><ul><li>Place the mark on a quiet surface with its clear space.</li><li>Use the mono white file over dark or photographic areas and mono black for one-color print.</li><li>Use #ff4d12 for UPSKILL on the mark, and #ff5a1f only in the dark wordmark.</li></ul></div>
+<div class="dont"><h4>Do not</h4><ul><li>Re-set the words in another font or let the two lines differ in width.</li><li>Change colors, swap which word is orange, or put orange on a similar orange.</li><li>Add shadows, gradients, outlines or rounded corners. The square has sharp corners.</li><li>Rotate, skew, tilt or stretch the square into a rectangle.</li><li>Place mono white on light backgrounds or mono black on dark ones.</li></ul></div>
+</div>
+</section>
+
+<section role="tabpanel" id="panel-color" data-panel="color" aria-labelledby="tab-color" hidden>
+<h2 class="display">Color</h2>
+<p>Light is the default theme. Dark applies only when asked for. The palette is off-white paper, off-black ink and one accent, the "on-air" orange. Each swatch shows light on the left and dark on the right, with its WCAG contrast against that theme's paper.</p>
+<div class="grid">{{SWATCHES}}</div>
+<h3>Lens colors</h3>
+<p>Each lens panel carries a panel color, a ring color and a text color. The Venture panel inverts in dark mode.</p>
+<div class="grid">{{LENS_SWATCHES}}</div>
+<h3>Contrast rules, measured</h3>
+<ul>{{CONTRAST_RULES}}</ul>
+<p>Logo colors do not change with the theme: #0e0e0e, #f2f2ee, #ff4d12. Selection is accent with on-accent text. Focus ring is 2px solid accent with a 3px offset.</p>
+</section>
+
+<section role="tabpanel" id="panel-type" data-panel="type" aria-labelledby="tab-type" hidden>
+<h2 class="display">Type</h2>
+<div class="spec"><p class="display big">Pick the lens you need</p>
+<h4>Display: Archivo, width axis 62, weight 900, uppercase</h4>
+<pre>font-family: "Archivo", "Arial Narrow", sans-serif;
+font-variation-settings: "wdth" 62;
+font-weight: 900;
+letter-spacing: -0.01em;
+word-spacing: 0.06em;
+line-height: 0.88;
+text-transform: uppercase;</pre>
+<p>Google Fonts: <code>Archivo:wdth,wght@62,900</code>. Source file: Archivo[wdth,wght].ttf in github.com/google/fonts (ofl/archivo).</p></div>
+<div class="spec"><p style="font:400 22px/1.4 var(--body);margin-bottom:12px">Name the person who reviews the agent's work before a customer sees it. If you can't name them, you're hiring a liability.</p>
+<h4>Body: Geist</h4>
+<pre>font-family: "Geist", ui-sans-serif, system-ui, sans-serif;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;</pre></div>
+<div class="spec"><p style="font:400 96px/1 Anton,Impact,sans-serif;margin:0 0 12px"><span>E</span><span style="color:var(--accent)">U</span></p>
+<h4>Logo fallback: Anton</h4>
+<pre>font-family: "Anton", Impact, sans-serif;</pre>
+<p>Anton is for the EU monogram, the favicon, the home-screen icon and the share image, and anywhere the variable width axis is not available (slides, some video tools). It is close to the display cut but not identical. File: <code>src/assets/Anton-Regular.ttf</code>.</p></div>
+<h3>Scale in use</h3>
+<div class="tw"><table><thead><tr><th>Use</th><th>Size</th><th>Style</th></tr></thead><tbody>
+<tr><td>Section headlines</td><td>clamp(48px, 6.4vw, 96px)</td><td>Display</td></tr>
+<tr><td>Hero-scale headlines</td><td>clamp(56px, 7vw, 112px)</td><td>Display</td></tr>
+<tr><td>Lens panel titles</td><td>clamp(44px, 3.8vw, 60px)</td><td>Display</td></tr>
+<tr><td>Form headlines</td><td>clamp(36px, 3.6vw, 52px)</td><td>Display</td></tr>
+<tr><td>Host names</td><td>clamp(56px, 6.6vw, 108px)</td><td>Display</td></tr>
+<tr><td>Hero wordmark</td><td>container width / 7.17</td><td>Display</td></tr>
+<tr><td>Hero lede</td><td>19px, 22px from md</td><td>Geist, ink-soft, tight leading</td></tr>
+<tr><td>Section lede and bios</td><td>18px</td><td>Geist, ink-soft, relaxed leading</td></tr>
+<tr><td>Form and card copy</td><td>16px</td><td>Geist</td></tr>
+<tr><td>UI text</td><td>15, 14, 13, 12px</td><td>Geist</td></tr>
+<tr><td>Buttons</td><td>14px, 600, 44px tall (48px form submits)</td><td>Geist</td></tr>
+<tr><td>Small labels</td><td>13px, bold, uppercase, 0.08em tracking</td><td>Geist, accent-ink</td></tr>
+</tbody></table></div>
+</section>
+
+<section role="tabpanel" id="panel-icons" data-panel="icons" aria-labelledby="tab-icons" hidden>
+<h2 class="display">Icons</h2>
+<p>Lucide, pinned to lucide-static {{LUCIDE_VERSION}} (ISC license, in <code>brand/icons/LICENSE</code>). Raw SVGs are in <code>brand/icons/svg/</code>. Lucide 1.x dropped its brand icons, so this version stays pinned for YouTube, Instagram and LinkedIn. The site still uses Phosphor in code. The map below shows what replaces each Phosphor icon.</p>
+<h3>Rules</h3>
+<ul>
+<li>24px grid, 2px stroke. At 16px render use a 1.75 stroke.</li>
+<li><code>currentColor</code> for stroke, no fill, round caps and joins.</li>
+<li>Orange accent only for live or active state (the radio icon while live, a selected control). Everything else is ink or muted.</li>
+<li>TikTok has no Lucide glyph. The fallback is music-2. Keep the official glyph where the platform requires it.</li>
+</ul>
+<div class="grid">{{ICON_GRID}}</div>
+<h3>Phosphor to Lucide</h3>
+<div class="tw"><table><thead><tr><th>Phosphor on the site</th><th>Lucide</th></tr></thead><tbody>{{PHOSPHOR_ROWS}}</tbody></table></div>
+<p>Gaps: Phosphor TiktokLogo has no Lucide match (music-2 is a stand-in). The site renders brand logos and ChatTeardrop, Microphone, MoonIcon and SunIcon in Phosphor fill weight, and Lucide is outline only, so those look lighter after the swap.</p>
+<p>PNG sets for lens and platform icons at 24, 48 and 96 px, in ink and paper colors, are in <code>brand/icons/png/</code>.</p>
+</section>
+
+<section role="tabpanel" id="panel-visual" data-panel="visual" aria-labelledby="tab-visual" hidden>
+<h2 class="display">Visual language</h2>
+<h3>Shapes</h3>
+<p>Cards and panels have a 16px radius. Buttons and chips are full pills. Inputs are 12px. Nothing else. Focus outlines use a 6px radius. Avatars are circles with a 2px ring at 20% of the current color.</p>
+<h3>Buttons</h3>
+<p>Four pills: primary (accent fill, on-accent text, turns ink on hover), dark (ink fill, turns accent on hover), outline (1px ink border, fills ink on hover) and text (no fill, underlined). One filled button per area.</p>
+<h3>Lens panels</h3>
+<p>A 16px card with an inset printed-card border: a 6px inner band in the panel color, then a 2px ring in the ring color. Display title, host avatar chip, a linocut print rotated -6 degrees (straightens on hover), and episodes divided by hairlines in the current text color at 15% opacity.</p>
+<h3>Grain</h3>
+<p>A film grain over the page: SVG fractal noise, baseFrequency 0.9, 2 octaves, 160px tile, 5% opacity in light and 7% in dark, non-interactive. The banners and the title and end cards use it. Share card, email header, lower thirds and slides stay flat.</p>
+<h3>Illustration</h3>
+<p>Single-color linocut prints traced to SVG, drawn with <code>fill="currentColor"</code> so they take the text color of the panel: megaphone (Brand), adding machine (Money), knight (Venture), microphone. Keep them adult. The icon set matches them: megaphone, calculator, chess-knight.</p>
+<h3>Photography</h3>
+<p>Candid home-studio frames of the hosts: three-quarter at the mic, a laughing side profile, square face crops for avatars. Host cards are 3:4 with a 16px radius and a scrim gradient rising over the lower 64%. Greg's photos are generated until real ones arrive.</p>
+<h3>Motion</h3>
+<div class="tw"><table><thead><tr><th>Item</th><th>Value</th></tr></thead><tbody>
+<tr><td>Easing</td><td><code>cubic-bezier(0.16, 1, 0.3, 1)</code> (ease-out-expo)</td></tr>
+<tr><td>Wordmark rise</td><td>0.9s, 28ms stagger per letter, once on load</td></tr>
+<tr><td>Disclosure height</td><td>0.35s with the same easing</td></tr>
+<tr><td>Buttons</td><td>200ms ease-out, 0.98 press scale</td></tr>
+<tr><td>Marquee ticker</td><td>38s linear loop</td></tr>
+<tr><td>Live indicator</td><td>pulsing accent dot</td></tr>
+<tr><td>Reduced motion</td><td>all of the above off under <code>prefers-reduced-motion: reduce</code></td></tr>
+</tbody></table></div>
+<h3>Layout habits</h3>
+<p>Content container max 1400px with 16, 24 and 32px side padding by breakpoint. Sections start 96 to 128px apart. A section opens with a hairline row, then a large uppercase display headline, then a lede. Scroll padding is 88px under a sticky nav.</p>
+<h3>Surfaces</h3>
+<p>Web, email and slides default to light paper. Social profile art, banners and video cards sit on the logo black (#0e0e0e) with off-white and orange. The share card uses palette colors only.</p>
+</section>
+
+<section role="tabpanel" id="panel-voice" data-panel="voice" aria-labelledby="tab-voice" hidden>
+<h2 class="display">Voice and messaging</h2>
+<p>Direct and specific, spoken by people who have done the job. It asks a pointed question, gives a concrete test and skips the pitch. Confident and a little dry in headlines, plain and helpful in forms and FAQ, never hype.</p>
+<h3>Real lines</h3>
+<div class="grid wide">
+<div class="card"><h4>Short, concrete, second person</h4><p>"Name the person who reviews the agent's work before a customer sees it. If you can't name them, you're hiring a liability."</p></div>
+<div class="card"><h4>Money talk is plain arithmetic</h4><p>"Price the agent with the hours someone spends checking its work. Compare that number to the salary, then decide."</p></div>
+<div class="card"><h4>Takes a side</h4><p>"Rebrand around the problem you own, so you still stand out when your competitors say AI too."</p></div>
+<div class="card"><h4>Clips state the payoff</h4><p>"One argument per clip, short enough for the gap between meetings."</p></div>
+<div class="card"><h4>Calls to action are verbs and promises</h4><p>"Ask, and we'll argue it live."</p></div>
+<div class="card"><h4>Host takes are first person</h4><p>"I run my fund's operations on agents I designed. Start with a workflow you can write down step by step."</p></div>
+</div>
+<h3>Calls to action in use</h3>
+<p>Get premiere alerts. Know when we go live. Set YouTube reminder. Subscribe on YouTube. Watch Shorts. Follow on Instagram. Follow on TikTok. Follow on LinkedIn. Send my question. Pitch a founder worth arguing with. Meet the hosts. Join Season 1. Pull up a chair.</p>
+<h3>Section headlines in use</h3>
+<p>Pick the lens you need. Watch live or catch the clips. Meet the hosts. Ask, and we'll argue it live. Know when Episode 2 goes live. Display headlines are short and uppercase.</p>
+<h3>Words we use</h3>
+<p>operators, seats, lens, argue, call (as in "make the call"), live, clip, pilot, P&amp;L, margin, moat, review gate, human in the loop, decision, "argued three ways".</p>
+<h3>Rules</h3>
+<ul>
+<li><b>No dashes.</b> Never write an em dash, an en dash or a horizontal bar (U+2014, U+2013, U+2015). Use a comma, period, colon, parentheses or a rewrite. Numeric ranges take a hyphen (0-4).</li>
+<li><b>No banned terms.</b> The hard-ban list is in <code>~/.claude/standards/anti-ai-banned.txt</code> and in <code>brand.json</code> under <code>voice.bannedTerms</code>. It covers stock transitions, copula dodges, buzzwords, brochure tone and filler openers and closers. Name the person, the number or the decision instead of a vague claim about AI "transforming" things.</li>
+<li>No antithesis frames, no semicolons in copy, no hedging, no recap closers.</li>
+<li>No eyebrow labels above headings. A label stays only when it carries data: a status, a category, a unit.</li>
+<li>Vary sentence length. Contractions are normal ("you're", "we'll").</li>
+<li>The lens-test takes are drafts each host must approve. Quote them with care. Episode titles are working titles.</li>
+</ul>
+</section>
+
+<section role="tabpanel" id="panel-assets" data-panel="assets" aria-labelledby="tab-assets" hidden>
+<h2 class="display">Assets</h2>
+<p>Every asset is an SVG with outlined text plus a PNG at the exact pixel size, in <code>brand/assets/</code>. Rebuild with <code>brand/scripts/build-all.sh</code>. Do not edit the SVGs by hand.</p>
+<div class="tw"><table><thead><tr><th>File</th><th>Pixels</th><th>Use</th></tr></thead><tbody>{{ASSET_ROWS}}</tbody></table></div>
+<h3>Logo files</h3>
+<div class="tw"><table><thead><tr><th>File</th><th>Use</th></tr></thead><tbody>{{LOGO_ROWS}}</tbody></table></div>
+<p>PNG exports of the logo are in <code>brand/logo/png/</code>. Tokens are in <code>brand/tokens/tokens.json</code> and <code>tokens.css</code>.</p>
+</section>
+
+<section role="tabpanel" id="panel-agents" data-panel="agents" aria-labelledby="tab-agents" hidden>
+<h2 class="display">Agents</h2>
+<p>Follow every line when you make Executive Upskill material. The full spec is in the JSON block below and in <code>brand/brand.json</code>.</p>
+<ul class="checks">{{AGENT_RULES}}</ul>
+<h3>Machine-readable spec</h3>
+<p>The block <code>script#brand-data</code> holds tokens, fonts, logo files, icon map, asset paths, voice rules and open questions.</p>
+<pre id="json-view">The spec appears here when scripts run. The raw block is in the page source.</pre>
+</section>
+</main>
+<script type="application/json" id="brand-data">{{BRAND_JSON}}</script>
+<script>
+(function(){
+var tabs=[].slice.call(document.querySelectorAll('[role="tab"]'));
+var panels=[].slice.call(document.querySelectorAll('[role="tabpanel"]'));
+var ids=tabs.map(function(t){return t.getAttribute('data-tab')});
+function show(){
+  var id=(location.hash||'').replace('#','');
+  if(ids.indexOf(id)<0)id='overview';
+  tabs.forEach(function(t){var on=t.getAttribute('data-tab')===id;t.setAttribute('aria-selected',on?'true':'false');t.tabIndex=on?0:-1});
+  panels.forEach(function(p){p.hidden=p.getAttribute('data-panel')!==id});
+}
+tabs.forEach(function(t,i){
+  t.addEventListener('click',function(){location.hash=t.getAttribute('data-tab')});
+  t.addEventListener('keydown',function(e){
+    var n=-1;
+    if(e.key==='ArrowRight')n=(i+1)%tabs.length;
+    else if(e.key==='ArrowLeft')n=(i-1+tabs.length)%tabs.length;
+    else if(e.key==='Home')n=0;else if(e.key==='End')n=tabs.length-1;
+    if(n>=0){e.preventDefault();tabs[n].focus();location.hash=tabs[n].getAttribute('data-tab')}
+  });
+});
+window.addEventListener('hashchange',show);show();
+document.addEventListener('click',function(e){
+  var b=e.target.closest&&e.target.closest('[data-copy]');if(!b)return;
+  var hex=b.getAttribute('data-copy');var label=b.textContent;
+  function done(t){b.textContent=t;setTimeout(function(){b.textContent=label},1400)}
+  function fallback(){
+    var el=b.parentNode.querySelector('code');
+    try{var r=document.createRange();r.selectNodeContents(el);var s=window.getSelection();s.removeAllRanges();s.addRange(r);
+    var ok=document.execCommand&&document.execCommand('copy');done(ok?'Copied':'Selected')}catch(x){done('Selected')}
+  }
+  try{
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(hex).then(function(){done('Copied')},fallback)}
+    else fallback();
+  }catch(x){fallback()}
+});
+var jv=document.getElementById('json-view'),jb=document.getElementById('brand-data');
+try{if(jv&&jb)jv.textContent=JSON.stringify(JSON.parse(jb.textContent),null,2)}catch(x){}
+var tb=document.getElementById('theme');
+if(tb)tb.addEventListener('click',function(){
+  var root=document.documentElement;var cur=root.getAttribute('data-theme');
+  if(!cur){cur=(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light'}
+  root.setAttribute('data-theme',cur==='dark'?'light':'dark');
+});
+})();
+</script>
