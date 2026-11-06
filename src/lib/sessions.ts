@@ -9,6 +9,7 @@ export type Filter = "all" | EventCategory;
 
 export const filters: { id: Filter; label: string }[] = [
   { id: "all", label: "All" },
+  { id: "webinar", label: "Webinars" },
   { id: "finance", label: "Finance" },
   { id: "productivity", label: "Productivity" },
   { id: "leadership", label: "Leadership" },
@@ -17,6 +18,7 @@ export const filters: { id: Filter; label: string }[] = [
 ];
 
 export const categoryName: Record<EventCategory, string> = {
+  webinar: "Webinars",
   finance: "Finance",
   productivity: "Productivity",
   leadership: "Leadership",

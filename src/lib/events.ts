@@ -1,7 +1,7 @@
 import snapshot from "@/content/events-snapshot.json";
 import { show } from "@/content/show";
 
-export type EventCategory = "finance" | "productivity" | "leadership" | "creative" | "community";
+export type EventCategory = "webinar" | "finance" | "productivity" | "leadership" | "creative" | "community";
 export type SessionStatus = "open" | "limited" | "full";
 
 export type LiveSession = {
@@ -61,6 +61,7 @@ type JsonLdEvent = {
 };
 
 export const categoryLabels: Record<EventCategory, string> = {
+  webinar: "Webinars",
   finance: "Finance",
   productivity: "Productivity",
   leadership: "Leadership",
@@ -73,6 +74,7 @@ const REGISTRATION_BASE = "https://f3insights.com/events/";
 
 // One primary category per event, first match wins:
 //   1. format "Office Hours" (the recurring Coffee and AI Coding)  -> community
+//   1b. format "Webinar" (the MarCom AI webinar series)             -> webinar
 //   2. practice "revenue", or topic revenue-marketing without
 //      finance-accounting or deep-dives                              -> creative
 //   3. topic finance-accounting                                     -> finance
@@ -83,6 +85,7 @@ const REGISTRATION_BASE = "https://f3insights.com/events/";
 // not make a session Creative; it must stand apart from finance and deep dives.
 export function categorize(format: string, topics: string[], practice = ""): EventCategory {
   if (format === "Office Hours") return "community";
+  if (format === "Webinar") return "webinar";
   if (
     practice === "revenue" ||
     (topics.includes("revenue-marketing") && !topics.includes("finance-accounting") && !topics.includes("deep-dives"))

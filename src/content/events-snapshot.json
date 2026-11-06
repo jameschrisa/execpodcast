@@ -1,691 +1,691 @@
 [
   {
+    "slug": "coffee-and-ai-coding-2026-05-01",
+    "title": "Coffee and AI Coding",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "start": "2026-05-01T08:30:00-07:00",
+    "end": "2026-05-01T10:00:00-07:00",
+    "timezone": "PT",
+    "status": "open",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
     "agenda": [
       "1. Open floor: whoever wants to share pulls up their screen",
       "2. Group discussion on whatever AI tools or techniques people are using that week",
       "3. Time to ask questions or troubleshoot something you're stuck on"
     ],
-    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
-    "end": "2026-05-01T10:00:00-07:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
-    "slug": "coffee-and-ai-coding-2026-05-01",
-    "start": "2026-05-01T08:30:00-07:00",
-    "status": "open",
-    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
     "takeaways": [
       "1. A real technique or tool you can try the same day, straight from someone else's screen",
       "2. An answer to whatever you walked in stuck on, if you brought it",
       "3. A running group of people actually using this stuff, not just talking about it"
     ],
-    "timezone": "PT",
-    "title": "Coffee and AI Coding",
     "topics": [
       "personal-productivity"
-    ]
+    ],
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)"
   },
   {
+    "slug": "fundamentals-of-ai-for-finance",
+    "title": "Fundamentals of AI for Finance",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "start": "2026-05-15T16:00:00-07:00",
+    "end": "2026-05-15T16:45:00-07:00",
+    "timezone": "PT",
+    "status": "open",
+    "summary": "An introduction to AI for finance professionals.",
+    "description": "Understanding AI fundamentals and how they apply to finance and accounting workflows.",
     "agenda": [
       "1. Overview of AI capabilities and limitations",
       "2. AI use cases in finance",
       "3. Getting started with AI tools"
     ],
-    "description": "Understanding AI fundamentals and how they apply to finance and accounting workflows.",
-    "end": "2026-05-15T16:45:00-07:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
-    "prerequisites": "Basic accounting knowledge",
-    "slug": "fundamentals-of-ai-for-finance",
-    "start": "2026-05-15T16:00:00-07:00",
-    "status": "open",
-    "summary": "An introduction to AI for finance professionals.",
     "takeaways": [
       "Understand what AI can and cannot do",
       "Know where AI adds value in finance",
       "Have a clear next step"
     ],
-    "timezone": "PT",
-    "title": "Fundamentals of AI for Finance",
     "topics": [
       "intro-basics",
       "finance-accounting"
-    ]
+    ],
+    "prerequisites": "Basic accounting knowledge"
   },
   {
+    "slug": "prompt-engineering-basics",
+    "title": "Prompt Engineering Basics",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "start": "2026-05-29T14:00:00-07:00",
+    "end": "2026-05-29T14:45:00-07:00",
+    "timezone": "PT",
+    "status": "open",
+    "summary": "Learn how to get better results from AI by asking better questions.",
+    "description": "The difference between good and bad prompts, and practical techniques to improve your AI outputs.",
     "agenda": [
       "1. What makes a good prompt",
       "2. Common prompt mistakes",
       "3. Techniques for better results"
     ],
-    "description": "The difference between good and bad prompts, and practical techniques to improve your AI outputs.",
-    "end": "2026-05-29T14:45:00-07:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
-    "prerequisites": "Experience using at least one AI tool",
-    "slug": "prompt-engineering-basics",
-    "start": "2026-05-29T14:00:00-07:00",
-    "status": "open",
-    "summary": "Learn how to get better results from AI by asking better questions.",
     "takeaways": [
       "Get better AI outputs immediately",
       "Understand the principles behind good prompting",
       "Have a framework for iterating"
     ],
-    "timezone": "PT",
-    "title": "Prompt Engineering Basics",
     "topics": [
       "intro-basics"
-    ]
+    ],
+    "prerequisites": "Experience using at least one AI tool"
   },
   {
+    "slug": "ai-for-sales-enablement",
+    "title": "AI for Sales Enablement",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "start": "2026-06-12T15:00:00-07:00",
+    "end": "2026-06-12T15:45:00-07:00",
+    "timezone": "PT",
+    "status": "open",
+    "summary": "Using AI to accelerate your sales process.",
+    "description": "AI tools for prospecting, proposal generation, and deal acceleration.",
     "agenda": [
       "1. AI tools for prospecting",
       "2. Automating proposal generation",
       "3. Shortening sales cycles"
     ],
-    "description": "AI tools for prospecting, proposal generation, and deal acceleration.",
-    "end": "2026-06-12T15:45:00-07:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
-    "prerequisites": "Working in sales or revenue operations",
-    "slug": "ai-for-sales-enablement",
-    "start": "2026-06-12T15:00:00-07:00",
-    "status": "open",
-    "summary": "Using AI to accelerate your sales process.",
     "takeaways": [
       "A toolkit for your sales process",
       "Concrete ideas for your next deal",
       "How to measure impact"
     ],
-    "timezone": "PT",
-    "title": "AI for Sales Enablement",
     "topics": [
       "personal-productivity"
-    ]
+    ],
+    "prerequisites": "Working in sales or revenue operations"
   },
   {
+    "slug": "building-a-company-ai-policy",
+    "title": "Building a Company AI Policy",
+    "format": "Seminar",
+    "practice": "corp-ai",
+    "start": "2026-06-26T13:00:00-07:00",
+    "end": "2026-06-26T13:45:00-07:00",
+    "timezone": "PT",
+    "status": "open",
+    "summary": "Governance and policy frameworks for responsible AI use.",
+    "description": "Creating policies that enable AI innovation while managing risk and compliance.",
     "agenda": [
       "1. Core policy elements",
       "2. Balancing innovation and control",
       "3. Rolling out company-wide"
     ],
-    "description": "Creating policies that enable AI innovation while managing risk and compliance.",
-    "end": "2026-06-26T13:45:00-07:00",
-    "format": "Seminar",
-    "practice": "corp-ai",
-    "prerequisites": "Leadership responsibility for AI governance",
-    "slug": "building-a-company-ai-policy",
-    "start": "2026-06-26T13:00:00-07:00",
-    "status": "open",
-    "summary": "Governance and policy frameworks for responsible AI use.",
     "takeaways": [
       "A draft policy template",
       "Clear governance structure",
       "Implementation roadmap"
     ],
-    "timezone": "PT",
-    "title": "Building a Company AI Policy",
     "topics": [
       "deep-dives"
-    ]
+    ],
+    "prerequisites": "Leadership responsibility for AI governance"
   },
   {
+    "slug": "coffee-and-ai-coding-2026-07-10",
+    "title": "Coffee and AI Coding",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "start": "2026-07-10T08:30:00-07:00",
+    "end": "2026-07-10T10:00:00-07:00",
+    "timezone": "PT",
+    "status": "open",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
     "agenda": [
       "1. Open floor: whoever wants to share pulls up their screen",
       "2. Group discussion on whatever AI tools or techniques people are using that week",
       "3. Time to ask questions or troubleshoot something you're stuck on"
     ],
-    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
-    "end": "2026-07-10T10:00:00-07:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
-    "slug": "coffee-and-ai-coding-2026-07-10",
-    "start": "2026-07-10T08:30:00-07:00",
-    "status": "open",
-    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
     "takeaways": [
       "1. A real technique or tool you can try the same day, straight from someone else's screen",
       "2. An answer to whatever you walked in stuck on, if you brought it",
       "3. A running group of people actually using this stuff, not just talking about it"
     ],
-    "timezone": "PT",
-    "title": "Coffee and AI Coding",
     "topics": [
       "personal-productivity"
-    ]
+    ],
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)"
   },
   {
+    "slug": "financial-analysis-with-ai",
+    "title": "Financial Analysis with AI",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "start": "2026-07-23T16:00:00-07:00",
+    "end": "2026-07-23T16:45:00-07:00",
+    "timezone": "PT",
+    "status": "open",
+    "summary": "Using AI to deepen financial analysis and insight.",
+    "description": "Beyond the spreadsheet: AI tools for deeper financial analysis, scenario modeling, and insight generation.",
     "agenda": [
       "1. AI tools for financial analysis",
       "2. Building scenarios faster",
       "3. Uncovering insights"
     ],
-    "description": "Beyond the spreadsheet: AI tools for deeper financial analysis, scenario modeling, and insight generation.",
-    "end": "2026-07-23T16:45:00-07:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
-    "prerequisites": "Strong Excel skills and financial analysis background",
-    "slug": "financial-analysis-with-ai",
-    "start": "2026-07-23T16:00:00-07:00",
-    "status": "open",
-    "summary": "Using AI to deepen financial analysis and insight.",
     "takeaways": [
       "A new approach to financial analysis",
       "Time savings on modeling",
       "More confident decisions"
     ],
-    "timezone": "PT",
-    "title": "Financial Analysis with AI",
     "topics": [
       "finance-accounting",
       "deep-dives"
-    ]
+    ],
+    "prerequisites": "Strong Excel skills and financial analysis background"
   },
   {
+    "slug": "ai-workflow-automation",
+    "title": "AI Workflow Automation",
+    "format": "Intensive",
+    "practice": "corp-ai",
+    "start": "2026-08-06T14:00:00-07:00",
+    "end": "2026-08-06T17:00:00-07:00",
+    "timezone": "PT",
+    "status": "open",
+    "summary": "Building automated workflows powered by AI.",
+    "description": "Hands-on workshop: connecting AI to your existing workflows and systems.",
     "agenda": [
       "1. Workflow mapping and automation opportunities",
       "2. Choosing the right tools",
       "3. Building and testing your first workflow"
     ],
-    "description": "Hands-on workshop: connecting AI to your existing workflows and systems.",
-    "end": "2026-08-06T17:00:00-07:00",
-    "format": "Intensive",
-    "practice": "corp-ai",
-    "prerequisites": "Willingness to experiment and problem-solve",
-    "slug": "ai-workflow-automation",
-    "start": "2026-08-06T14:00:00-07:00",
-    "status": "open",
-    "summary": "Building automated workflows powered by AI.",
     "takeaways": [
       "Your first working AI automation",
       "Framework for future automations",
       "ROI measurement approach"
     ],
-    "timezone": "PT",
-    "title": "AI Workflow Automation",
     "topics": [
       "deep-dives"
-    ]
+    ],
+    "prerequisites": "Willingness to experiment and problem-solve"
   },
   {
+    "slug": "building-the-ai-ready-organization",
+    "title": "Building the AI-Ready Organization",
+    "format": "Briefing",
+    "practice": "corp-ai",
+    "start": "2026-08-20T10:00:00-07:00",
+    "end": "2026-08-20T10:45:00-07:00",
+    "timezone": "PT",
+    "status": "open",
+    "summary": "Strategic overview: making your organization ready for AI.",
+    "description": "The organizational changes, skills, and culture needed to successfully adopt AI across your company.",
     "agenda": [
       "1. Skills and training requirements",
       "2. Organizational structure changes",
       "3. Culture and adoption strategy"
     ],
-    "description": "The organizational changes, skills, and culture needed to successfully adopt AI across your company.",
-    "end": "2026-08-20T10:45:00-07:00",
-    "format": "Briefing",
-    "practice": "corp-ai",
-    "prerequisites": "Leadership perspective on AI transformation",
-    "slug": "building-the-ai-ready-organization",
-    "start": "2026-08-20T10:00:00-07:00",
-    "status": "open",
-    "summary": "Strategic overview: making your organization ready for AI.",
     "takeaways": [
       "A roadmap for AI readiness",
       "Skills gaps to address",
       "Timeline and milestones"
     ],
-    "timezone": "PT",
-    "title": "Building the AI-Ready Organization",
     "topics": [
       "deep-dives"
-    ]
+    ],
+    "prerequisites": "Leadership perspective on AI transformation"
   },
   {
-    "agenda": [
-      "1. Open floor: whoever wants to share pulls up their screen",
-      "2. Group discussion on whatever AI tools or techniques people are using that week",
-      "3. Time to ask questions or troubleshoot something you're stuck on"
-    ],
-    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
-    "end": "2026-09-19T10:00:00-07:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
     "slug": "coffee-and-ai-coding-2026-09-19",
+    "title": "Coffee and AI Coding",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2026-09-19T08:30:00-07:00",
+    "end": "2026-09-19T10:00:00-07:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-    "takeaways": [
-      "1. A real technique or tool you can try the same day, straight from someone else's screen",
-      "2. An answer to whatever you walked in stuck on, if you brought it",
-      "3. A running group of people actually using this stuff, not just talking about it"
-    ],
-    "timezone": "PT",
-    "title": "Coffee and AI Coding",
-    "topics": [
-      "personal-productivity"
-    ]
-  },
-  {
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
     "agenda": [
       "1. Open floor: whoever wants to share pulls up their screen",
       "2. Group discussion on whatever AI tools or techniques people are using that week",
       "3. Time to ask questions or troubleshoot something you're stuck on"
     ],
-    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
-    "end": "2026-09-26T10:00:00-07:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "topics": [
+      "personal-productivity"
+    ],
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)"
+  },
+  {
     "slug": "coffee-and-ai-coding-2026-09-26",
+    "title": "Coffee and AI Coding",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2026-09-26T08:30:00-07:00",
+    "end": "2026-09-26T10:00:00-07:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-    "takeaways": [
-      "1. A real technique or tool you can try the same day, straight from someone else's screen",
-      "2. An answer to whatever you walked in stuck on, if you brought it",
-      "3. A running group of people actually using this stuff, not just talking about it"
-    ],
-    "timezone": "PT",
-    "title": "Coffee and AI Coding",
-    "topics": [
-      "personal-productivity"
-    ]
-  },
-  {
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
     "agenda": [
       "1. Open floor: whoever wants to share pulls up their screen",
       "2. Group discussion on whatever AI tools or techniques people are using that week",
       "3. Time to ask questions or troubleshoot something you're stuck on"
     ],
-    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
-    "end": "2026-10-03T10:00:00-07:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
-    "slug": "coffee-and-ai-coding-2026-10-03",
-    "start": "2026-10-03T08:30:00-07:00",
-    "status": "limited",
-    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
     "takeaways": [
       "1. A real technique or tool you can try the same day, straight from someone else's screen",
       "2. An answer to whatever you walked in stuck on, if you brought it",
       "3. A running group of people actually using this stuff, not just talking about it"
     ],
-    "timezone": "PT",
-    "title": "Coffee and AI Coding",
     "topics": [
       "personal-productivity"
-    ]
+    ],
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)"
   },
   {
+    "slug": "coffee-and-ai-coding-2026-10-03",
+    "title": "Coffee and AI Coding",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "start": "2026-10-03T08:30:00-07:00",
+    "end": "2026-10-03T10:00:00-07:00",
+    "timezone": "PT",
+    "status": "limited",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
+    "agenda": [
+      "1. Open floor: whoever wants to share pulls up their screen",
+      "2. Group discussion on whatever AI tools or techniques people are using that week",
+      "3. Time to ask questions or troubleshoot something you're stuck on"
+    ],
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "topics": [
+      "personal-productivity"
+    ],
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)"
+  },
+  {
+    "slug": "getting-set-up-with-ai-tools",
+    "title": "Getting Set Up with AI Tools",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "start": "2026-10-08T16:30:00-07:00",
+    "end": "2026-10-08T17:00:00-07:00",
+    "timezone": "PT",
+    "status": "open",
+    "summary": "Stop starting from zero every time you open a new AI tool.",
+    "description": "Picking the right tools for your setup, getting them configured once, avoiding the reinstall-and-relearn cycle.",
     "agenda": [
       "We'll walk through picking the right AI tools for your setup and getting them configured once, so you're not starting over every time."
     ],
-    "description": "Picking the right tools for your setup, getting them configured once, avoiding the reinstall-and-relearn cycle.",
-    "end": "2026-10-08T17:00:00-07:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
-    "prerequisites": "A computer with a modern browser and basic comfort with software installation",
-    "slug": "getting-set-up-with-ai-tools",
-    "start": "2026-10-08T16:30:00-07:00",
-    "status": "open",
-    "summary": "Stop starting from zero every time you open a new AI tool.",
     "takeaways": [
       "A working AI setup you won't need to rebuild next week."
     ],
-    "timezone": "PT",
-    "title": "Getting Set Up with AI Tools",
     "topics": [
       "intro-basics"
-    ]
+    ],
+    "prerequisites": "A computer with a modern browser and basic comfort with software installation"
   },
   {
-    "agenda": [
-      "1. Open floor: whoever wants to share pulls up their screen",
-      "2. Group discussion on whatever AI tools or techniques people are using that week",
-      "3. Time to ask questions or troubleshoot something you're stuck on"
-    ],
-    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
-    "end": "2026-10-10T10:00:00-07:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
     "slug": "coffee-and-ai-coding-jvoibz",
+    "title": "Coffee and AI Coding",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2026-10-10T08:30:00-07:00",
+    "end": "2026-10-10T10:00:00-07:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-    "takeaways": [
-      "1. A real technique or tool you can try the same day, straight from someone else's screen",
-      "2. An answer to whatever you walked in stuck on, if you brought it",
-      "3. A running group of people actually using this stuff, not just talking about it"
-    ],
-    "timezone": "PT",
-    "title": "Coffee and AI Coding",
-    "topics": [
-      "personal-productivity"
-    ]
-  },
-  {
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
     "agenda": [
       "1. Open floor: whoever wants to share pulls up their screen",
       "2. Group discussion on whatever AI tools or techniques people are using that week",
       "3. Time to ask questions or troubleshoot something you're stuck on"
     ],
-    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
-    "end": "2026-10-17T10:00:00-07:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "topics": [
+      "personal-productivity"
+    ],
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)"
+  },
+  {
     "slug": "coffee-and-ai-coding-jcolg3",
+    "title": "Coffee and AI Coding",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2026-10-17T08:30:00-07:00",
+    "end": "2026-10-17T10:00:00-07:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-    "takeaways": [
-      "1. A real technique or tool you can try the same day, straight from someone else's screen",
-      "2. An answer to whatever you walked in stuck on, if you brought it",
-      "3. A running group of people actually using this stuff, not just talking about it"
-    ],
-    "timezone": "PT",
-    "title": "Coffee and AI Coding",
-    "topics": [
-      "personal-productivity"
-    ]
-  },
-  {
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
     "agenda": [
       "1. Open floor: whoever wants to share pulls up their screen",
       "2. Group discussion on whatever AI tools or techniques people are using that week",
       "3. Time to ask questions or troubleshoot something you're stuck on"
     ],
-    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
-    "end": "2026-10-24T10:00:00-07:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "topics": [
+      "personal-productivity"
+    ],
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)"
+  },
+  {
     "slug": "coffee-and-ai-coding-vhvu53",
+    "title": "Coffee and AI Coding",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2026-10-24T08:30:00-07:00",
+    "end": "2026-10-24T10:00:00-07:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-    "takeaways": [
-      "1. A real technique or tool you can try the same day, straight from someone else's screen",
-      "2. An answer to whatever you walked in stuck on, if you brought it",
-      "3. A running group of people actually using this stuff, not just talking about it"
-    ],
-    "timezone": "PT",
-    "title": "Coffee and AI Coding",
-    "topics": [
-      "personal-productivity"
-    ]
-  },
-  {
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
     "agenda": [
       "1. Open floor: whoever wants to share pulls up their screen",
       "2. Group discussion on whatever AI tools or techniques people are using that week",
       "3. Time to ask questions or troubleshoot something you're stuck on"
     ],
-    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
-    "end": "2026-10-31T10:00:00-07:00",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "topics": [
+      "personal-productivity"
+    ],
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)"
+  },
+  {
+    "slug": "coffee-and-ai-coding-3c52vg",
+    "title": "Coffee and AI Coding",
     "format": "Office Hours",
     "practice": "corp-ai",
-    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
-    "slug": "coffee-and-ai-coding-3c52vg",
     "start": "2026-10-31T08:30:00-07:00",
+    "end": "2026-10-31T10:00:00-07:00",
+    "timezone": "PT",
     "status": "full",
     "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-    "takeaways": [
-      "1. A real technique or tool you can try the same day, straight from someone else's screen",
-      "2. An answer to whatever you walked in stuck on, if you brought it",
-      "3. A running group of people actually using this stuff, not just talking about it"
-    ],
-    "timezone": "PT",
-    "title": "Coffee and AI Coding",
-    "topics": [
-      "personal-productivity"
-    ]
-  },
-  {
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
     "agenda": [
       "1. Open floor: whoever wants to share pulls up their screen",
       "2. Group discussion on whatever AI tools or techniques people are using that week",
       "3. Time to ask questions or troubleshoot something you're stuck on"
     ],
-    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
-    "end": "2026-11-07T10:00:00-08:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "topics": [
+      "personal-productivity"
+    ],
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)"
+  },
+  {
     "slug": "coffee-and-ai-coding-dklvih",
+    "title": "Coffee and AI Coding",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2026-11-07T08:30:00-08:00",
+    "end": "2026-11-07T10:00:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-    "takeaways": [
-      "1. A real technique or tool you can try the same day, straight from someone else's screen",
-      "2. An answer to whatever you walked in stuck on, if you brought it",
-      "3. A running group of people actually using this stuff, not just talking about it"
-    ],
-    "timezone": "PT",
-    "title": "Coffee and AI Coding",
-    "topics": [
-      "personal-productivity"
-    ]
-  },
-  {
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
     "agenda": [
       "1. Open floor: whoever wants to share pulls up their screen",
       "2. Group discussion on whatever AI tools or techniques people are using that week",
       "3. Time to ask questions or troubleshoot something you're stuck on"
     ],
-    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
-    "end": "2026-11-14T10:00:00-08:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "topics": [
+      "personal-productivity"
+    ],
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)"
+  },
+  {
     "slug": "coffee-and-ai-coding-0q527t",
+    "title": "Coffee and AI Coding",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2026-11-14T08:30:00-08:00",
+    "end": "2026-11-14T10:00:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-    "takeaways": [
-      "1. A real technique or tool you can try the same day, straight from someone else's screen",
-      "2. An answer to whatever you walked in stuck on, if you brought it",
-      "3. A running group of people actually using this stuff, not just talking about it"
-    ],
-    "timezone": "PT",
-    "title": "Coffee and AI Coding",
-    "topics": [
-      "personal-productivity"
-    ]
-  },
-  {
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
     "agenda": [
       "1. Open floor: whoever wants to share pulls up their screen",
       "2. Group discussion on whatever AI tools or techniques people are using that week",
       "3. Time to ask questions or troubleshoot something you're stuck on"
     ],
-    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
-    "end": "2026-11-21T10:00:00-08:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "topics": [
+      "personal-productivity"
+    ],
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)"
+  },
+  {
     "slug": "coffee-and-ai-coding-kqy29a",
+    "title": "Coffee and AI Coding",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2026-11-21T08:30:00-08:00",
+    "end": "2026-11-21T10:00:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-    "takeaways": [
-      "1. A real technique or tool you can try the same day, straight from someone else's screen",
-      "2. An answer to whatever you walked in stuck on, if you brought it",
-      "3. A running group of people actually using this stuff, not just talking about it"
-    ],
-    "timezone": "PT",
-    "title": "Coffee and AI Coding",
-    "topics": [
-      "personal-productivity"
-    ]
-  },
-  {
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
     "agenda": [
       "1. Open floor: whoever wants to share pulls up their screen",
       "2. Group discussion on whatever AI tools or techniques people are using that week",
       "3. Time to ask questions or troubleshoot something you're stuck on"
     ],
-    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
-    "end": "2026-11-28T10:00:00-08:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "topics": [
+      "personal-productivity"
+    ],
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)"
+  },
+  {
     "slug": "coffee-and-ai-coding-pczndl",
+    "title": "Coffee and AI Coding",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2026-11-28T08:30:00-08:00",
+    "end": "2026-11-28T10:00:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-    "takeaways": [
-      "1. A real technique or tool you can try the same day, straight from someone else's screen",
-      "2. An answer to whatever you walked in stuck on, if you brought it",
-      "3. A running group of people actually using this stuff, not just talking about it"
-    ],
-    "timezone": "PT",
-    "title": "Coffee and AI Coding",
-    "topics": [
-      "personal-productivity"
-    ]
-  },
-  {
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
     "agenda": [
       "1. Open floor: whoever wants to share pulls up their screen",
       "2. Group discussion on whatever AI tools or techniques people are using that week",
       "3. Time to ask questions or troubleshoot something you're stuck on"
     ],
-    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
-    "end": "2026-12-05T10:00:00-08:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "topics": [
+      "personal-productivity"
+    ],
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)"
+  },
+  {
     "slug": "coffee-and-ai-coding-6uewuf",
+    "title": "Coffee and AI Coding",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2026-12-05T08:30:00-08:00",
+    "end": "2026-12-05T10:00:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-    "takeaways": [
-      "1. A real technique or tool you can try the same day, straight from someone else's screen",
-      "2. An answer to whatever you walked in stuck on, if you brought it",
-      "3. A running group of people actually using this stuff, not just talking about it"
-    ],
-    "timezone": "PT",
-    "title": "Coffee and AI Coding",
-    "topics": [
-      "personal-productivity"
-    ]
-  },
-  {
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
     "agenda": [
       "1. Open floor: whoever wants to share pulls up their screen",
       "2. Group discussion on whatever AI tools or techniques people are using that week",
       "3. Time to ask questions or troubleshoot something you're stuck on"
     ],
-    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
-    "end": "2026-12-12T10:00:00-08:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "topics": [
+      "personal-productivity"
+    ],
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)"
+  },
+  {
     "slug": "coffee-and-ai-coding-cd96fu",
+    "title": "Coffee and AI Coding",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2026-12-12T08:30:00-08:00",
+    "end": "2026-12-12T10:00:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-    "takeaways": [
-      "1. A real technique or tool you can try the same day, straight from someone else's screen",
-      "2. An answer to whatever you walked in stuck on, if you brought it",
-      "3. A running group of people actually using this stuff, not just talking about it"
-    ],
-    "timezone": "PT",
-    "title": "Coffee and AI Coding",
-    "topics": [
-      "personal-productivity"
-    ]
-  },
-  {
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
     "agenda": [
       "1. Open floor: whoever wants to share pulls up their screen",
       "2. Group discussion on whatever AI tools or techniques people are using that week",
       "3. Time to ask questions or troubleshoot something you're stuck on"
     ],
-    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
-    "end": "2026-12-19T10:00:00-08:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "topics": [
+      "personal-productivity"
+    ],
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)"
+  },
+  {
     "slug": "coffee-and-ai-coding-xannqu",
+    "title": "Coffee and AI Coding",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2026-12-19T08:30:00-08:00",
+    "end": "2026-12-19T10:00:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
-    "takeaways": [
-      "1. A real technique or tool you can try the same day, straight from someone else's screen",
-      "2. An answer to whatever you walked in stuck on, if you brought it",
-      "3. A running group of people actually using this stuff, not just talking about it"
-    ],
-    "timezone": "PT",
-    "title": "Coffee and AI Coding",
-    "topics": [
-      "personal-productivity"
-    ]
-  },
-  {
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
     "agenda": [
       "1. Open floor: whoever wants to share pulls up their screen",
       "2. Group discussion on whatever AI tools or techniques people are using that week",
       "3. Time to ask questions or troubleshoot something you're stuck on"
     ],
-    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
-    "end": "2026-12-26T10:00:00-08:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)",
-    "slug": "coffee-and-ai-coding-wdg4jt",
-    "start": "2026-12-26T08:30:00-08:00",
-    "status": "limited",
-    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
     "takeaways": [
       "1. A real technique or tool you can try the same day, straight from someone else's screen",
       "2. An answer to whatever you walked in stuck on, if you brought it",
       "3. A running group of people actually using this stuff, not just talking about it"
     ],
-    "timezone": "PT",
-    "title": "Coffee and AI Coding",
     "topics": [
       "personal-productivity"
-    ]
+    ],
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)"
   },
   {
+    "slug": "coffee-and-ai-coding-wdg4jt",
+    "title": "Coffee and AI Coding",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "start": "2026-12-26T08:30:00-08:00",
+    "end": "2026-12-26T10:00:00-08:00",
+    "timezone": "PT",
+    "status": "limited",
+    "summary": "Show and tell what you are working, discuss cutting-edge techniques, or chat with other like-minded folks while sipping coffee.",
+    "description": "No set topic, no pressure to present. Some weeks it's Claude Code, skills, hooks, or agentic workflows; other weeks it's whatever someone's stuck on. Bring what you're working on, or just come to listen. Coffee optional, curiosity required.",
+    "agenda": [
+      "1. Open floor: whoever wants to share pulls up their screen",
+      "2. Group discussion on whatever AI tools or techniques people are using that week",
+      "3. Time to ask questions or troubleshoot something you're stuck on"
+    ],
+    "takeaways": [
+      "1. A real technique or tool you can try the same day, straight from someone else's screen",
+      "2. An answer to whatever you walked in stuck on, if you brought it",
+      "3. A running group of people actually using this stuff, not just talking about it"
+    ],
+    "topics": [
+      "personal-productivity"
+    ],
+    "prerequisites": "Basic familiarity with at least one AI tool (ChatGPT, Claude, etc.)"
+  },
+  {
+    "slug": "ai-and-excel-for-forecasting-io8n4w",
+    "title": "AI for Forecasting",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "start": "2026-10-22T16:30:00-07:00",
+    "end": "2026-10-22T17:00:00-07:00",
+    "timezone": "PT",
+    "status": "open",
+    "summary": "Rebuild your forecast in minutes, not a full afternoon.",
+    "description": "Using AI inside Excel to speed up forecasting and budgeting cycles.",
     "agenda": [
       "We'll use AI inside Excel to speed up your forecasting and budgeting cycles."
     ],
-    "description": "Using AI inside Excel to speed up forecasting and budgeting cycles.",
-    "end": "2026-10-22T17:00:00-07:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
-    "prerequisites": "Excel experience, familiarity with your forecasting process",
-    "slug": "ai-and-excel-for-forecasting-io8n4w",
-    "start": "2026-10-22T16:30:00-07:00",
-    "status": "open",
-    "summary": "Rebuild your forecast in minutes, not a full afternoon.",
     "takeaways": [
       "A forecast rebuilt in minutes instead of an afternoon."
     ],
-    "timezone": "PT",
-    "title": "AI for Forecasting",
     "topics": [
       "finance-accounting"
-    ]
+    ],
+    "prerequisites": "Excel experience, familiarity with your forecasting process"
   },
   {
+    "slug": "red-teaming-decisions-with-ai-agents-imsufn",
+    "title": "Red-Teaming Decisions with AI Agents",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "start": "2026-11-05T16:30:00-08:00",
+    "end": "2026-11-05T17:00:00-08:00",
+    "timezone": "PT",
+    "status": "full",
+    "summary": "Before you commit, let a panel of AI advisors try to talk you out of it.",
+    "description": "Watch AI agents challenge a real business decision from every angle, then see how the panel is built.",
     "agenda": [
       "A live decision gets challenged"
     ],
-    "description": "Watch AI agents challenge a real business decision from every angle, then see how the panel is built.",
-    "end": "2026-11-05T17:00:00-08:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
-    "slug": "red-teaming-decisions-with-ai-agents-imsufn",
-    "start": "2026-11-05T16:30:00-08:00",
-    "status": "full",
-    "summary": "Before you commit, let a panel of AI advisors try to talk you out of it.",
     "takeaways": [
       "A repeatable way to pressure-test big decisions before you make them."
     ],
-    "timezone": "PT",
-    "title": "Red-Teaming Decisions with AI Agents",
     "topics": [
       "revenue-marketing",
       "personal-productivity",
@@ -693,44 +693,44 @@
     ]
   },
   {
+    "slug": "automated-meeting-notes-rdc7u0",
+    "title": "Automated Meeting Notes (Voice and Transcripts)",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "start": "2026-11-19T16:30:00-08:00",
+    "end": "2026-11-19T17:00:00-08:00",
+    "timezone": "PT",
+    "status": "limited",
+    "summary": "See a meeting turn into clean notes, decisions and follow-ups with no typing.",
+    "description": "A live demo takes a recorded meeting through to finished notes and a task list, and shows how to make them trustworthy.",
     "agenda": [
       "A live demo from recording to finished notes, then what makes the notes trustworthy and how to roll it out to your team."
     ],
-    "description": "A live demo takes a recorded meeting through to finished notes and a task list, and shows how to make them trustworthy.",
-    "end": "2026-11-19T17:00:00-08:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
-    "slug": "automated-meeting-notes-rdc7u0",
-    "start": "2026-11-19T16:30:00-08:00",
-    "status": "limited",
-    "summary": "See a meeting turn into clean notes, decisions and follow-ups with no typing.",
     "takeaways": [
       "A simple setup that ends manual note-taking and lost action ite"
     ],
-    "timezone": "PT",
-    "title": "Automated Meeting Notes (Voice and Transcripts)",
     "topics": [
       "intro-basics",
       "personal-productivity"
     ]
   },
   {
+    "slug": "task-and-project-visibility-6tqfmg",
+    "title": "Task and Project Visibility",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "start": "2026-12-03T16:30:00-08:00",
+    "end": "2026-12-03T17:00:00-08:00",
+    "timezone": "PT",
+    "status": "limited",
+    "summary": "Know where everything stands without chasing anyone.",
+    "description": "See one live view of tasks and projects that AI keeps current from your email and meetings.",
     "agenda": [
       "A live dashboard built from real-style activity, how it stays accurate, and what to track first."
     ],
-    "description": "See one live view of tasks and projects that AI keeps current from your email and meetings.",
-    "end": "2026-12-03T17:00:00-08:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
-    "slug": "task-and-project-visibility-6tqfmg",
-    "start": "2026-12-03T16:30:00-08:00",
-    "status": "limited",
-    "summary": "Know where everything stands without chasing anyone.",
     "takeaways": [
       "A plan for a status view that updates itself."
     ],
-    "timezone": "PT",
-    "title": "Task and Project Visibility",
     "topics": [
       "intro-basics",
       "finance-accounting",
@@ -740,22 +740,22 @@
     ]
   },
   {
+    "slug": "ai-for-email-drafting-aelqaa",
+    "title": "AI for Email Drafting",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "start": "2026-12-16T09:00:00-08:00",
+    "end": "2026-12-16T09:30:00-08:00",
+    "timezone": "PT",
+    "status": "limited",
+    "summary": "Clear your inbox in your own voice, with you in control of what goes out.",
+    "description": "Watch AI draft replies that sound like you, and see how every draft is reviewed by you before anything is sent.",
     "agenda": [
       "Live drafting on real-style emails, how the AI learns your tone, and how drafts get reviewed before sending."
     ],
-    "description": "Watch AI draft replies that sound like you, and see how every draft is reviewed by you before anything is sent.",
-    "end": "2026-12-16T09:30:00-08:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
-    "slug": "ai-for-email-drafting-aelqaa",
-    "start": "2026-12-16T09:00:00-08:00",
-    "status": "limited",
-    "summary": "Clear your inbox in your own voice, with you in control of what goes out.",
     "takeaways": [
       "A drafting routine that saves time without risking a bad send."
     ],
-    "timezone": "PT",
-    "title": "AI for Email Drafting",
     "topics": [
       "intro-basics",
       "finance-accounting",
@@ -764,44 +764,44 @@
     ]
   },
   {
+    "slug": "orchestrating-agents-for-daily-work-pvcjar",
+    "title": "Orchestrating Agents for Daily Work",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "start": "2027-01-07T16:30:00-08:00",
+    "end": "2027-01-07T17:00:00-08:00",
+    "timezone": "PT",
+    "status": "limited",
+    "summary": "See a team of AI agents run a piece of your day while you do something else.",
+    "description": "An agent team handles a real workflow live, then we show how it is put together.",
     "agenda": [
       "The orchestrator runs live, we explain how it works in plain language, and then pick the first workflow worth automating."
     ],
-    "description": "An agent team handles a real workflow live, then we show how it is put together.",
-    "end": "2027-01-07T17:00:00-08:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
-    "slug": "orchestrating-agents-for-daily-work-pvcjar",
-    "start": "2027-01-07T16:30:00-08:00",
-    "status": "limited",
-    "summary": "See a team of AI agents run a piece of your day while you do something else.",
     "takeaways": [
       "A clear view of what agent teams can do for your business and where to start."
     ],
-    "timezone": "PT",
-    "title": "Orchestrating Agents for Daily Work",
     "topics": [
       "personal-productivity",
       "deep-dives"
     ]
   },
   {
+    "slug": "ai-and-excel-for-forecasting-ftar2m",
+    "title": "AI and Excel for Forecasting",
+    "format": "Workshop",
+    "practice": "cfo",
+    "start": "2027-01-21T16:30:00-08:00",
+    "end": "2027-01-21T17:00:00-08:00",
+    "timezone": "PT",
+    "status": "limited",
+    "summary": "Build a forecast in an afternoon and know how far to trust it.",
+    "description": "See how to use AI with Excel to build and stress-test a forecast.",
     "agenda": [
       "A forecast built live, testing the assumptions, and presenting a range instead of a single number."
     ],
-    "description": "See how to use AI with Excel to build and stress-test a forecast.",
-    "end": "2027-01-21T17:00:00-08:00",
-    "format": "Workshop",
-    "practice": "cfo",
-    "slug": "ai-and-excel-for-forecasting-ftar2m",
-    "start": "2027-01-21T16:30:00-08:00",
-    "status": "limited",
-    "summary": "Build a forecast in an afternoon and know how far to trust it.",
     "takeaways": [
       "A forecast method you can reuse and defend."
     ],
-    "timezone": "PT",
-    "title": "AI and Excel for Forecasting",
     "topics": [
       "finance-accounting",
       "personal-productivity",
@@ -809,22 +809,22 @@
     ]
   },
   {
+    "slug": "ai-for-executive-reporting-e9aomx",
+    "title": "AI for Executive Reporting",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "start": "2027-02-03T09:00:00-08:00",
+    "end": "2027-02-03T09:30:00-08:00",
+    "timezone": "PT",
+    "status": "limited",
+    "summary": "Turn raw financial data into board and leadership reports in minutes.",
+    "description": "Watch AI turn raw numbers into a clear executive summary, and learn the review steps that keep it accurate.",
     "agenda": [
       "A live data-to-report demo, how to keep the story accurate, and the review steps before it goes to the board."
     ],
-    "description": "Watch AI turn raw numbers into a clear executive summary, and learn the review steps that keep it accurate.",
-    "end": "2027-02-03T09:30:00-08:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
-    "slug": "ai-for-executive-reporting-e9aomx",
-    "start": "2027-02-03T09:00:00-08:00",
-    "status": "limited",
-    "summary": "Turn raw financial data into board and leadership reports in minutes.",
     "takeaways": [
       "A template for a monthly report that takes minutes, not days."
     ],
-    "timezone": "PT",
-    "title": "AI for Executive Reporting",
     "topics": [
       "intro-basics",
       "finance-accounting",
@@ -833,22 +833,22 @@
     ]
   },
   {
+    "slug": "organizing-data-for-ai-ch74zd",
+    "title": "Organizing Data for AI",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "start": "2027-02-18T16:30:00-08:00",
+    "end": "2027-02-18T17:00:00-08:00",
+    "timezone": "PT",
+    "status": "limited",
+    "summary": "Learn how to organize your files and records so AI can find and use them.",
+    "description": "We show a simple way to structure your folders, documents and data so AI gives you better answers without a big IT project.",
     "agenda": [
       "A messy set of files organized live, the simple rules that make it work, and how to keep it organized."
     ],
-    "description": "We show a simple way to structure your folders, documents and data so AI gives you better answers without a big IT project.",
-    "end": "2027-02-18T17:00:00-08:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
-    "slug": "organizing-data-for-ai-ch74zd",
-    "start": "2027-02-18T16:30:00-08:00",
-    "status": "limited",
-    "summary": "Learn how to organize your files and records so AI can find and use them.",
     "takeaways": [
       "A simple filing structure you can apply to your own data this week."
     ],
-    "timezone": "PT",
-    "title": "Organizing Data for AI",
     "topics": [
       "intro-basics",
       "finance-accounting",
@@ -856,6 +856,16 @@
     ]
   },
   {
+    "slug": "q1-2027-cohort-ai-for-business-executives-3m265b",
+    "title": "Q1 2027 Cohort: AI for Business Executives,",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "start": "2027-01-11T09:00:00-08:00",
+    "end": "2027-01-11T10:30:00-08:00",
+    "timezone": "PT",
+    "status": "limited",
+    "summary": "The first class of our Q1 2027 cohort, a live, hands-on program where non-coding executives learn to build AI agents for their own work.",
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate.\n\nEach week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work.\n\nEarly sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role.\n\nSeats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
     "agenda": [
       "Welcome and how the cohort works",
       "What AI agents are and what they can do for an executive",
@@ -864,181 +874,149 @@
       "Hands-on: set up your own workspace with help",
       "Wrap-up and first homework"
     ],
-    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate.\n\nEach week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work.\n\nEarly sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role.\n\nSeats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
-    "end": "2027-01-11T10:30:00-08:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
-    "prerequisites": "No coding experience needed.",
-    "slug": "q1-2027-cohort-ai-for-business-executives-3m265b",
-    "start": "2027-01-11T09:00:00-08:00",
-    "status": "limited",
-    "summary": "The first class of our Q1 2027 cohort, a live, hands-on program where non-coding executives learn to build AI agents for their own work.",
     "takeaways": [
       "A working AI setup connected to your email, calendar and files",
       "A clear picture of what you will build over the cohort",
       "Your first small task automated",
       "A plan for which work to hand to AI first"
     ],
-    "timezone": "PT",
-    "title": "Q1 2027 Cohort: AI for Business Executives,",
     "topics": [
       "intro-basics",
       "personal-productivity"
-    ]
+    ],
+    "prerequisites": "No coding experience needed."
   },
   {
-    "agenda": [
-      "1. Walk one piece of content from idea to post",
-      "2. Mark each step as craft, which stays human, or mechanics, which a light tool can take",
-      "3. Live: a content bank as the single home for ideas",
-      "4. Live: /wf-council stress-tests the hand-off plan from five angles"
-    ],
-    "description": "Before adding any tool, find out where the time actually goes. The creative work is rarely the slow part. The slow parts are the handoffs, the resizing and the hunting for the latest version. This session walks one piece of content from idea to post and marks each step as craft, which stays human, or mechanics, which a light tool can take. Live: a content bank as the single home for ideas, and /wf-council, which stress-tests the hand-off plan from five angles. Presented by James Christopher.",
-    "end": "2026-11-18T14:00:00-08:00",
+    "slug": "one-idea-every-format-production-without-the-resizing-l9m66z",
+    "title": "One Idea, Every Format: Production Without the Resizing",
     "format": "Webinar",
     "practice": "corp-ai",
-    "prerequisites": "Basic knowledge of the terminal and Claude Code. Codex also works, but Claude Code is preferred.",
-    "slug": "where-the-hours-go-mapping-your-content-pipeline-lbfqvd",
-    "start": "2026-11-18T13:00:00-08:00",
-    "status": "open",
-    "summary": "Find the steps that eat your team's week, and decide which ones a light AI tool should take.",
-    "takeaways": [
-      "A pipeline time audit worksheet",
-      "A content bank template"
-    ],
+    "start": "2026-12-10T13:00:00-08:00",
+    "end": "2026-12-10T14:00:00-08:00",
     "timezone": "PST",
-    "title": "Where the Hours Go: Mapping Your Content Pipeline",
-    "topics": [
-      "revenue-marketing"
-    ]
-  },
-  {
+    "status": "open",
+    "summary": "Turn one approved idea into every platform format, with your words and images left exactly as you made them.",
+    "description": "A single idea has to become a LinkedIn image, an Instagram post, a vertical cover and a short animation. This session shows how to do that without another round in a design tool for each one. Live: /wf-design places your exact copy and your own images into Canva layouts at each platform size and waits for your pick. /wf-motion turns the same message into a 6 to 10 second animation. Every output is checked before you see it, and you approve every result. Presented by James Christopher.",
     "agenda": [
       "1. One idea, every format: a LinkedIn image, an Instagram post, a vertical cover and a short animation",
       "2. Live: /wf-design places your exact copy and your own images into Canva layouts at each platform size",
       "3. Live: /wf-motion turns the same message into a 6 to 10 second animation",
       "4. Check every output and approve every result"
     ],
-    "description": "A single idea has to become a LinkedIn image, an Instagram post, a vertical cover and a short animation. This session shows how to do that without another round in a design tool for each one. Live: /wf-design places your exact copy and your own images into Canva layouts at each platform size and waits for your pick. /wf-motion turns the same message into a 6 to 10 second animation. Every output is checked before you see it, and you approve every result. Presented by James Christopher.",
-    "end": "2026-12-09T14:00:00-08:00",
-    "format": "Webinar",
-    "practice": "corp-ai",
-    "prerequisites": "Basic knowledge of the terminal and Claude Code. Codex also works, but Claude Code is preferred.",
-    "slug": "one-idea-every-format-production-without-the-resizing-l9m66z",
-    "start": "2026-12-09T13:00:00-08:00",
-    "status": "open",
-    "summary": "Turn one approved idea into every platform format, with your words and images left exactly as you made them.",
     "takeaways": [
       "A one-idea, every-format checklist"
     ],
-    "timezone": "PST",
-    "title": "One Idea, Every Format: Production Without the Resizing",
     "topics": [
-      "revenue-marketing"
-    ]
+      "ai-leadership",
+      "ai-enablement"
+    ],
+    "prerequisites": "Attend Set Up Your Local Agentic System on Nov 20, or have Claude Code installed and working on your computer. Codex also works, but Claude Code is preferred."
   },
   {
+    "slug": "video-without-the-editing-bay-v2g060",
+    "title": "Video Without the Editing Bay",
+    "format": "Webinar",
+    "practice": "corp-ai",
+    "start": "2027-01-06T13:00:00-08:00",
+    "end": "2027-01-06T14:00:00-08:00",
+    "timezone": "PST",
+    "status": "open",
+    "summary": "Get from one long recording to captioned shorts and a thumbnail, without days of editing.",
+    "description": "One good recording can feed a month of posts, if someone has the hours to cut it. This session shows how to get from footage you already have to vertical shorts with captions, clean audio and a thumbnail. Live: /vid pulls shorts from a long video, and /wf-design youtube builds thumbnail layouts. Speaker quotes are used only when the speaker has approved them. You choose the moments. The tools do the cutting. Presented by James Christopher.",
     "agenda": [
       "1. From one long recording to vertical shorts with captions, clean audio and a thumbnail",
       "2. Live: /vid pulls shorts from a long video",
       "3. Live: /wf-design youtube builds thumbnail layouts",
       "4. Choose the moments and check the cuts"
     ],
-    "description": "One good recording can feed a month of posts, if someone has the hours to cut it. This session shows how to get from footage you already have to vertical shorts with captions, clean audio and a thumbnail. Live: /vid pulls shorts from a long video, and /wf-design youtube builds thumbnail layouts. Speaker quotes are used only when the speaker has approved them. You choose the moments. The tools do the cutting. Presented by James Christopher.",
-    "end": "2027-01-06T14:00:00-08:00",
-    "format": "Webinar",
-    "practice": "corp-ai",
-    "prerequisites": "Basic knowledge of the terminal and Claude Code. Codex also works, but Claude Code is preferred.",
-    "slug": "video-without-the-editing-bay-v2g060",
-    "start": "2027-01-06T13:00:00-08:00",
-    "status": "open",
-    "summary": "Get from one long recording to captioned shorts and a thumbnail, without days of editing.",
     "takeaways": [
       "A one-recording, many-posts plan"
     ],
-    "timezone": "PST",
-    "title": "Video Without the Editing Bay",
     "topics": [
-      "revenue-marketing"
-    ]
+      "ai-leadership",
+      "ai-enablement"
+    ],
+    "prerequisites": "Attend Set Up Your Local Agentic System on Nov 20, or have Claude Code installed and working on your computer. Codex also works, but Claude Code is preferred."
   },
   {
+    "slug": "distribution-without-the-copy-paste-q4xahd",
+    "title": "Distribution Without the Copy-Paste",
+    "format": "Webinar",
+    "practice": "corp-ai",
+    "start": "2027-01-27T13:00:00-08:00",
+    "end": "2027-01-27T14:00:00-08:00",
+    "timezone": "PST",
+    "status": "open",
+    "summary": "Prepare every platform's caption, alt text and metadata at once, and still post each item yourself.",
+    "description": "A finished post still has to go out to four platforms, each with its own caption length, hashtags, alt text and, for YouTube, a title, description and tags. This session shows how to prepare all of it in one step. Live: /wf-pack builds a review-ready folder per platform, and /desk is where a person reviews and posts by hand. Scheduling is available, but it always asks first. The tools prepare. Your team posts. Presented by James Christopher.",
     "agenda": [
       "1. What every platform needs: caption length, hashtags, alt text and YouTube metadata",
       "2. Live: /wf-pack builds a review-ready folder per platform",
       "3. Live: review and post by hand from /desk",
       "4. Scheduling, and why it always asks first"
     ],
-    "description": "A finished post still has to go out to four platforms, each with its own caption length, hashtags, alt text and, for YouTube, a title, description and tags. This session shows how to prepare all of it in one step. Live: /wf-pack builds a review-ready folder per platform, and /desk is where a person reviews and posts by hand. Scheduling is available, but it always asks first. The tools prepare. Your team posts. Presented by James Christopher.",
-    "end": "2027-01-27T14:00:00-08:00",
-    "format": "Webinar",
-    "practice": "corp-ai",
-    "prerequisites": "Basic knowledge of the terminal and Claude Code. Codex also works, but Claude Code is preferred.",
-    "slug": "distribution-without-the-copy-paste-q4xahd",
-    "start": "2027-01-27T13:00:00-08:00",
-    "status": "open",
-    "summary": "Prepare every platform's caption, alt text and metadata at once, and still post each item yourself.",
     "takeaways": [
       "A weekly distribution routine for a small team"
     ],
-    "timezone": "PST",
-    "title": "Distribution Without the Copy-Paste",
     "topics": [
-      "revenue-marketing"
-    ]
+      "ai-leadership",
+      "ai-enablement"
+    ],
+    "prerequisites": "Attend Set Up Your Local Agentic System on Nov 20, or have Claude Code installed and working on your computer. Codex also works, but Claude Code is preferred."
   },
   {
+    "slug": "keeping-it-yours-light-quality-checks-for-a-small-team-se5i7u",
+    "title": "Keeping It Yours: Light Quality Checks for a Small Team",
+    "format": "Webinar",
+    "practice": "corp-ai",
+    "start": "2027-02-17T13:00:00-08:00",
+    "end": "2027-02-17T14:00:00-08:00",
+    "timezone": "PST",
+    "status": "open",
+    "summary": "Keep your voice and your facts intact as production speeds up, without adding an approval committee.",
+    "description": "Once production speeds up, the voice can slip and claims can go out unchecked. This session shows a few quick checks that hold every draft to your own standards. Live: /audit scores a draft for AI tells and sends it back to a person after two failed revisions. /human repairs stiff copy, /fact verifies claims with sources, and /hook compares first lines. Presented by James Christopher.",
     "agenda": [
       "1. Where voice slips and claims go unchecked as production speeds up",
       "2. Live: /audit scores a draft for AI tells",
       "3. Live: /human repairs stiff copy, /fact verifies claims with sources, and /hook compares first lines",
       "4. Start your taste charter"
     ],
-    "description": "Once production speeds up, the voice can slip and claims can go out unchecked. This session shows a few quick checks that hold every draft to your own standards. Live: /audit scores a draft for AI tells and sends it back to a person after two failed revisions. /human repairs stiff copy, /fact verifies claims with sources, and /hook compares first lines. Presented by James Christopher.",
-    "end": "2027-02-17T14:00:00-08:00",
-    "format": "Webinar",
-    "practice": "corp-ai",
-    "prerequisites": "Basic knowledge of the terminal and Claude Code. Codex also works, but Claude Code is preferred.",
-    "slug": "keeping-it-yours-light-quality-checks-for-a-small-team-se5i7u",
-    "start": "2027-02-17T13:00:00-08:00",
-    "status": "open",
-    "summary": "Keep your voice and your facts intact as production speeds up, without adding an approval committee.",
     "takeaways": [
       "A taste charter template",
       "The Zero-Clickbait, Zero-Robot Guide",
       "The four rules as a team policy"
     ],
-    "timezone": "PST",
-    "title": "Keeping It Yours: Light Quality Checks for a Small Team",
     "topics": [
-      "revenue-marketing"
-    ]
+      "ai-leadership",
+      "ai-enablement"
+    ],
+    "prerequisites": "Attend Set Up Your Local Agentic System on Nov 20, or have Claude Code installed and working on your computer. Codex also works, but Claude Code is preferred."
   },
   {
-    "agenda": [
-      "Welcome and how the cohort works",
-      "What AI agents are and what they can do for an executive",
-      "Getting set up: accounts and connecting email, calendar and files",
-      "Live demo: an assistant working on real tasks",
-      "Hands-on: set up your own workspace with help",
-      "Wrap-up and first homework"
-    ],
-    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
-    "end": "2027-01-18T10:30:00-08:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
     "slug": "q1-2027-cohort-ai-for-business-executives-vhfee8",
+    "title": "Q1 2027 Cohort: AI for Business Executives",
+    "format": "Workshop",
+    "practice": "corp-ai",
     "start": "2027-01-18T09:00:00-08:00",
+    "end": "2027-01-18T10:30:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "No coding experience needed.",
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
+    "agenda": [
+      "Welcome and how the cohort works",
+      "What AI agents are and what they can do for an executive",
+      "Getting set up: accounts and connecting email, calendar and files",
+      "Live demo: an assistant working on real tasks",
+      "Hands-on: set up your own workspace with help",
+      "Wrap-up and first homework"
+    ],
     "takeaways": [
       "A working AI setup connected to your email, calendar and files",
       "A clear picture of what you will build over the cohort",
       "Your first small task automated",
       "A plan for which work to hand to AI first"
     ],
-    "timezone": "PT",
-    "title": "Q1 2027 Cohort: AI for Business Executives",
     "topics": [
       "intro-basics",
       "finance-accounting",
@@ -1048,30 +1026,30 @@
     ]
   },
   {
-    "agenda": [
-      "Welcome and how the cohort works",
-      "What AI agents are and what they can do for an executive",
-      "Getting set up: accounts and connecting email, calendar and files",
-      "Live demo: an assistant working on real tasks",
-      "Hands-on: set up your own workspace with help",
-      "Wrap-up and first homework"
-    ],
-    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
-    "end": "2027-01-25T10:30:00-08:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
     "slug": "q1-2027-cohort-ai-for-business-executives-vjr81m",
+    "title": "Q1 2027 Cohort: AI for Business Executives",
+    "format": "Workshop",
+    "practice": "corp-ai",
     "start": "2027-01-25T09:00:00-08:00",
+    "end": "2027-01-25T10:30:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "No coding experience needed.",
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
+    "agenda": [
+      "Welcome and how the cohort works",
+      "What AI agents are and what they can do for an executive",
+      "Getting set up: accounts and connecting email, calendar and files",
+      "Live demo: an assistant working on real tasks",
+      "Hands-on: set up your own workspace with help",
+      "Wrap-up and first homework"
+    ],
     "takeaways": [
       "A working AI setup connected to your email, calendar and files",
       "A clear picture of what you will build over the cohort",
       "Your first small task automated",
       "A plan for which work to hand to AI first"
     ],
-    "timezone": "PT",
-    "title": "Q1 2027 Cohort: AI for Business Executives",
     "topics": [
       "intro-basics",
       "finance-accounting",
@@ -1081,30 +1059,30 @@
     ]
   },
   {
-    "agenda": [
-      "Welcome and how the cohort works",
-      "What AI agents are and what they can do for an executive",
-      "Getting set up: accounts and connecting email, calendar and files",
-      "Live demo: an assistant working on real tasks",
-      "Hands-on: set up your own workspace with help",
-      "Wrap-up and first homework"
-    ],
-    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
-    "end": "2027-02-01T10:30:00-08:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
     "slug": "q1-2027-cohort-ai-for-business-executives-37lnus",
+    "title": "Q1 2027 Cohort: AI for Business Executives",
+    "format": "Workshop",
+    "practice": "corp-ai",
     "start": "2027-02-01T09:00:00-08:00",
+    "end": "2027-02-01T10:30:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "No coding experience needed.",
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
+    "agenda": [
+      "Welcome and how the cohort works",
+      "What AI agents are and what they can do for an executive",
+      "Getting set up: accounts and connecting email, calendar and files",
+      "Live demo: an assistant working on real tasks",
+      "Hands-on: set up your own workspace with help",
+      "Wrap-up and first homework"
+    ],
     "takeaways": [
       "A working AI setup connected to your email, calendar and files",
       "A clear picture of what you will build over the cohort",
       "Your first small task automated",
       "A plan for which work to hand to AI first"
     ],
-    "timezone": "PT",
-    "title": "Q1 2027 Cohort: AI for Business Executives",
     "topics": [
       "intro-basics",
       "finance-accounting",
@@ -1114,30 +1092,30 @@
     ]
   },
   {
-    "agenda": [
-      "Welcome and how the cohort works",
-      "What AI agents are and what they can do for an executive",
-      "Getting set up: accounts and connecting email, calendar and files",
-      "Live demo: an assistant working on real tasks",
-      "Hands-on: set up your own workspace with help",
-      "Wrap-up and first homework"
-    ],
-    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
-    "end": "2027-02-08T10:30:00-08:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
     "slug": "q1-2027-cohort-ai-for-business-executives-vxc0fl",
+    "title": "Q1 2027 Cohort: AI for Business Executives",
+    "format": "Workshop",
+    "practice": "corp-ai",
     "start": "2027-02-08T09:00:00-08:00",
+    "end": "2027-02-08T10:30:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "No coding experience needed.",
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
+    "agenda": [
+      "Welcome and how the cohort works",
+      "What AI agents are and what they can do for an executive",
+      "Getting set up: accounts and connecting email, calendar and files",
+      "Live demo: an assistant working on real tasks",
+      "Hands-on: set up your own workspace with help",
+      "Wrap-up and first homework"
+    ],
     "takeaways": [
       "A working AI setup connected to your email, calendar and files",
       "A clear picture of what you will build over the cohort",
       "Your first small task automated",
       "A plan for which work to hand to AI first"
     ],
-    "timezone": "PT",
-    "title": "Q1 2027 Cohort: AI for Business Executives",
     "topics": [
       "intro-basics",
       "finance-accounting",
@@ -1147,30 +1125,30 @@
     ]
   },
   {
-    "agenda": [
-      "Welcome and how the cohort works",
-      "What AI agents are and what they can do for an executive",
-      "Getting set up: accounts and connecting email, calendar and files",
-      "Live demo: an assistant working on real tasks",
-      "Hands-on: set up your own workspace with help",
-      "Wrap-up and first homework"
-    ],
-    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
-    "end": "2027-02-15T10:30:00-08:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
     "slug": "q1-2027-cohort-ai-for-business-executives-u2xlh4",
+    "title": "Q1 2027 Cohort: AI for Business Executives",
+    "format": "Workshop",
+    "practice": "corp-ai",
     "start": "2027-02-15T09:00:00-08:00",
+    "end": "2027-02-15T10:30:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "No coding experience needed.",
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
+    "agenda": [
+      "Welcome and how the cohort works",
+      "What AI agents are and what they can do for an executive",
+      "Getting set up: accounts and connecting email, calendar and files",
+      "Live demo: an assistant working on real tasks",
+      "Hands-on: set up your own workspace with help",
+      "Wrap-up and first homework"
+    ],
     "takeaways": [
       "A working AI setup connected to your email, calendar and files",
       "A clear picture of what you will build over the cohort",
       "Your first small task automated",
       "A plan for which work to hand to AI first"
     ],
-    "timezone": "PT",
-    "title": "Q1 2027 Cohort: AI for Business Executives",
     "topics": [
       "intro-basics",
       "finance-accounting",
@@ -1180,30 +1158,30 @@
     ]
   },
   {
-    "agenda": [
-      "Welcome and how the cohort works",
-      "What AI agents are and what they can do for an executive",
-      "Getting set up: accounts and connecting email, calendar and files",
-      "Live demo: an assistant working on real tasks",
-      "Hands-on: set up your own workspace with help",
-      "Wrap-up and first homework"
-    ],
-    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
-    "end": "2027-02-22T10:30:00-08:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
     "slug": "q1-2027-cohort-ai-for-business-executives-rv7q55",
+    "title": "Q1 2027 Cohort: AI for Business Executives",
+    "format": "Workshop",
+    "practice": "corp-ai",
     "start": "2027-02-22T09:00:00-08:00",
+    "end": "2027-02-22T10:30:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "No coding experience needed.",
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
+    "agenda": [
+      "Welcome and how the cohort works",
+      "What AI agents are and what they can do for an executive",
+      "Getting set up: accounts and connecting email, calendar and files",
+      "Live demo: an assistant working on real tasks",
+      "Hands-on: set up your own workspace with help",
+      "Wrap-up and first homework"
+    ],
     "takeaways": [
       "A working AI setup connected to your email, calendar and files",
       "A clear picture of what you will build over the cohort",
       "Your first small task automated",
       "A plan for which work to hand to AI first"
     ],
-    "timezone": "PT",
-    "title": "Q1 2027 Cohort: AI for Business Executives",
     "topics": [
       "intro-basics",
       "finance-accounting",
@@ -1213,30 +1191,30 @@
     ]
   },
   {
-    "agenda": [
-      "Welcome and how the cohort works",
-      "What AI agents are and what they can do for an executive",
-      "Getting set up: accounts and connecting email, calendar and files",
-      "Live demo: an assistant working on real tasks",
-      "Hands-on: set up your own workspace with help",
-      "Wrap-up and first homework"
-    ],
-    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
-    "end": "2027-03-01T10:30:00-08:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
     "slug": "q1-2027-cohort-ai-for-business-executives-kekdgv",
+    "title": "Q1 2027 Cohort: AI for Business Executives",
+    "format": "Workshop",
+    "practice": "corp-ai",
     "start": "2027-03-01T09:00:00-08:00",
+    "end": "2027-03-01T10:30:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "No coding experience needed.",
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
+    "agenda": [
+      "Welcome and how the cohort works",
+      "What AI agents are and what they can do for an executive",
+      "Getting set up: accounts and connecting email, calendar and files",
+      "Live demo: an assistant working on real tasks",
+      "Hands-on: set up your own workspace with help",
+      "Wrap-up and first homework"
+    ],
     "takeaways": [
       "A working AI setup connected to your email, calendar and files",
       "A clear picture of what you will build over the cohort",
       "Your first small task automated",
       "A plan for which work to hand to AI first"
     ],
-    "timezone": "PT",
-    "title": "Q1 2027 Cohort: AI for Business Executives",
     "topics": [
       "intro-basics",
       "finance-accounting",
@@ -1246,39 +1224,16 @@
     ]
   },
   {
-    "agenda": [
-      "Welcome and how the cohort works",
-      "What AI agents are and what they can do for an executive",
-      "Getting set up: accounts and connecting email, calendar and files",
-      "Live demo: an assistant working on real tasks",
-      "Hands-on: set up your own workspace with help",
-      "Wrap-up and first homework"
-    ],
-    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
-    "end": "2027-03-08T10:30:00-08:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
     "slug": "q1-2027-cohort-ai-for-business-executives-b7oxri",
+    "title": "Q1 2027 Cohort: AI for Business Executives",
+    "format": "Workshop",
+    "practice": "corp-ai",
     "start": "2027-03-08T09:00:00-08:00",
+    "end": "2027-03-08T10:30:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "No coding experience needed.",
-    "takeaways": [
-      "A working AI setup connected to your email, calendar and files",
-      "A clear picture of what you will build over the cohort",
-      "Your first small task automated",
-      "A plan for which work to hand to AI first"
-    ],
-    "timezone": "PT",
-    "title": "Q1 2027 Cohort: AI for Business Executives",
-    "topics": [
-      "intro-basics",
-      "finance-accounting",
-      "revenue-marketing",
-      "personal-productivity",
-      "deep-dives"
-    ]
-  },
-  {
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
     "agenda": [
       "Welcome and how the cohort works",
       "What AI agents are and what they can do for an executive",
@@ -1287,22 +1242,45 @@
       "Hands-on: set up your own workspace with help",
       "Wrap-up and first homework"
     ],
-    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
-    "end": "2027-03-15T10:30:00-07:00",
-    "format": "Workshop",
-    "practice": "corp-ai",
-    "slug": "q1-2027-cohort-ai-for-business-executives-rj4qqg",
-    "start": "2027-03-15T09:00:00-07:00",
-    "status": "limited",
-    "summary": "No coding experience needed.",
     "takeaways": [
       "A working AI setup connected to your email, calendar and files",
       "A clear picture of what you will build over the cohort",
       "Your first small task automated",
       "A plan for which work to hand to AI first"
     ],
-    "timezone": "PT",
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ]
+  },
+  {
+    "slug": "q1-2027-cohort-ai-for-business-executives-rj4qqg",
     "title": "Q1 2027 Cohort: AI for Business Executives",
+    "format": "Workshop",
+    "practice": "corp-ai",
+    "start": "2027-03-15T09:00:00-07:00",
+    "end": "2027-03-15T10:30:00-07:00",
+    "timezone": "PT",
+    "status": "limited",
+    "summary": "No coding experience needed.",
+    "description": "Our Q1 2027 cohort, AI for Business Executives, starts the week of January 11. It is a live, guided program for leaders who do not code but want AI to take real work off their plate. Each week has one 90-minute live session: a short lesson, a live demo, then hands-on practice with help in the room. Weekly office hours give you time to bring questions and anything that did not work. Early sessions cover getting set up, building a meeting and note-taker workflow, and an accounting workflow. Later sessions move into assistants and agents built for your own role. Seats are limited to 30. Join the interest list to save your spot and get the full curriculum when it is released.",
+    "agenda": [
+      "Welcome and how the cohort works",
+      "What AI agents are and what they can do for an executive",
+      "Getting set up: accounts and connecting email, calendar and files",
+      "Live demo: an assistant working on real tasks",
+      "Hands-on: set up your own workspace with help",
+      "Wrap-up and first homework"
+    ],
+    "takeaways": [
+      "A working AI setup connected to your email, calendar and files",
+      "A clear picture of what you will build over the cohort",
+      "Your first small task automated",
+      "A plan for which work to hand to AI first"
+    ],
     "topics": [
       "intro-basics",
       "finance-accounting",
@@ -1312,313 +1290,371 @@
     ]
   },
   {
-    "agenda": [
-      "Quick round: what everyone is working on this week",
-      "Questions sent in ahead of time",
-      "Live help on your own files and agents",
-      "Open floor for anything else"
-    ],
-    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
-    "end": "2027-01-15T14:30:00-08:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
     "slug": "q1-cohort-office-hours-im9f3p",
+    "title": "Q1 Cohort: Office Hours",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2027-01-15T13:00:00-08:00",
+    "end": "2027-01-15T14:30:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
-    "takeaways": [
-      "Answers to what got you stuck this week",
-      "Your build step finished, or a clear next step",
-      "Ideas from how others in the cohort are using their agents"
-    ],
-    "timezone": "PT",
-    "title": "Q1 Cohort: Office Hours",
-    "topics": [
-      "intro-basics",
-      "finance-accounting",
-      "revenue-marketing",
-      "personal-productivity",
-      "deep-dives"
-    ]
-  },
-  {
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
     "agenda": [
       "Quick round: what everyone is working on this week",
       "Questions sent in ahead of time",
       "Live help on your own files and agents",
       "Open floor for anything else"
     ],
-    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
-    "end": "2027-01-22T14:30:00-08:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
+    "takeaways": [
+      "Answers to what got you stuck this week",
+      "Your build step finished, or a clear next step",
+      "Ideas from how others in the cohort are using their agents"
+    ],
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ],
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones"
+  },
+  {
     "slug": "q1-cohort-office-hours-k4jdmc",
+    "title": "Q1 Cohort: Office Hours",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2027-01-22T13:00:00-08:00",
+    "end": "2027-01-22T14:30:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
-    "takeaways": [
-      "Answers to what got you stuck this week",
-      "Your build step finished, or a clear next step",
-      "Ideas from how others in the cohort are using their agents"
-    ],
-    "timezone": "PT",
-    "title": "Q1 Cohort: Office Hours",
-    "topics": [
-      "intro-basics",
-      "finance-accounting",
-      "revenue-marketing",
-      "personal-productivity",
-      "deep-dives"
-    ]
-  },
-  {
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
     "agenda": [
       "Quick round: what everyone is working on this week",
       "Questions sent in ahead of time",
       "Live help on your own files and agents",
       "Open floor for anything else"
     ],
-    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
-    "end": "2027-01-29T14:30:00-08:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
+    "takeaways": [
+      "Answers to what got you stuck this week",
+      "Your build step finished, or a clear next step",
+      "Ideas from how others in the cohort are using their agents"
+    ],
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ],
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones"
+  },
+  {
     "slug": "q1-cohort-office-hours-goft0s",
+    "title": "Q1 Cohort: Office Hours",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2027-01-29T13:00:00-08:00",
+    "end": "2027-01-29T14:30:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
-    "takeaways": [
-      "Answers to what got you stuck this week",
-      "Your build step finished, or a clear next step",
-      "Ideas from how others in the cohort are using their agents"
-    ],
-    "timezone": "PT",
-    "title": "Q1 Cohort: Office Hours",
-    "topics": [
-      "intro-basics",
-      "finance-accounting",
-      "revenue-marketing",
-      "personal-productivity",
-      "deep-dives"
-    ]
-  },
-  {
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
     "agenda": [
       "Quick round: what everyone is working on this week",
       "Questions sent in ahead of time",
       "Live help on your own files and agents",
       "Open floor for anything else"
     ],
-    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
-    "end": "2027-02-05T14:30:00-08:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
+    "takeaways": [
+      "Answers to what got you stuck this week",
+      "Your build step finished, or a clear next step",
+      "Ideas from how others in the cohort are using their agents"
+    ],
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ],
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones"
+  },
+  {
     "slug": "q1-cohort-office-hours-0po6y8",
+    "title": "Q1 Cohort: Office Hours",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2027-02-05T13:00:00-08:00",
+    "end": "2027-02-05T14:30:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
-    "takeaways": [
-      "Answers to what got you stuck this week",
-      "Your build step finished, or a clear next step",
-      "Ideas from how others in the cohort are using their agents"
-    ],
-    "timezone": "PT",
-    "title": "Q1 Cohort: Office Hours",
-    "topics": [
-      "intro-basics",
-      "finance-accounting",
-      "revenue-marketing",
-      "personal-productivity",
-      "deep-dives"
-    ]
-  },
-  {
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
     "agenda": [
       "Quick round: what everyone is working on this week",
       "Questions sent in ahead of time",
       "Live help on your own files and agents",
       "Open floor for anything else"
     ],
-    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
-    "end": "2027-02-12T14:30:00-08:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
+    "takeaways": [
+      "Answers to what got you stuck this week",
+      "Your build step finished, or a clear next step",
+      "Ideas from how others in the cohort are using their agents"
+    ],
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ],
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones"
+  },
+  {
     "slug": "q1-cohort-office-hours-3mkc19",
+    "title": "Q1 Cohort: Office Hours",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2027-02-12T13:00:00-08:00",
+    "end": "2027-02-12T14:30:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
-    "takeaways": [
-      "Answers to what got you stuck this week",
-      "Your build step finished, or a clear next step",
-      "Ideas from how others in the cohort are using their agents"
-    ],
-    "timezone": "PT",
-    "title": "Q1 Cohort: Office Hours",
-    "topics": [
-      "intro-basics",
-      "finance-accounting",
-      "revenue-marketing",
-      "personal-productivity",
-      "deep-dives"
-    ]
-  },
-  {
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
     "agenda": [
       "Quick round: what everyone is working on this week",
       "Questions sent in ahead of time",
       "Live help on your own files and agents",
       "Open floor for anything else"
     ],
-    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
-    "end": "2027-02-19T14:30:00-08:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
+    "takeaways": [
+      "Answers to what got you stuck this week",
+      "Your build step finished, or a clear next step",
+      "Ideas from how others in the cohort are using their agents"
+    ],
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ],
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones"
+  },
+  {
     "slug": "q1-cohort-office-hours-65ah44",
+    "title": "Q1 Cohort: Office Hours",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2027-02-19T13:00:00-08:00",
+    "end": "2027-02-19T14:30:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
-    "takeaways": [
-      "Answers to what got you stuck this week",
-      "Your build step finished, or a clear next step",
-      "Ideas from how others in the cohort are using their agents"
-    ],
-    "timezone": "PT",
-    "title": "Q1 Cohort: Office Hours",
-    "topics": [
-      "intro-basics",
-      "finance-accounting",
-      "revenue-marketing",
-      "personal-productivity",
-      "deep-dives"
-    ]
-  },
-  {
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
     "agenda": [
       "Quick round: what everyone is working on this week",
       "Questions sent in ahead of time",
       "Live help on your own files and agents",
       "Open floor for anything else"
     ],
-    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
-    "end": "2027-02-26T14:30:00-08:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
+    "takeaways": [
+      "Answers to what got you stuck this week",
+      "Your build step finished, or a clear next step",
+      "Ideas from how others in the cohort are using their agents"
+    ],
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ],
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones"
+  },
+  {
     "slug": "q1-cohort-office-hours-28cqqh",
+    "title": "Q1 Cohort: Office Hours",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2027-02-26T13:00:00-08:00",
+    "end": "2027-02-26T14:30:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
-    "takeaways": [
-      "Answers to what got you stuck this week",
-      "Your build step finished, or a clear next step",
-      "Ideas from how others in the cohort are using their agents"
-    ],
-    "timezone": "PT",
-    "title": "Q1 Cohort: Office Hours",
-    "topics": [
-      "intro-basics",
-      "finance-accounting",
-      "revenue-marketing",
-      "personal-productivity",
-      "deep-dives"
-    ]
-  },
-  {
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
     "agenda": [
       "Quick round: what everyone is working on this week",
       "Questions sent in ahead of time",
       "Live help on your own files and agents",
       "Open floor for anything else"
     ],
-    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
-    "end": "2027-03-05T14:30:00-08:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
+    "takeaways": [
+      "Answers to what got you stuck this week",
+      "Your build step finished, or a clear next step",
+      "Ideas from how others in the cohort are using their agents"
+    ],
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ],
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones"
+  },
+  {
     "slug": "q1-cohort-office-hours-0c1fzp",
+    "title": "Q1 Cohort: Office Hours",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2027-03-05T13:00:00-08:00",
+    "end": "2027-03-05T14:30:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
-    "takeaways": [
-      "Answers to what got you stuck this week",
-      "Your build step finished, or a clear next step",
-      "Ideas from how others in the cohort are using their agents"
-    ],
-    "timezone": "PT",
-    "title": "Q1 Cohort: Office Hours",
-    "topics": [
-      "intro-basics",
-      "finance-accounting",
-      "revenue-marketing",
-      "personal-productivity",
-      "deep-dives"
-    ]
-  },
-  {
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
     "agenda": [
       "Quick round: what everyone is working on this week",
       "Questions sent in ahead of time",
       "Live help on your own files and agents",
       "Open floor for anything else"
     ],
-    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
-    "end": "2027-03-12T14:30:00-08:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
+    "takeaways": [
+      "Answers to what got you stuck this week",
+      "Your build step finished, or a clear next step",
+      "Ideas from how others in the cohort are using their agents"
+    ],
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ],
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones"
+  },
+  {
     "slug": "q1-cohort-office-hours-sssxeh",
+    "title": "Q1 Cohort: Office Hours",
+    "format": "Office Hours",
+    "practice": "corp-ai",
     "start": "2027-03-12T13:00:00-08:00",
+    "end": "2027-03-12T14:30:00-08:00",
+    "timezone": "PT",
     "status": "limited",
     "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
-    "takeaways": [
-      "Answers to what got you stuck this week",
-      "Your build step finished, or a clear next step",
-      "Ideas from how others in the cohort are using their agents"
-    ],
-    "timezone": "PT",
-    "title": "Q1 Cohort: Office Hours",
-    "topics": [
-      "intro-basics",
-      "finance-accounting",
-      "revenue-marketing",
-      "personal-productivity",
-      "deep-dives"
-    ]
-  },
-  {
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
     "agenda": [
       "Quick round: what everyone is working on this week",
       "Questions sent in ahead of time",
       "Live help on your own files and agents",
       "Open floor for anything else"
     ],
-    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
-    "end": "2027-03-19T14:30:00-07:00",
-    "format": "Office Hours",
-    "practice": "corp-ai",
-    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones",
-    "slug": "q1-cohort-office-hours-binr1y",
-    "start": "2027-03-19T13:00:00-07:00",
-    "status": "limited",
-    "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
     "takeaways": [
       "Answers to what got you stuck this week",
       "Your build step finished, or a clear next step",
       "Ideas from how others in the cohort are using their agents"
     ],
-    "timezone": "PT",
-    "title": "Q1 Cohort: Office Hours",
     "topics": [
       "intro-basics",
       "finance-accounting",
       "revenue-marketing",
       "personal-productivity",
       "deep-dives"
-    ]
+    ],
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones"
+  },
+  {
+    "slug": "q1-cohort-office-hours-binr1y",
+    "title": "Q1 Cohort: Office Hours",
+    "format": "Office Hours",
+    "practice": "corp-ai",
+    "start": "2027-03-19T13:00:00-07:00",
+    "end": "2027-03-19T14:30:00-07:00",
+    "timezone": "PT",
+    "status": "limited",
+    "summary": "Weekly drop-in help for Q1 cohort members: bring your questions and whatever didn't work this week.",
+    "description": "A live, open session every Friday during the Q1 cohort, led by Greg and James. Bring your questions from Monday's class, the build step you got stuck on, or a real task you want your agent to handle. We work through it together on screen, so everyone learns from each other's questions. Drop in for as long as you need. Office hours also continue for 30 days after the last class.",
+    "agenda": [
+      "Quick round: what everyone is working on this week",
+      "Questions sent in ahead of time",
+      "Live help on your own files and agents",
+      "Open floor for anything else"
+    ],
+    "takeaways": [
+      "Answers to what got you stuck this week",
+      "Your build step finished, or a clear next step",
+      "Ideas from how others in the cohort are using their agents"
+    ],
+    "topics": [
+      "intro-basics",
+      "finance-accounting",
+      "revenue-marketing",
+      "personal-productivity",
+      "deep-dives"
+    ],
+    "prerequisites": "Have Claude open and the file or task you want help with ready. If you can, send your question ahead of time so we can group similar ones"
+  },
+  {
+    "slug": "set-up-your-local-agentic-system-v1kmo4",
+    "title": "Set Up Your Local Agentic System",
+    "format": "Webinar",
+    "practice": "corp-ai",
+    "start": "2026-11-20T13:00:00-08:00",
+    "end": "2026-11-20T14:30:00-08:00",
+    "timezone": "PST",
+    "status": "open",
+    "summary": "Install Claude Code and the agent plugin on your own computer, check each step, and run your first workflow. No coding needed.",
+    "description": "Setup comes first, so this session does it with you. You install Claude Code and load the jchrisa-agents plugin. You check every step on your own computer. Then you run one complete workflow from start to finish on synthetic data. Every step is a pasted command. You see what scout, fixer and builder each do. You write a task with a done-when check, then run a writing check on a short paragraph. Live: /wf-council, which stress-tests a plan from five angles. Presented by James Christopher.",
+    "agenda": [
+      "1. Install and check",
+      "2. /wf-council first run",
+      "3. Agents and skills in plain terms",
+      "4. plan.md with a done-when check",
+      "5. Writing gate with ai-tell-auditor and humanize-text",
+      "6. Questions and take-home"
+    ],
+    "takeaways": [
+      "Claude Code, the agent plugin and the supporting files installed and checked on your machine, with a pass or fail box for every install step",
+      "Your first /wf-council run, saved in ~/Documents/council/runs/"
+    ],
+    "topics": [
+      "ai-leadership",
+      "ai-enablement"
+    ],
+    "prerequisites": "A Claude subscription or Claude Code access, and a computer where you can open a terminal. No coding experience needed."
+  },
+  {
+    "slug": "write-your-first-skill-file-nxzczb",
+    "title": "Write Your First Skill File",
+    "format": "Webinar",
+    "practice": "corp-ai",
+    "start": "2026-11-24T13:00:00-08:00",
+    "end": "2026-11-24T14:00:00-08:00",
+    "timezone": "PST",
+    "status": "open",
+    "summary": "Read what is inside an agent file and a skill file, then write one skill for a job your team repeats every week.",
+    "description": "Open the agent and skill files from the setup session and read them part by part. The description field says when the lead agent calls an agent. The model choice sets cost and speed, and the tool limits set what the agent may read or change. You make one edit to an agent file and see the result. Then pick a job your team repeats every week, write one skill for it and test it on synthetic data. You leave with one working skill saved on your computer. Presented by James Christopher.",
+    "agenda": [
+      "1. Recap of what the setup installed and where the files live",
+      "2. Anatomy of an agent file",
+      "3. Anatomy of a skill file",
+      "4. Pick the weekly job and write the skill",
+      "5. Test on synthetic data",
+      "6. Questions and take-home"
+    ],
+    "takeaways": [
+      "Each part of an agent file explained in your own words, with one edit made",
+      "One skill written for a weekly team job, tested on synthetic data and saved"
+    ],
+    "topics": [
+      "ai-leadership",
+      "ai-enablement"
+    ],
+    "prerequisites": "Attend Set Up Your Local Agentic System on Nov 20, or have Claude Code installed and working on your computer. Codex also works, but Claude Code is preferred."
   }
 ]
