@@ -25,15 +25,19 @@ Open http://localhost:3000. `npm run build && npm start` runs the production bui
 | Nav, hero line, ticker, platform blurbs, FAQ, session "Pairs with" notes | `src/content/site.ts` |
 | Link-in-bio short paths | `src/content/short-links.ts` |
 
-The live sessions calendar reads the schedule from the schema.org Event markup on https://f3insights.com/events and refreshes every six hours. If that fetch fails, it falls back to `src/content/events-snapshot.json`. Past sessions drop off on their own.
+The sessions calendar (homepage section and the full `/sessions` page, plus the subscribable feed at `/sessions/calendar.ics`) reads the schedule from https://f3insights.com/api/events and refreshes every six hours. If that fails it tries the schema.org Event markup on https://f3insights.com/events, then `src/content/events-snapshot.json`. Past sessions drop off the upcoming list on their own. To resync with F3, see "Resync with F3" in HANDOFF.md.
 
 ## Forms
 
-The premiere alerts, question and guest pitch forms post to `/api/participate`. Each submission is recorded in PostHog as `lead_captured` on the person (keyed by email) and, if `LEADS_WEBHOOK_URL` is set, forwarded as JSON to your email tool or CRM. With neither configured (local dev), submissions print to the server log.
+The premiere alerts, question, guest pitch and contact (`/contact`) forms post to `/api/participate`. Each submission is recorded in PostHog as `lead_captured` on the person (keyed by email) and, if `LEADS_WEBHOOK_URL` is set, forwarded as JSON to the webhook. In production that is a Google Apps Script on the "Executive Upskill leads" sheet (`docs/leads-webhook.gs`; setup in HANDOFF.md). With neither configured (local dev), submissions print to the server log.
 
 ## Analytics
 
 See [docs/TRACKING.md](docs/TRACKING.md) for PostHog setup, channel attribution, the short paths to put in each platform bio, the event dictionary and the dashboard to build.
+
+## Brand kit
+
+`brand/` holds the logo files, tokens, social and video assets, Lucide icons and the brand guide (`brand/README.md`, `brand/guide.html`, and HTML and PDF print versions). Agents should read `brand/brand.json`. Details in HANDOFF.md.
 
 ## Images
 
@@ -42,10 +46,13 @@ See [docs/TRACKING.md](docs/TRACKING.md) for PostHog setup, channel attribution,
 
 ## Before launch
 
-- [ ] Confirm the premiere date and time, then schedule the YouTube Live event and set `NEXT_PUBLIC_YT_LIVE_URL`.
-- [ ] Confirm the YouTube, Instagram and TikTok handles in `src/content/show.ts`.
+- [x] Confirm the premiere date and time (Nov 18, 2026, 11:00 PT).
+- [ ] Set `NEXT_PUBLIC_YT_LIVE_URL` to the premiere replay.
+- [x] Confirm the Instagram and TikTok handles.
+- [ ] Confirm the YouTube handle in `src/content/show.ts`.
 - [ ] Each host approves his bio, card question and four lens-test takes.
 - [ ] Confirm "We don't share your email" matches your email tool's practice.
-- [ ] Set `NEXT_PUBLIC_SITE_URL` to the real domain.
-- [ ] Add the PostHog key and build the dashboard in docs/TRACKING.md.
+- [x] Set `NEXT_PUBLIC_SITE_URL` to the real domain.
+- [x] Add the PostHog key and the leads webhook.
+- [ ] Build the PostHog dashboard in docs/TRACKING.md.
 - [ ] Put the short paths in each bio.

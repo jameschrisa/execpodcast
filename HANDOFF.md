@@ -1,6 +1,6 @@
 # Handoff: Executive Upskill site
 
-Updated 2026-11-05. Start here, then read `AGENTS.md`, `README.md` and `docs/TRACKING.md` before you change code.
+Updated 2026-11-19. Start here, then read `AGENTS.md`, `README.md` and `docs/TRACKING.md` before you change code.
 
 ## The project
 
@@ -10,7 +10,7 @@ Launch site for **Executive Upskill**, a live video podcast:
 - Greg Fisher, co-host, AI and finance lens
 - Bryce Gilleland, co-host, venture lens
 
-The premiere streams on YouTube Live on Wednesday, November 18, 2026 at 11:00 PT. It moved from October 28. Clips go to YouTube Shorts, Instagram, TikTok and LinkedIn.
+The premiere was scheduled for YouTube Live on Wednesday, November 18, 2026 at 11:00 PT (moved from October 28). That time has passed, so the site is now in its "after" state: the premiere call to action reads "Watch the replay" and links to `NEXT_PUBLIC_YT_LIVE_URL`, or to the YouTube channel while that is unset. Clips go to YouTube Shorts, Instagram, TikTok and LinkedIn.
 
 The site's job:
 
@@ -90,9 +90,10 @@ Sections in page order (`src/app/page.tsx`):
    - Falls back to the schema.org Event markup on f3insights.com/events, then to `src/content/events-snapshot.json` (kept in the API's shape, only the fields the site uses).
    - A session's id is its full slug, exactly as returned. It is also the calendar UID, so subscribed calendars stay stable. Registration URL is f3insights.com/events/<slug>.
    - Cancelled sessions are hidden. Full sessions stay visible with a "Full" label and a link to the session page instead of Register. Limited sessions show "Limited seats".
-   - Categories come from the API (see the comment above `categorize` in `events.ts`): Office Hours is Weekly meetup, revenue-marketing is Creative, finance-accounting is Finance, personal-productivity is Productivity, deep-dives, Seminar and Briefing are Leadership.
+   - Categories come from the API (see the comment above `categorize` in `events.ts`): first match wins. Office Hours is Weekly meetup. Webinar is Webinars. Practice `revenue`, or topic revenue-marketing without finance-accounting or deep-dives, is Creative. finance-accounting is Finance, personal-productivity is Productivity, and deep-dives, Seminar and Briefing are Leadership. Anything else is Productivity. Empty categories hide.
    - Join links and platform fields are never read or shown.
    - Offers .ics calendar files.
+   - **Caching:** pages and the feed are cached for six hours and only refresh on the first request after that. With low traffic the live copy can sit stale for days (on 2026-11-19 it was about 42 hours behind F3). A request to `/sessions` and `/sessions/calendar.ics` forces the refresh. See "Resync with F3" below.
 10. **Join.** Forms for live-show questions and guest pitches.
 11. **Faq, then SiteFooter.**
 
@@ -216,7 +217,7 @@ Every form submission (`alerts`, `question`, `pitch`, `contact`) goes to two pla
 - **Premiere moved** to Wednesday, November 18, 2026 at 11:00 PT (`NEXT_PUBLIC_PREMIERE_AT` and the default in `src/content/show.ts`). The premiere `.ics` carries `SEQUENCE:1` so calendars that saved October 28 update.
 - **Contact form** at `/contact` (`src/app/contact/page.tsx`, `src/components/contact/ContactForm.tsx`). Name, email, topic and a 2,000-character message, sent as kind `contact` through `/api/participate`.
 - **Full sessions calendar** at `/sessions`: month and list views, category filters (empty categories hide), search, a past-sessions toggle and a details dialog with register and add-to-calendar. Subscribable feed at `/sessions/calendar.ics`.
-- **Events come from the F3 API** (`f3insights.com/api/events`), keyed on the full F3 slug. Fallbacks: the JSON-LD on the events page, then `src/content/events-snapshot.json` (refreshed 2026-11-05, 60 sessions). Format Webinar shows under the Webinars filter (the Craft First series and other webinars). Creative means practice `revenue`, or topic `revenue-marketing` without finance or deep-dive topics. `docs/execupskill_shared_sessions.md` lists every planned session reconciled against F3i (2026-11-05), with open findings.
+- **Events come from the F3 API** (`f3insights.com/api/events`), keyed on the full F3 slug. Fallbacks: the JSON-LD on the events page, then `src/content/events-snapshot.json` (refreshed 2026-11-19, 60 sessions). Format Webinar shows under the Webinars filter (the Craft First series and other webinars). Creative means practice `revenue`, or topic `revenue-marketing` without finance or deep-dive topics. `docs/execupskill_shared_sessions.md` lists every planned session reconciled against F3i (last run 2026-11-19), with changes and open findings.
 - **Nav works from every page**, and the header and footer link to `/sessions` and `/contact`.
 
 - **Hero caption** (`hero.valueProp` in `src/content/site.ts`): "Three operators talk AI, business and brand from the seats they've held. Live on YouTube, clipped for your feed."
@@ -229,6 +230,30 @@ Every form submission (`alerts`, `question`, `pitch`, `contact`) goes to two pla
   - TikTok: `@execupskill` (https://www.tiktok.com/@execupskill)
   - YouTube: still the placeholder `@ExecutiveUpskill`.
 - When adding a channel URL, drop share-tracking query strings (`?_r=`, `?_t=`, `?stkn=`, `utm_source=qr`).
+
+## Resync with F3
+
+F3i (f3insights.com/events) is the system of record. Executive Upskill never edits sessions, it only reads them. To resync:
+
+1. Request `https://executiveupskill.live/sessions` and `/sessions/calendar.ics` once each, wait a few seconds, then request them again. The `age` header should drop to seconds.
+2. Compare the feed's UIDs and `DTSTART` values with the upcoming, non-cancelled events in `https://f3insights.com/api/events`. They should match one for one.
+3. Refresh `src/content/events-snapshot.json` from the API, keeping only the fields already in it (no Zoom, platform or venue fields).
+4. Update the tables and the "Changes since" section in `docs/execupskill_shared_sessions.md`, then commit and push.
+
+Not built yet: a scheduled refresh (a Vercel cron that hits both URLs) or an on-change revalidate call from f3i-web. Either would stop the stale-cache gap.
+
+## Brand kit
+
+`brand/` holds the Executive Upskill brand system. It doesn't affect the site build.
+
+- `brand/README.md`: positioning, messaging, voice, logo, color, type, visual language and recipes, plus open questions.
+- `brand/brand.json`: the whole spec as data. Point agents here.
+- `brand/guide.html`: the tabbed reference guide. `brand/executive-upskill-brand-guide.html` and `.pdf` are the standalone and print versions; rebuild them with `python3 brand/scripts/build-print.py` (needs Google Chrome).
+- `brand/logo/`: outlined SVGs and PNGs of the mark, monogram and wordmark. `brand/tokens/`: CSS and JSON tokens copied from `globals.css`.
+- `brand/assets/`: profile pictures, banners, share card, email header, lower thirds, title and end cards, slide backgrounds (SVG and PNG).
+- `brand/icons/`: Lucide icons mapped to brand concepts (`icons.json` also lists the Phosphor icon the site uses). Lucide is pinned to 0.577.0 because later versions dropped brand icons. TikTok uses `music-2` as a stand-in.
+- Shared pages on claude.ai: guide https://claude.ai/artifact/T5LKWuha4xrZZ5kFRgq6XU, design system https://claude.ai/artifact/2v9XBMm4kvQSWixGr98Bt1.
+- Rebuilding assets needs the tools listed in `brand/scripts/build-all.sh` (it expects `WORK` and `ARCHIVO` set).
 
 ## Pending: F3 Insights toolbox posts
 
@@ -272,13 +297,14 @@ The 1,448 tests and 18 departments come from the creatives and were not checked 
 
 ## Open work
 
-1. **Tell existing alert subscribers** the premiere moved from October 28 to November 18. Their addresses are in PostHog (`lead_captured`, kind `alerts`); new signups also land in the leads sheet.
+1. **Confirm the premiere happened** and set `NEXT_PUBLIC_YT_LIVE_URL` to the replay, then redeploy. Until then "Watch the replay" points to the channel. Update the hero and countdown copy for whatever comes next (episode 2 date, or an "episodes" state).
 2. **Browser check on a phone** of `/sessions` (filters, dialog) and `/contact`. Not done yet: Claude in Chrome was not connected.
-3. **Schedule the YouTube Live event**, set `NEXT_PUBLIC_YT_LIVE_URL`, redeploy.
+3. **Tell registrants of "Set Up Your Local Agentic System"** that F3 moved it from Nov 20 to Dec 4, 1:00-2:30 PM PST (F3 owns the registrant list).
 4. **Confirm the YouTube handle** and update `show.channels.youtube` and `show.channels.shorts`.
 5. **Meta description** in `src/app/layout.tsx` still says "argue AI, money and brand". Asked James whether to match the new hero caption ("talk AI, business and brand"); no answer yet.
 6. **Post the F3 Insights toolbox creatives** (section above).
-7. **Mention Craft First session 1** (Nov 19) on the premiere.
+7. **Reconcile the Craft First plan.** `~/CODE/F3i-training/refs/marcom_events.md` still says Thursdays 10:00 AM and lists session 1, which F3 removed. F3 has the four remaining sessions at 1:00-2:00 PM PST: Thu Dec 10, then Wednesdays Jan 6, Jan 27 and Feb 17. James decides which is right.
+8. **Pick a refresh method** for the sessions cache (see "Resync with F3").
 
 ## Open questions for James
 
@@ -299,7 +325,7 @@ Waiting on someone:
 ## Launch checklist (also in README.md)
 
 - [x] Confirm the premiere date and time (Nov 18, 11:00 PT).
-- [ ] Schedule the YouTube Live event, then set `NEXT_PUBLIC_YT_LIVE_URL`.
+- [ ] Set `NEXT_PUBLIC_YT_LIVE_URL` to the premiere replay.
 - [ ] Confirm the YouTube handle in `src/content/show.ts`. It is still a placeholder (`@ExecutiveUpskill`). Instagram (`@exec.upskill`), TikTok (`@execupskill`) and LinkedIn are confirmed.
 - [ ] Each host approves his bio, photos, card question and four lens-test takes.
 - [ ] Confirm "We don't share your email" matches your email tool's practice.
@@ -312,4 +338,4 @@ Waiting on someone:
 
 Paste this into Claude Code from the cloned folder:
 
-> Read HANDOFF.md, AGENTS.md, README.md and docs/TRACKING.md. The site is live on Vercel at executiveupskill.live. Work through "Open work" in HANDOFF.md, starting with whatever I give you (YouTube Live URL or handle). If Claude in Chrome is connected, help me post the F3 Insights toolbox creatives from "Pending: F3 Insights toolbox posts", stopping before each publish button.
+> Read HANDOFF.md, AGENTS.md, README.md and docs/TRACKING.md. The site is live on Vercel at executiveupskill.live. Work through "Open work" in HANDOFF.md, starting with whatever I give you (replay URL or YouTube handle). Before touching sessions, run "Resync with F3". If Claude in Chrome is connected, help me post the F3 Insights toolbox creatives from "Pending: F3 Insights toolbox posts", stopping before each publish button.
